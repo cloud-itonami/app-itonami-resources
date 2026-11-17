@@ -1,16 +1,16 @@
 {
   "@context": {
-    "@vocab": "https://resources.etzhayyim.com/ontology#",
+    "@vocab": "https://resources.itonami.cloud/ontology#",
     "schema": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
-  "@type": "etzhayyim:ComplianceRuleBundle",
-  "@id": "https://resources.etzhayyim.com/content/legal/compliance-bundles/us-constitutional-rights-v1",
+  "@type": "itonami:ComplianceRuleBundle",
+  "@id": "https://resources.itonami.cloud/content/legal/compliance-bundles/us-constitutional-rights-v1",
   "identifier": "us-constitutional-rights-v1",
   "name": "U.S. Constitution",
   "jurisdiction": "US",
   "dateModified": "2026-03-11T10:16:11+00:00",
-  "etzhayyim:compiledFrom": [
+  "itonami:compiledFrom": [
     {
       "name": "Constitution of the United States",
       "url": "https://www.archives.gov/founding-docs/constitution-transcript"

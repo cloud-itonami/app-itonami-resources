@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260205-96e6fe7b76ae",
   "headline": "Earnings call transcript: Qualys Q4 2025 beats forecasts, stock rises - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOXREeC1TM2s2ZzVSaF9mdnVURGxZMWVSVzFjZklyNnF2N01MWmg4amlBMHlIaTNFRG96UnhHMzhGbUc0b2YwZmZhdEp3cHB5czFWUXBUQ3Fnd1RnVFFDQ19DX1NxTExpWTZJM05uMDhWQWpHSXZQd21oNnVpX2RfbUN0aWVJUVBvUmhXTzE0Qm96MFU1VzFFeFV4b0VGOU81SG1TMDNkRUxXdGVUSXA1MWpmekJtakJ4dTJSd0FMX0I?oc=5",

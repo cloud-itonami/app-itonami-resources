@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260303-9fe29d81b522",
   "headline": "Rapid7 (RPD) Shares Skyrocket, What You Need To Know - Finviz",
   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSVJPNmxHZTA2aXhtQ1R5Vmh3aDh3OWVzTzh5NDVUQ0daNzVORVBDejBoUFJOMjczNV9EU3NXVUtyWjZTNnczNGVtbDV5MFVyWlV2ZFo1WmQ0dWc1Und6QmR5ZTJmcFlVMkNGTE4ybm1XVUs4ZUtVWE1TZDlnTWVEVUdrRkp5alE?oc=5",

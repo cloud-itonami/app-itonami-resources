@@ -1,32 +1,32 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+    "itonami": "https://resources.itonami.cloud/ontology#",
     "dct": "http://purl.org/dc/terms/"
   },
   "@type": "Dataset",
-  "@id": "https://resources.etzhayyim.com/content/legal/jp/legal-data-sources",
+  "@id": "https://resources.itonami.cloud/content/legal/jp/legal-data-sources",
   "identifier": "jp-legal-data-sources",
   "name": "日本法律情報データソース管理",
-  "description": "日本の判例・裁判所・裁判官・弁護士等の公開法律情報を管理するデータソース定義。各情報の管理責任は etzhayyim-project-states の org-gov-jpn actor が持ち、情報収集・開示・MCP提供を行う。resources.etzhayyim.com はそれらの actor から受け取った情報を JSON-LD として保持・公開する。",
+  "description": "日本の判例・裁判所・裁判官・弁護士等の公開法律情報を管理するデータソース定義。各情報の管理責任は itonami-project-states の org-gov-jpn actor が持ち、情報収集・開示・MCP提供を行う。resources.itonami.cloud はそれらの actor から受け取った情報を JSON-LD として保持・公開する。",
   "inLanguage": "ja",
   "dateModified": "2026-02-20T00:00:00Z",
-  "etzhayyim:dataFlowArchitecture": {
+  "itonami:dataFlowArchitecture": {
     "description": "states (org-gov-jpn actors) → MCP export → resources (JSON-LD storage & publication)",
-    "managementResponsibility": "etzhayyim-project-states/wasm/org-gov-jpn-*",
-    "publicationTarget": "etzhayyim-project-resources/content/legal/jp/",
-    "publicEndpoint": "https://resources.etzhayyim.com/etzhayyim-project-resources/id/"
+    "managementResponsibility": "itonami-project-states/wasm/org-gov-jpn-*",
+    "publicationTarget": "itonami-project-resources/content/legal/jp/",
+    "publicEndpoint": "https://resources.itonami.cloud/itonami-project-resources/id/"
   },
-  "etzhayyim:dataSources": [
+  "itonami:dataSources": [
     {
-      "@type": "etzhayyim:DataSource",
+      "@type": "itonami:DataSource",
       "name": "裁判官 Actor (Judge Actor)",
       "description": "裁判所・裁判官・判例の管理責任を持つ actor。裁判所組織法・官報・courts.go.jp の公開情報に基づき情報を収集・開示する。",
-      "etzhayyim:actorComponent": "gov-jpn-90000000-judge-component",
-      "etzhayyim:actorNanoid": "f6yqzna7",
-      "etzhayyim:mcpEndpoint": "https://f6yqzna7.etzhayyim.com/api/mcp",
-      "etzhayyim:actorPath": "projects/etzhayyim-project-states/wasm/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-gov-jpn-90000000-judge-f6yqzna7/",
-      "etzhayyim:disclosureTools": [
+      "itonami:actorComponent": "gov-jpn-90000000-judge-component",
+      "itonami:actorNanoid": "f6yqzna7",
+      "itonami:mcpEndpoint": "https://f6yqzna7.itonami.cloud/api/mcp",
+      "itonami:actorPath": "projects/itonami-project-states/wasm/itonami-performer-sys-itonami-actors-pba7d22f-org-gov-jpn-90000000-judge-f6yqzna7/",
+      "itonami:disclosureTools": [
         "list_courts",
         "get_court",
         "list_judges",
@@ -35,55 +35,55 @@
         "get_court_case",
         "export_legal_resources_jsonld"
       ],
-      "etzhayyim:resourceTypes": [
+      "itonami:resourceTypes": [
         "Court",
         "Judge",
         "CourtCase"
       ],
-      "etzhayyim:outputFiles": [
+      "itonami:outputFiles": [
         "content/legal/jp/court/courts.jsonld",
         "content/legal/jp/judge/judges.jsonld",
         "content/legal/jp/case/landmark-cases.jsonld"
       ]
     },
     {
-      "@type": "etzhayyim:DataSource",
+      "@type": "itonami:DataSource",
       "name": "法律専門職 Actor (Legal Professionals Actor)",
       "description": "弁護士・弁護士会の登録情報管理責任を持つ actor。日本弁護士連合会(JFBA)の公開登録情報に基づき情報を収集・開示する。",
-      "etzhayyim:actorComponent": "gov-jpn-03000000-legal-professionals-component",
-      "etzhayyim:actorNanoid": "9031dd84",
-      "etzhayyim:mcpEndpoint": "https://9031dd84.etzhayyim.com/api/mcp",
-      "etzhayyim:actorPath": "projects/etzhayyim-project-states/wasm/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-gov-jpn-03000000-legal-professionals/",
-      "etzhayyim:disclosureTools": [
+      "itonami:actorComponent": "gov-jpn-03000000-legal-professionals-component",
+      "itonami:actorNanoid": "9031dd84",
+      "itonami:mcpEndpoint": "https://9031dd84.itonami.cloud/api/mcp",
+      "itonami:actorPath": "projects/itonami-project-states/wasm/itonami-performer-sys-itonami-actors-pba7d22f-org-gov-jpn-03000000-legal-professionals/",
+      "itonami:disclosureTools": [
         "list_bar_associations",
         "get_bar_association",
         "search_lawyers",
         "get_lawyer",
         "export_legal_professionals_jsonld"
       ],
-      "etzhayyim:resourceTypes": [
+      "itonami:resourceTypes": [
         "BarAssociation",
         "Lawyer"
       ],
-      "etzhayyim:outputFiles": [
+      "itonami:outputFiles": [
         "content/legal/jp/bar-association/bar-associations.jsonld"
       ]
     },
     {
-      "@type": "etzhayyim:DataSource",
+      "@type": "itonami:DataSource",
       "name": "法務省 Actor (MOJ Actor)",
       "description": "法務省管轄の法令情報管理責任を持つ actor。e-Gov法令APIを通じて日本の公開法令一覧を収集・開示する。",
-      "etzhayyim:actorComponent": "gov-jpn-03000000-moj-component",
-      "etzhayyim:actorPath": "projects/etzhayyim-project-states/wasm/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-gov-jpn-03000000-moj/",
-      "etzhayyim:resourceTypes": [
+      "itonami:actorComponent": "gov-jpn-03000000-moj-component",
+      "itonami:actorPath": "projects/itonami-project-states/wasm/itonami-performer-sys-itonami-actors-pba7d22f-org-gov-jpn-03000000-moj/",
+      "itonami:resourceTypes": [
         "Legislation"
       ],
-      "etzhayyim:outputFiles": [
+      "itonami:outputFiles": [
         "content/legal/jp/laws.jsonld"
       ]
     }
   ],
-  "etzhayyim:externalSources": [
+  "itonami:externalSources": [
     {
       "name": "裁判所ウェブサイト (courts.go.jp)",
       "url": "https://www.courts.go.jp/app/hanrei_jp/search1",

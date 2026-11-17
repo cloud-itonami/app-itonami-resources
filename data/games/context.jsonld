@@ -1,8 +1,8 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "etzhayyim": "https://etzhayyim.com/schemas/",
-    "game": "https://gamers.etzhayyim.com/ontology#",
+    "itonami": "https://itonami.cloud/schemas/",
+    "game": "https://gamers.itonami.cloud/ontology#",
     "dct": "http://purl.org/dc/terms/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "game:GameGuide": {

@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251014-2dedf93639b8",
   "headline": "Earnings call transcript: Varonis Systems’ Q2 2025 sees revenue growth - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU3pNWjJES1dvWXdndVRMd3JGdHY4anQ5Q2hwaDZBUWZoMkdBT3hTVlBjS3N4QjBsMl9nUTh0di1lcDRsdm5KOEtGYlRVUWs5UndJWDZacmtLQUxwaXV1aDktUWFZQURBbVowY2JSTS1TajlodmY5M192TXRraDlTRENkYjFDTHB4WXdYdGtDcDF5czhQa3FoV1p4ajFaZ2hUOVYtUlJ1TzQtOHVzYXZneklzRlVhbk5OS2c3S3hLbllIQQ?oc=5",

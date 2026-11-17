@@ -1,21 +1,21 @@
 {
   "@context": [
-    "https://resources.etzhayyim.com/ontology/supply-chain/context.jsonld",
+    "https://resources.itonami.cloud/ontology/supply-chain/context.jsonld",
     {
       "sameAs": "schema:sameAs",
       "hasPart": "schema:hasPart",
       "isPartOf": "schema:isPartOf",
       "keywords": "schema:keywords",
-      "stage": "etzhayyim:stage",
-      "dependsOnIds": "etzhayyim:dependsOnIds",
-      "entityIds": "etzhayyim:entityIds",
-      "sourceUrls": "etzhayyim:sourceUrls",
-      "supportsProduct": "etzhayyim:supportsProduct"
+      "stage": "itonami:stage",
+      "dependsOnIds": "itonami:dependsOnIds",
+      "entityIds": "itonami:entityIds",
+      "sourceUrls": "itonami:sourceUrls",
+      "supportsProduct": "itonami:supportsProduct"
     }
   ],
   "@graph": [
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "@type": "Dataset",
       "identifier": "robot-vacuum-supply-chain-v1",
       "name": "Robot Vacuum Manufacturing Supply Chain Graph v1",
@@ -51,35 +51,35 @@
         "dhl-supply-chain"
       ],
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/materials",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plants",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/processes",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/logistics",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/components",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/albemarle",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/freeport-mcmoran",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/lynas-rare-earths",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/sabic",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/panasonic-energy",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/stmicroelectronics",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/nidec",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/slamtec",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/hesai-technology",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/kinwong",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/foxconn",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/ecovacs-robotics",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/roborock",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/gausium",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/maersk",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/dhl-supply-chain"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/materials",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plants",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/processes",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/logistics",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/components",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/albemarle",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/freeport-mcmoran",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/lynas-rare-earths",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/sabic",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/panasonic-energy",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/stmicroelectronics",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/nidec",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/slamtec",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/hesai-technology",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/kinwong",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/foxconn",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/ecovacs-robotics",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/roborock",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/gausium",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/maersk",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/dhl-supply-chain"
       ],
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/albemarle",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/albemarle",
+      "@type": "itonami:SupplyCompany",
       "identifier": "albemarle",
       "name": "Albemarle Corporation",
       "countryCode": "US",
@@ -92,12 +92,12 @@
         "https://www.albemarle.com/global/en/who-we-are/global-locations"
       ],
       "sameAs": "https://www.albemarle.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/freeport-mcmoran",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/freeport-mcmoran",
+      "@type": "itonami:SupplyCompany",
       "identifier": "freeport-mcmoran",
       "name": "Freeport-McMoRan Inc.",
       "countryCode": "US",
@@ -110,12 +110,12 @@
         "https://www.fcx.com/sustainability/coppermark"
       ],
       "sameAs": "https://www.fcx.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/lynas-rare-earths",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/lynas-rare-earths",
+      "@type": "itonami:SupplyCompany",
       "identifier": "lynas-rare-earths",
       "name": "Lynas Rare Earths Ltd",
       "countryCode": "AU",
@@ -128,12 +128,12 @@
         "https://lynasrareearths.com/products-our-products/us-markets/"
       ],
       "sameAs": "https://lynasrareearths.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/sabic",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/sabic",
+      "@type": "itonami:SupplyCompany",
       "identifier": "sabic",
       "name": "SABIC",
       "countryCode": "SA",
@@ -146,12 +146,12 @@
         "https://www.sabic.com/en/news/44434-sabic-and-fujian-government-sign-potential-investment-agreement"
       ],
       "sameAs": "https://www.sabic.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/panasonic-energy",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/panasonic-energy",
+      "@type": "itonami:SupplyCompany",
       "identifier": "panasonic-energy",
       "name": "Panasonic Energy Co., Ltd.",
       "countryCode": "JP",
@@ -166,12 +166,12 @@
         "https://www.panasonic.com/global/energy/sustainability/report/Integrated_report2025_en.pdf"
       ],
       "sameAs": "https://www.panasonic.com/global/energy.html",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/stmicroelectronics",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/stmicroelectronics",
+      "@type": "itonami:SupplyCompany",
       "identifier": "stmicroelectronics",
       "name": "STMicroelectronics",
       "countryCode": "CH",
@@ -184,12 +184,12 @@
         "https://www.st.com/en/mems-and-sensors/iis2dh.html"
       ],
       "sameAs": "https://www.st.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/nidec",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/nidec",
+      "@type": "itonami:SupplyCompany",
       "identifier": "nidec",
       "name": "Nidec Corporation",
       "countryCode": "JP",
@@ -205,12 +205,12 @@
         "https://www.nidec.com/en/worldwide_new/hq/shaoguan_p/"
       ],
       "sameAs": "https://www.nidec.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/slamtec",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/slamtec",
+      "@type": "itonami:SupplyCompany",
       "identifier": "slamtec",
       "name": "Shanghai Slamtec Co., Ltd.",
       "countryCode": "CN",
@@ -226,12 +226,12 @@
         "https://www.slamtec.com/en/slamware"
       ],
       "sameAs": "https://www.slamtec.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/hesai-technology",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/hesai-technology",
+      "@type": "itonami:SupplyCompany",
       "identifier": "hesai-technology",
       "name": "Hesai Technology",
       "countryCode": "CN",
@@ -247,12 +247,12 @@
         "https://www.hesaitech.com/hesai-to-exhibit-at-ces-2026-with-cutting-edge-adas-and-robotics-lidar-solutions/"
       ],
       "sameAs": "https://www.hesaitech.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/kinwong",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/kinwong",
+      "@type": "itonami:SupplyCompany",
       "identifier": "kinwong",
       "name": "Kinwong Electronic Co., Ltd.",
       "countryCode": "CN",
@@ -267,12 +267,12 @@
         "https://www.kinwong.com/en/kinwong-slp-and-ics-fab/"
       ],
       "sameAs": "https://www.kinwong.com/en/about-us/quick-facts/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/foxconn",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/foxconn",
+      "@type": "itonami:SupplyCompany",
       "identifier": "foxconn",
       "name": "Hon Hai Technology Group (Foxconn)",
       "countryCode": "TW",
@@ -292,12 +292,12 @@
         "https://www.foxconn.com/en-us/press-center/events/csr-events/1601"
       ],
       "sameAs": "https://www.foxconn.com/us/about/group-profile",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/ecovacs-robotics",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/ecovacs-robotics",
+      "@type": "itonami:SupplyCompany",
       "identifier": "ecovacs-robotics",
       "name": "ECOVACS Robotics",
       "countryCode": "CN",
@@ -316,12 +316,12 @@
         "https://www.ecovacs.com/us/newsroom/official-news/cms-berlin-2025"
       ],
       "sameAs": "https://www.ecovacs.com/us/about/about-ecovacs/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/roborock",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/roborock",
+      "@type": "itonami:SupplyCompany",
       "identifier": "roborock",
       "name": "Roborock",
       "countryCode": "CN",
@@ -340,12 +340,12 @@
         "https://global.roborock.com/blogs/news/roborock-unveils-the-roborock-s6-for-smarter-home-cleaning"
       ],
       "sameAs": "https://us.roborock.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/gausium",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/gausium",
+      "@type": "itonami:SupplyCompany",
       "identifier": "gausium",
       "name": "Gausium",
       "countryCode": "CN",
@@ -363,12 +363,12 @@
         "https://www.hesaitech.com/hesai-partners-with-gausium-to-equip-entire-cleaning-robot-line-with-jt-series-lidars/"
       ],
       "sameAs": "https://gausium.com/company-profile/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/maersk",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/maersk",
+      "@type": "itonami:SupplyCompany",
       "identifier": "maersk",
       "name": "A.P. Moller - Maersk",
       "countryCode": "DK",
@@ -385,12 +385,12 @@
         "https://www.maersk.com/pt-br/news/articles/2022/03/17/maersk-inaugurates-its-first-integrated-logistics-centre-in-dubai"
       ],
       "sameAs": "https://www.maersk.com/",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/company/dhl-supply-chain",
-      "@type": "etzhayyim:SupplyCompany",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/company/dhl-supply-chain",
+      "@type": "itonami:SupplyCompany",
       "identifier": "dhl-supply-chain",
       "name": "DHL Supply Chain",
       "countryCode": "DE",
@@ -408,7 +408,7 @@
         "https://group.dhl.com/en/about-us/corporate-divisions/supply-chain.html"
       ],
       "sameAs": "https://www.dhl.com/us-en/home/supply-chain/about-us.html",
-      "isPartOf": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
+      "isPartOf": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/robot-vacuum-supply-chain-v1",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     }
   ]

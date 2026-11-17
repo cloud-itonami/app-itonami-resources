@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251118-c9e5144ab18c",
   "headline": "Varonis (NASDAQ: VRNS) adds DSPM integration to Microsoft Purview for data risk visibility - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWWxVd1EwZjV5RnBUM2lJaVZ6X3lHN1M4anpsZlU2M3QxZ1RkQXBaQkZCVjYxZUZiYmRvUWJkSEhTd0ZEX0hEem4tQWNQN0xDQjRyUHR0SU9RRTZGOTFMSDVKeElDUjd1cmVUNUxkM00xNWlQRGVmUDVURExGejV4aEptcXV0XzAzWlpKZHUxZ3lGaVJsbVFLUlU5dmJGTHVU?oc=5",

@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260225-1a8bc7229536",
   "headline": "New SentinelOne tools watch employees and AI agents for identity attacks - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLW5hN2pCNDZMRkU2c3BvQmczZEpkU2sxZXk0WXV1QTBOaVlNRFM5alJfWlp5YW5UdkpzRWtwTjBfTDE2bFVRMlVCMXVsc2MzcFFkSHFzNVVDZEdIZWNadjN4eXBNRTQzdUgyWVpkVDdyXzFhZDZ5eHhBTEpQX0dSVnJFZFlTeE1MdUpKMk1rUkVaYm96Y0tPdjlYSUp1RmMxRF9VLWhaa0FLd1FKcXZjQnhR?oc=5",

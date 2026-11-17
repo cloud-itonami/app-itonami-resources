@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-d7a2b02afdd4",
   "headline": "Inceptionr LLC Purchases New Stake in Akamai Technologies, Inc. $AKAM - MarketBeat",
   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRWpONFE2dUU3SkVEQS1iamZWNHNPYTBTcEl6cFBwUTJyR1JVLXZCdU1aMWp4ajdqT25TTl9jbXlpVll3ZXdwc3J1VE80RExRTkszOEZadE1FeUNqZHlyaFNJZWJWTmFVUGNjYmtpQzZXdFR2RlQzMFdTaXo5aUhLdTBXVFN2Smlsc3A3bTczSWhEUGZ1LWoyRGZIVzdCX284OVY1Sm9PS1ZFQ3lHbWVpdjNqbjlmbzJoQVk2SGtzUnJNRWd5dUE?oc=5",

@@ -2,19 +2,19 @@
   "@context": {
     "@version": 1.1,
     "schema": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+    "itonami": "https://resources.itonami.cloud/ontology#",
     "eli": "http://data.europa.eu/eli/ontology#",
     "dcterms": "http://purl.org/dc/terms/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "Court": "etzhayyim:Court",
-    "CourtCase": "etzhayyim:CourtCase",
-    "Judge": "etzhayyim:Judge",
-    "Lawyer": "etzhayyim:Lawyer",
-    "BarAssociation": "etzhayyim:BarAssociation",
-    "CourtDivision": "etzhayyim:CourtDivision",
-    "Judgment": "etzhayyim:Judgment",
-    "Treaty": "etzhayyim:Treaty",
-    "Regulation": "etzhayyim:Regulation",
+    "Court": "itonami:Court",
+    "CourtCase": "itonami:CourtCase",
+    "Judge": "itonami:Judge",
+    "Lawyer": "itonami:Lawyer",
+    "BarAssociation": "itonami:BarAssociation",
+    "CourtDivision": "itonami:CourtDivision",
+    "Judgment": "itonami:Judgment",
+    "Treaty": "itonami:Treaty",
+    "Regulation": "itonami:Regulation",
     "identifier": "schema:identifier",
     "name": "schema:name",
     "alternateName": "schema:alternateName",
@@ -55,117 +55,117 @@
     },
     "inLanguage": "schema:inLanguage",
     "jurisdiction": "schema:jurisdiction",
-    "courtType": "etzhayyim:courtType",
-    "courtLevel": "etzhayyim:courtLevel",
-    "prefecture": "etzhayyim:prefecture",
+    "courtType": "itonami:courtType",
+    "courtLevel": "itonami:courtLevel",
+    "prefecture": "itonami:prefecture",
     "branchCount": {
-      "@id": "etzhayyim:branchCount",
+      "@id": "itonami:branchCount",
       "@type": "xsd:integer"
     },
-    "establishedBy": "etzhayyim:establishedBy",
-    "caseNumber": "etzhayyim:caseNumber",
-    "caseNumberEra": "etzhayyim:caseNumberEra",
+    "establishedBy": "itonami:establishedBy",
+    "caseNumber": "itonami:caseNumber",
+    "caseNumberEra": "itonami:caseNumberEra",
     "caseNumberYear": {
-      "@id": "etzhayyim:caseNumberYear",
+      "@id": "itonami:caseNumberYear",
       "@type": "xsd:integer"
     },
-    "caseNumberCode": "etzhayyim:caseNumberCode",
+    "caseNumberCode": "itonami:caseNumberCode",
     "caseNumberSerial": {
-      "@id": "etzhayyim:caseNumberSerial",
+      "@id": "itonami:caseNumberSerial",
       "@type": "xsd:integer"
     },
-    "caseName": "etzhayyim:caseName",
+    "caseName": "itonami:caseName",
     "decisionDate": {
-      "@id": "etzhayyim:decisionDate",
+      "@id": "itonami:decisionDate",
       "@type": "xsd:date"
     },
-    "decisionType": "etzhayyim:decisionType",
-    "decisionResult": "etzhayyim:decisionResult",
-    "courtDivision": "etzhayyim:courtDivision",
-    "referencedLaws": "etzhayyim:referencedLaws",
-    "caseReporter": "etzhayyim:caseReporter",
-    "caseReporterCitation": "etzhayyim:caseReporterCitation",
-    "summary": "etzhayyim:summary",
+    "decisionType": "itonami:decisionType",
+    "decisionResult": "itonami:decisionResult",
+    "courtDivision": "itonami:courtDivision",
+    "referencedLaws": "itonami:referencedLaws",
+    "caseReporter": "itonami:caseReporter",
+    "caseReporterCitation": "itonami:caseReporterCitation",
+    "summary": "itonami:summary",
     "decidedBy": {
-      "@id": "etzhayyim:decidedBy",
+      "@id": "itonami:decidedBy",
       "@type": "@id"
     },
     "sourceUrl": {
-      "@id": "etzhayyim:sourceUrl",
+      "@id": "itonami:sourceUrl",
       "@type": "@id"
     },
-    "judgeTitle": "etzhayyim:judgeTitle",
+    "judgeTitle": "itonami:judgeTitle",
     "appointedDate": {
-      "@id": "etzhayyim:appointedDate",
+      "@id": "itonami:appointedDate",
       "@type": "xsd:date"
     },
     "retiredDate": {
-      "@id": "etzhayyim:retiredDate",
+      "@id": "itonami:retiredDate",
       "@type": "xsd:date"
     },
     "assignedCourt": {
-      "@id": "etzhayyim:assignedCourt",
+      "@id": "itonami:assignedCourt",
       "@type": "@id"
     },
-    "judgeCategory": "etzhayyim:judgeCategory",
+    "judgeCategory": "itonami:judgeCategory",
     "nationalReviewDate": {
-      "@id": "etzhayyim:nationalReviewDate",
+      "@id": "itonami:nationalReviewDate",
       "@type": "xsd:date"
     },
-    "nationalReviewResult": "etzhayyim:nationalReviewResult",
-    "registrationNumber": "etzhayyim:registrationNumber",
+    "nationalReviewResult": "itonami:nationalReviewResult",
+    "registrationNumber": "itonami:registrationNumber",
     "barAssociation": {
-      "@id": "etzhayyim:barAssociation",
+      "@id": "itonami:barAssociation",
       "@type": "@id"
     },
-    "lawFirm": "etzhayyim:lawFirm",
-    "specialties": "etzhayyim:specialties",
+    "lawFirm": "itonami:lawFirm",
+    "specialties": "itonami:specialties",
     "admissionDate": {
-      "@id": "etzhayyim:admissionDate",
+      "@id": "itonami:admissionDate",
       "@type": "xsd:date"
     },
-    "barAssociationCode": "etzhayyim:barAssociationCode",
+    "barAssociationCode": "itonami:barAssociationCode",
     "memberCount": {
-      "@id": "etzhayyim:memberCount",
+      "@id": "itonami:memberCount",
       "@type": "xsd:integer"
     },
     "districtCourt": {
-      "@id": "etzhayyim:districtCourt",
+      "@id": "itonami:districtCourt",
       "@type": "@id"
     },
-    "ecli": "etzhayyim:ecli",
-    "docketNumber": "etzhayyim:docketNumber",
-    "neutralCitation": "etzhayyim:neutralCitation",
-    "legislationIdentifier": "etzhayyim:legislationIdentifier",
-    "legislationType": "etzhayyim:legislationType",
-    "legislationStatus": "etzhayyim:legislationStatus",
+    "ecli": "itonami:ecli",
+    "docketNumber": "itonami:docketNumber",
+    "neutralCitation": "itonami:neutralCitation",
+    "legislationIdentifier": "itonami:legislationIdentifier",
+    "legislationType": "itonami:legislationType",
+    "legislationStatus": "itonami:legislationStatus",
     "effectiveDate": {
-      "@id": "etzhayyim:effectiveDate",
+      "@id": "itonami:effectiveDate",
       "@type": "xsd:date"
     },
     "expiryDate": {
-      "@id": "etzhayyim:expiryDate",
+      "@id": "itonami:expiryDate",
       "@type": "xsd:date"
     },
-    "issuingAuthority": "etzhayyim:issuingAuthority",
-    "regulationStatus": "etzhayyim:regulationStatus",
+    "issuingAuthority": "itonami:issuingAuthority",
+    "regulationStatus": "itonami:regulationStatus",
     "signedDate": {
-      "@id": "etzhayyim:signedDate",
+      "@id": "itonami:signedDate",
       "@type": "xsd:date"
     },
     "entryIntoForceDate": {
-      "@id": "etzhayyim:entryIntoForceDate",
+      "@id": "itonami:entryIntoForceDate",
       "@type": "xsd:date"
     },
-    "signatoryJurisdictions": "etzhayyim:signatoryJurisdictions",
+    "signatoryJurisdictions": "itonami:signatoryJurisdictions",
     "collectedBy": {
-      "@id": "etzhayyim:collectedBy",
+      "@id": "itonami:collectedBy",
       "@type": "@id"
     },
     "collectedAt": {
-      "@id": "etzhayyim:collectedAt",
+      "@id": "itonami:collectedAt",
       "@type": "xsd:dateTime"
     },
-    "dataSource": "etzhayyim:dataSource"
+    "dataSource": "itonami:dataSource"
   }
 }

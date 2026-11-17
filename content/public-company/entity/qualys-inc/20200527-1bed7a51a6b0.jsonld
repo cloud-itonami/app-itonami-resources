@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20200527-1bed7a51a6b0",
   "headline": "Joo Mi Kim joins Qualys as Chief Financial Officer - Help Net Security",
   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85UGJQc2hrcTZldlNXeldRNGxfUDI2dWVVVHFNOElqQUtQbXlDWVdHR2ZtaFYxTW5RZlBmWkZjYlBrcHFLN1Q3YjYxWHdLRUpCS0JoNE1kdGFjbWdSUDVUckVNaFdxdGl6UC0tQmZR?oc=5",

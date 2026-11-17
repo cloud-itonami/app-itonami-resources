@@ -1,7 +1,7 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
   "@type": "Dataset",
   "name": "日本の公開法令一覧",
@@ -11,7 +11,7 @@
   "dateModified": "2026-02-18T08:29:11.510864+00:00",
   "measurementTechnique": "e-Gov法令API(/api/1/lawlists/1)の取得",
   "variableMeasured": "law count",
-  "etzhayyim:lawCount": 8944,
+  "itonami:lawCount": 8944,
   "@graph": [
     {
       "@type": "Legislation",

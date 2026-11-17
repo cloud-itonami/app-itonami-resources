@@ -1,18 +1,18 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
   "@type": "Dataset",
   "name": "Australia mine action / ERW implementation statutes",
-  "description": "Commonwealth statutes implementing APMBC and CCM. Scaffold — seeded for site.etzhayyim.com verification crawl against legislation.gov.au.",
+  "description": "Commonwealth statutes implementing APMBC and CCM. Scaffold — seeded for site.itonami.cloud verification crawl against legislation.gov.au.",
   "inLanguage": "en-AU",
   "isBasedOn": "https://www.legislation.gov.au/",
   "dateModified": "2026-04-17",
-  "etzhayyim:lawCount": 2,
-  "etzhayyim:verificationStatus": "partial — CM Act verified, APM Act URL requires correction",
-  "etzhayyim:verifiedAt": "2026-04-17",
-  "etzhayyim:verifiedVia": "WebFetch against legislation.gov.au",
+  "itonami:lawCount": 2,
+  "itonami:verificationStatus": "partial — CM Act verified, APM Act URL requires correction",
+  "itonami:verifiedAt": "2026-04-17",
+  "itonami:verifiedVia": "WebFetch against legislation.gov.au",
   "@graph": [
     {
       "@type": "Legislation",
@@ -21,10 +21,10 @@
       "legislationIdentifier": "No. 126, 1998",
       "datePublished": "1998-10-10",
       "url": "https://www.legislation.gov.au/C2004A00425/latest",
-      "etzhayyim:urlStatus": "INCORRECT — C2004A00425 resolves to Migration (Temporary Safe Haven Visas) Act 1999 per WebFetch 2026-04-17. Federal Register ID for APM Convention Act 1998 requires relookup.",
-      "etzhayyim:treaty": "APMBC",
-      "etzhayyim:scope": ["Part 2 prohibitions", "Part 3 inspection"],
-      "etzhayyim:verifyCitation": true
+      "itonami:urlStatus": "INCORRECT — C2004A00425 resolves to Migration (Temporary Safe Haven Visas) Act 1999 per WebFetch 2026-04-17. Federal Register ID for APM Convention Act 1998 requires relookup.",
+      "itonami:treaty": "APMBC",
+      "itonami:scope": ["Part 2 prohibitions", "Part 3 inspection"],
+      "itonami:verifyCitation": true
     },
     {
       "@type": "Legislation",
@@ -33,9 +33,9 @@
       "legislationIdentifier": "No. 114, 2012",
       "datePublished": "2012-09-08",
       "url": "https://www.legislation.gov.au/C2012A00114/latest",
-      "etzhayyim:treaty": "CCM",
-      "etzhayyim:scope": ["Div.72 Criminal Code prohibitions (produce/possess/stockpile/transfer/use/develop)"],
-      "etzhayyim:verifyCitation": false
+      "itonami:treaty": "CCM",
+      "itonami:scope": ["Div.72 Criminal Code prohibitions (produce/possess/stockpile/transfer/use/develop)"],
+      "itonami:verifyCitation": false
     }
   ]
 }

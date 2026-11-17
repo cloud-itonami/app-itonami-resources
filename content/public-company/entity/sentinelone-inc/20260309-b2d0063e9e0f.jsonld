@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-b2d0063e9e0f",
   "headline": "Cantor Fitzgerald lowers SentinelOne stock price target on valuation - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeWZxRGItWVJkQU9IcjliWUd3SUNzbThXMGRLUTlVUmxXWnoyNUZ2NlI0Q2h0bFVkUnBvSDVUS3NkNTFGMllJTm9lcHZsdVktbE0td3BTWWYwQTk5eXVuWXpOOWxwUHU1b0NOWDVFQVNjX2VMOVFNNFFjSFpHcE1NZm5WMmRqZnhCOHBJYkt3X0FUdC1fc2JmU1V3TU9fc0ljUS1GRmtFWkR5TTVNaXZNNW5FYjJJSnl3X1lBZFg3aG8xeGVwV1E0Rm9Xc1VSck5yR0E?oc=5",

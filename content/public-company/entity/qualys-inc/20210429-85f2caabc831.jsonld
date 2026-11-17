@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20210429-85f2caabc831",
   "headline": "Qualys Board Names Sumedh Thakar as CEO - PR Newswire",
   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcnh0OVVrY1E5LWJ4cExkVmh6aFRPYVFSblpCZHptOWxlMkhLSTI3ajdOTVc1UFAxY0N4Z1VXNDZra0FLQmpQbUsxRUJzZ2JuaGstelJMV3pERmVJemNRakoyLUNReEp2Qmota3ZvMXYzQzRuNXJDbVNVejBXWFQ3Uk0tWHloNVA3ajA2bXloZHZvUUw4Q2p0VFBhcw?oc=5",

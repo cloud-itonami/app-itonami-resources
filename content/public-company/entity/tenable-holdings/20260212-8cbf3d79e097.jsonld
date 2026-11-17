@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260212-8cbf3d79e097",
   "headline": "Cyber risk firm Tenable tagged as Gartner's AI 'company to beat' - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdkNQUjFDWjl3NGM3TlFfRjVBQXd3bkh5LWVkRWNTdzV5cXdwVjE0VWhhTDE1eFlSalF0Q05wQVUtTllZNHEtc0lEMzlhUVhTWU1SMUhEcEw5QlZrV0h6UzNhTE1KQ3NxNXh4bUpGNE1UUk1hRDhlV1VaVUYzd2w5ZURBS00wbzVCV0Z4SnBUVzBhRzdYTU5Hc0dGRWNlSkpHMTdSWUg1YWlHWmh5R2ozRnJwTEtqWUhvUTV6Sk90eVY?oc=5",

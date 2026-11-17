@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260308-de8fef7e0a4c",
   "headline": "VRNS Deadline: VRNS Investors with Losses in Excess of $100K Have Opportunity to Lead Varonis Systems, Inc. Securities Lawsuit - PR Newswire",
   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQeW9UU2JJT0xUSVh1UHQ2NkdBSG5fQVZadXpPQ3M4aGViUjluOHN3UGpWTEdFTWtFeTFpS0Q3cE5Mcmx6dW1lclNROV9pY0cwRXdUMkdiT3NjTzBra3ltX2lGOGQ1dDVSWjh6c3VsWUhrQk5iWm1lVXEwNVVDQkxoNW50RENHWm50WUxDNTVDbTJXUWxlRFg0R3FueWYzSlB4Uy1vX3Y1RHVvNXE0ZGtmQmtwb055YmtOWEYtcW1KOWZsM2hnRy05WHAyNDZoVkpqMng5NThHSGlvSVF4LWFvalZTOVdFalZxeHcwVEZUOHdHM0NqV19CaHl3RHZUc2VYMFJHNjQ1dXZ3UQ?oc=5",

@@ -3,7 +3,7 @@
     "@version": 1.1,
     "schema": "https://schema.org/",
     "prov": "http://www.w3.org/ns/prov#",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+    "itonami": "https://resources.itonami.cloud/ontology#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "id": "@id",
     "type": "@type",
@@ -39,35 +39,35 @@
       "@type": "@id"
     },
     "depth": {
-      "@id": "etzhayyim:depth",
+      "@id": "itonami:depth",
       "@type": "xsd:integer"
     },
     "maxPages": {
-      "@id": "etzhayyim:maxPages",
+      "@id": "itonami:maxPages",
       "@type": "xsd:integer"
     },
     "pagesFound": {
-      "@id": "etzhayyim:pagesFound",
+      "@id": "itonami:pagesFound",
       "@type": "xsd:integer"
     },
-    "jobId": "etzhayyim:jobId",
+    "jobId": "itonami:jobId",
     "httpStatus": {
-      "@id": "etzhayyim:httpStatus",
+      "@id": "itonami:httpStatus",
       "@type": "xsd:integer"
     },
     "linkCount": {
-      "@id": "etzhayyim:linkCount",
+      "@id": "itonami:linkCount",
       "@type": "xsd:integer"
     },
     "pageCount": {
-      "@id": "etzhayyim:pageCount",
+      "@id": "itonami:pageCount",
       "@type": "xsd:integer"
     },
     "lastCrawledAt": {
-      "@id": "etzhayyim:lastCrawledAt",
+      "@id": "itonami:lastCrawledAt",
       "@type": "xsd:dateTime"
     },
-    "userAgent": "etzhayyim:userAgent",
-    "headers": "etzhayyim:headers"
+    "userAgent": "itonami:userAgent",
+    "headers": "itonami:headers"
   }
 }

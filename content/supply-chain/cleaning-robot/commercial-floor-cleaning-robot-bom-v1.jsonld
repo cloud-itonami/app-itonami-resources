@@ -1,21 +1,21 @@
 {
   "@context": [
-    "https://resources.etzhayyim.com/ontology/supply-chain/context.jsonld",
+    "https://resources.itonami.cloud/ontology/supply-chain/context.jsonld",
     {
       "sameAs": "schema:sameAs",
       "keywords": "schema:keywords",
       "hasPart": "schema:hasPart",
-      "dependsOnIds": "etzhayyim:dependsOnIds",
-      "variantType": "etzhayyim:variantType",
-      "bomCategory": "etzhayyim:bomCategory",
-      "sharePct": "etzhayyim:sharePct",
-      "supplierCompanyIds": "etzhayyim:supplierCompanyIds",
-      "referenceProcessIds": "etzhayyim:referenceProcessIds"
+      "dependsOnIds": "itonami:dependsOnIds",
+      "variantType": "itonami:variantType",
+      "bomCategory": "itonami:bomCategory",
+      "sharePct": "itonami:sharePct",
+      "supplierCompanyIds": "itonami:supplierCompanyIds",
+      "referenceProcessIds": "itonami:referenceProcessIds"
     }
   ],
   "@graph": [
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1",
       "@type": "Dataset",
       "identifier": "commercial-floor-cleaning-robot-bom-v1",
       "name": "Commercial Floor Cleaning Robot BOM Variant v1",
@@ -36,17 +36,17 @@
         "export-logistics"
       ],
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/components",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-perception-and-compute",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-chassis-and-drive",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-battery-and-power",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-cleaning-module",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-assembly-service-logistics"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/components",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-perception-and-compute",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-chassis-and-drive",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-battery-and-power",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-cleaning-module",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-assembly-service-logistics"
       ],
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-perception-and-compute",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-perception-and-compute",
       "@type": "Thing",
       "identifier": "commercial-bom-line-perception-and-compute",
       "name": "Perception, compute, and autonomy stack",
@@ -54,9 +54,9 @@
       "sharePct": 27,
       "description": "3D lidar, navigation compute, IMU, safety sensors, fleet connectivity and autonomy controllers.",
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/main-control-pcb",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/3d-lidar-module",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/imu-and-safety-sensor-set"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/main-control-pcb",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/3d-lidar-module",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/imu-and-safety-sensor-set"
       ],
       "supplierCompanyIds": [
         "hesai-technology",
@@ -69,7 +69,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-chassis-and-drive",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-chassis-and-drive",
       "@type": "Thing",
       "identifier": "commercial-bom-line-chassis-and-drive",
       "name": "Industrial chassis and drive platform",
@@ -77,8 +77,8 @@
       "sharePct": 26,
       "description": "Heavy-duty drive motors, traction wheels, load-bearing frame, drive controllers, and structural assemblies.",
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/drive-motor-set",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/industrial-chassis-frame"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/drive-motor-set",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/industrial-chassis-frame"
       ],
       "supplierCompanyIds": [
         "nidec",
@@ -92,7 +92,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-battery-and-power",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-battery-and-power",
       "@type": "Thing",
       "identifier": "commercial-bom-line-battery-and-power",
       "name": "High-capacity battery and power path",
@@ -100,8 +100,8 @@
       "sharePct": 19,
       "description": "Larger battery modules, BMS, charging dock or station interface, and higher-duty power subsystems.",
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/lithium-battery-pack",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/dock-charging-assembly"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/lithium-battery-pack",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/dock-charging-assembly"
       ],
       "supplierCompanyIds": [
         "panasonic-energy"
@@ -112,7 +112,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-cleaning-module",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-cleaning-module",
       "@type": "Thing",
       "identifier": "commercial-bom-line-cleaning-module",
       "name": "Brush, scrub, water, and waste handling module",
@@ -120,7 +120,7 @@
       "sharePct": 16,
       "description": "Commercial brush deck, water tanks, waste recovery, pumps, valves, and filtration structures.",
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/commercial-scrub-module"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/commercial-scrub-module"
       ],
       "supplierCompanyIds": [
         "gausium",
@@ -130,7 +130,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-assembly-service-logistics",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/commercial-floor-cleaning-robot-bom-v1#line-assembly-service-logistics",
       "@type": "Thing",
       "identifier": "commercial-bom-line-assembly-service-logistics",
       "name": "Final integration, service readiness, and logistics",

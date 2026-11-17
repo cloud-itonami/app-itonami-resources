@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251207-77c60ec0bfd0",
   "headline": "This Why Wall Street Analysts are Optimistic About SentinelOne, Inc. (S) Prospects - Yahoo Finance",
   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLWl3cVVLRDYtVkk1Q1JMMWZlU3NSTTNHN0tNOXpLV3BGNFBFTnl5MXpfUk92SU0zVUdDb0xtV2lxUGh4cnFIU1RKYVo1WVc3ZEZQWG1EandPdEhWRzBlc09SelhNNU90NUpFLUQwZFgwelBwUmxHd2x5QThTVThIOWZESUIzV2cx?oc=5",

@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-a5407b41f692",
   "headline": "Tenable Named a Challenger in the 2026 Gartner Magic Quadrant for CPS Protection Platforms - Bitget",
   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8waU9yYjJBWXpidjFmVGc4TVNSUjAxclpwcUZkT0hrRGFBd1NwbUJuV0EyZmV3cE1yZHk3LXZZM1dzQkNUUWo2VjRlQ0RNSFNuaC1SblRCRGhaSEdGLXN0S0dIONIBY0FVX3lxTE8waU9yYjJBWXpidjFmVGc4TVNSUjAxclpwcUZkT0hrRGFBd1NwbUJuV0EyZmV3cE1yZHk3LXZZM1dzQkNUUWo2VjRlQ0RNSFNuaC1SblRCRGhaSEdGLXN0S0dIOA?oc=5",

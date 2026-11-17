@@ -6,13 +6,13 @@
     "sh": "http://www.w3.org/ns/shacl#",
     "prov": "http://www.w3.org/ns/prov#",
     "schema": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
   "@graph": [
     {
-      "@id": "etzhayyim:ComprehendObservationShape",
+      "@id": "itonami:ComprehendObservationShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:Observation",
+      "sh:targetClass": "itonami:Observation",
       "sh:property": [
         {
           "sh:path": "prov:generatedAtTime",
@@ -22,43 +22,43 @@
       ]
     },
     {
-      "@id": "etzhayyim:DomainObservationShape",
+      "@id": "itonami:DomainObservationShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:DomainObservation",
+      "sh:targetClass": "itonami:DomainObservation",
       "sh:property": [
         {
-          "sh:path": "etzhayyim:domain",
+          "sh:path": "itonami:domain",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:source",
+          "sh:path": "itonami:source",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1
         }
       ]
     },
     {
-      "@id": "etzhayyim:IPObservationShape",
+      "@id": "itonami:IPObservationShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:IPObservation",
+      "sh:targetClass": "itonami:IPObservation",
       "sh:property": [
         {
-          "sh:path": "etzhayyim:ip",
+          "sh:path": "itonami:ip",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:source",
+          "sh:path": "itonami:source",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1
         }
       ]
     },
     {
-      "@id": "etzhayyim:CrawlRequestShape",
+      "@id": "itonami:CrawlRequestShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:CrawlRequest",
+      "sh:targetClass": "itonami:CrawlRequest",
       "sh:property": [
         {
           "sh:path": "schema:url",
@@ -66,7 +66,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:maxDepth",
+          "sh:path": "itonami:maxDepth",
           "sh:datatype": "xsd:integer",
           "sh:minCount": 0
         }

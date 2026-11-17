@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20240205-3298689b5867",
   "headline": "SentinelOne® Completes Acquisition of PingSafe - sentinelone.com",
   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYXhGb0gyODdSR2RkTXFwdW5UekdrdzlNTVdKaXZ5Y1hBOHY2UEEweC00eThnaGN6eUV3eFFHSXhyUWxBUGlURzU1RGlQSEVTVHN4cUxTUE5Ed2dSR3hNRVV5ZTNNTFVWeGxSZlNWQmVDWTNPeXRYdGdQQWg3aFU0UWZVckJ4bG8?oc=5",

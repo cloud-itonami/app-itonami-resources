@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20240912-5763ad7cec7b",
   "headline": "Barbara Larson joins SentinelOne as Chief Financial Officer - SecurityBrief Australia",
   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUXdkSWtPdmJYNWxZMVd3MTM3OU1HYWFwTnpOdHZsdzh1Y1dVbWdaVVJ3b0RGMWQtQkpkbk1VQ05KWEo3SHpmNDBVaE1BTzRobWk3WWgwUzZTc0RoSVoyVEZ1U05kNXZZRkN1UUJyWXUyNDZnYVluaUlZZmxSTHdwa3FYeTZULWFIY082MXNEOENhcmpWYXRPMlF3?oc=5",

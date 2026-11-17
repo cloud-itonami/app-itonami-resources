@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251205-28232da37d69",
   "headline": "SentinelOne stock hits 52-week low at 15.1 USD - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRXRwQTV6MkdPZmpNUktMRTJNeXp0ek15V0ZkTDZHQ3V4THlLc3pTcG9qT3pzbkhBN0FuYWJVaGNmZW8wUHdyLWxWanBIcjNrY0hOaE1yUUY5WW11WnFBQUZNemdCOGdrSkJ6Q29mdWtlMUU4al9NTl96VEJYZ3dKR3B0TE50d2h6cHVTRVFYYVpjaXVIWktuWl9JenVGRktqQXNB?oc=5",

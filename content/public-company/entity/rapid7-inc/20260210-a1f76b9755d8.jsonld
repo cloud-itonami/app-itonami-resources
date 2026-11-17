@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260210-a1f76b9755d8",
   "headline": "Earnings call transcript: Rapid7 beats Q4 2025 forecasts, but stock dips - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdVpiSUpCUzZva2RxNW4yUTd2aVlFQkltbnA2a3JDV0NUSkxHRU5YZVo0Nks4Ui01RHJaVWpkX1Vkd1pNTUFObVpBR1VhWW5rUW0zWWRtTUVWN2FmbHJnclZFZFZZZkV4OC1sV0dwWkpENGx3d2Jucnc2dDFvXzdaLVNlb0w4VktnOHEtRHJCaVU1THA1MW9pZWp1NlNGWVdiM3NPc1JyOVY2emFhZXNvdDlpVXh6Uk9RaVNfd0czMEZJMkY0?oc=5",

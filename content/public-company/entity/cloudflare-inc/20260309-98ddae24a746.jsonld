@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-98ddae24a746",
   "headline": "Cloudflare Stock Scores RS Rating Upgrade - Investor's Business Daily",
   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6SkJvUmh3MzBOTXhIZnZOVkRqWDVuVTFfVkxpV3Z5RTBNX1RQRXlwV3B5MUxWLWJ0UTZUM0xKY2VxNG5maDNRS2hqcVFrZmxPNEUtRWRXaVY2dUJhYkZqOVFnYXNpRDVGWHpNNWJwak1qR1k3akNNcXA0cF9JZw?oc=5",

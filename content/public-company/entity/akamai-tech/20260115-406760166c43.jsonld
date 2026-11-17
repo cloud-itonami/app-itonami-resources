@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260115-406760166c43",
   "headline": "Akamai Technologies To Hold Fourth Quarter and Full-Year - GlobeNewswire",
   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOYUtjQnhudUwySDB5RTFqMGw2S0pjUDJXcXNCWEx0dUFBS05Vb0M1bkE5dkxkRjlFQS14MFpUcTN2RXh5bS1Cb180bzNLSjhkUzRSeEc0VVNNMnNFdmIyN2ZEOVQzZmk2a09pS1BsZC0yWHFpaHl6YnVDRFFLRklCVkRySUp4VWRvM2k2Tk93UVZ5NE1LbTN0XzktQ00xZHZkNklTZFhPRVJIY2UtaHNBemZ5ZVh4cDdsVmlPUHVXUXR5MExuSzVxYm1tVGJhb2k5SFhuMnRvVjlMVzc4V3BRMVJ6UXpkcE5pSFdJYU95ckZBZWJEekc1NURtd2tSOU5hZFJVTjNJcEFMVTFjZnBwZHBDNUxkblBjeFFUNEp2X3JPQQ?oc=5",

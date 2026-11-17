@@ -2,18 +2,18 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
-  "@type": "etzhayyim:PublicCompanyProfile",
+  "@type": "itonami:PublicCompanyProfile",
   "identifier": "softbank-group",
   "name": "SoftBank Group Corp.",
   "legalName": "SoftBank Group Corp.",
   "tickerSymbol": "9984",
-  "etzhayyim:exchangeMic": "XTKS",
-  "etzhayyim:countryCode": "JP",
-  "etzhayyim:subsidiaryCompanyIds": [
+  "itonami:exchangeMic": "XTKS",
+  "itonami:countryCode": "JP",
+  "itonami:subsidiaryCompanyIds": [
     "arm-holdings"
   ],
   "url": "https://group.softbank/en",

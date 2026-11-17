@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260225-d67478948156",
   "headline": "Why SentinelOne (S) Surpassed the Broader Market Today - Bitget",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2MkRwQURUQ1E0QUJDWVB2Q3NzTmFDUEExUTF4LURVcUt5eWN5Wnl3MVRkRXo3S0J0elcwTUdEVU5pRHhNeXZxa2RSYWNLZkhwcmtnNW1RTDZkMFpUb3fSAWNBVV95cUxPT0JadVN5M0pmbzRjOVFhNHB4Y2xfcF9RdlZvMTZOaVM2UnhPZ0V6WlJSQUlmVHQzMXlxM084UFloZ2F3MUdhRlpZMi00cTdWcDNmSW9CN0JENU40TGx3MllKMmM?oc=5",

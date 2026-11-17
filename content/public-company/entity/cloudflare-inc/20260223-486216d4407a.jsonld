@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260223-486216d4407a",
   "headline": "Cloudflare moves to shield today’s internet traffic from future quantum hacks - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPal9acEFFYWU4Q3lDRXI2bkZlM3NRSThTcUpNM1VHSTBZVi12VFJrcjk4SVhiRzJZRlc5MHJUdVpWMmdPZnV6a1FnTF9uSDEzSm5tVEctTnA3M2ktWVlvMVBnNVdEd25sc0RLeUliblRoYlNCcjdZY2dxSld1eGlXdUFWUVNzVHlFeUE1c0E5S1hrZ0V4NWtIeURXcGtmNEZkRTBrTmFidXZQVHJ6OG1ERk9FZ29vTU0?oc=5",

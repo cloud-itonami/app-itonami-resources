@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251010-11ba36608a9c",
   "headline": "Oct 28 Q3 Results: Varonis Announces Report Date and Conference Call Details - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN2hlcU12U0NYTE81QjFPZ1d5YzVhdkQ1eHp6OHdIemY2MmowM2ZMQmJXYjlMakh1aGNYMXhTRU9JR3R6VWxuLU55RURHTFd3cEhiXzdhdnFVUGhOY3VzU1l1c292TlkyclVwSDJCWVRpRE00VjFqai1GRkY2RmQ1UG5VdFk4NEh5SDNEalVxQkdidHF1akxuSlJVR3ZTbjdrWDlFdGxnWDdBMEtmUEE?oc=5",

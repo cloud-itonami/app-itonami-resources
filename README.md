@@ -1,6 +1,6 @@
-# etzhayyim-project-resources
+# itonami-project-resources
 
-Public resource repository for ETZHAYYIM. Content under `content/` is stored as JSON-LD entity files and published to `https://resources.etzhayyim.com/`.
+Public resource repository for ITONAMI. Content under `content/` is stored as JSON-LD entity files and published to `https://resources.itonami.cloud/`.
 
 ## `resources-mcp-component` frontend migrated to ClojureScript (2026-09-07)
 
@@ -50,11 +50,11 @@ npm test        # amu compile --target wasm32-browser test && node out/tests.js
 
 ## Public namespace
 
-The `resources.etzhayyim.com` CDN app now serves:
+The `resources.itonami.cloud` CDN app now serves:
 
-- `https://resources.etzhayyim.com/etzhayyim-project-resources/`
-- All JSON-LD documents under `60-apps/etzhayyim-project-resources` including `TECH_STACK.jsonld`.
-- `https://resources.etzhayyim.com/etzhayyim-project-resources/PROJECT.jsonld`
+- `https://resources.itonami.cloud/itonami-project-resources/`
+- All JSON-LD documents under `60-apps/itonami-project-resources` including `TECH_STACK.jsonld`.
+- `https://resources.itonami.cloud/itonami-project-resources/PROJECT.jsonld`
 
 The `TECH_STACK.jsonld` file contains the comprehensive technology stack for this project (language, package manager, Pulumi/CDN/CDCI/Kubernetes, and data persistence model).
 
@@ -68,12 +68,12 @@ All publicly available Japanese laws from the e-Gov Law API are collected as JSO
 Regenerate with:
 
 ```bash
-python 60-apps/etzhayyim-project-resources/tools/fetch_jp_laws_jsonld.py
+python 60-apps/itonami-project-resources/tools/fetch_jp_laws_jsonld.py
 ```
 
 ## Compliance Rule Bundles
 
-Compiled jurisdiction bundles for `etzhayyim:compliance` are published at:
+Compiled jurisdiction bundles for `itonami:compliance` are published at:
 
 - `content/legal/compliance-bundles/*.jsonld`
 - `content/legal/jurisdictions/index.jsonld` (integration status by jurisdiction)
@@ -81,19 +81,19 @@ Compiled jurisdiction bundles for `etzhayyim:compliance` are published at:
 Regenerate with:
 
 ```bash
-python 60-apps/etzhayyim-project-resources/tools/compile_compliance_bundles.py
-python 60-apps/etzhayyim-project-resources/tools/compile_legal_jurisdiction_index.py
+python 60-apps/itonami-project-resources/tools/compile_compliance_bundles.py
+python 60-apps/itonami-project-resources/tools/compile_legal_jurisdiction_index.py
 ```
 
 These bundles are derived from:
 
 - `content/legal/jp/laws.jsonld`
 - `content/legal/jp/compliance/jp-privacy-article-map.jsonld`
-- `60-apps/etzhayyim-project-contracts/data/social-contracts/*.jsonld`
+- `60-apps/itonami-project-contracts/data/social-contracts/*.jsonld`
 
 `jp-privacy-v1` is curated beyond title heuristics and now includes APPI article / PPC guideline provenance in `legal_bases`, plus obligation-level `source_basis_ids`.
 
-`content/legal/jurisdictions/index.jsonld` joins the global legal source registry, currently published raw corpora, and compiled compliance bundles so `resources.etzhayyim.com` exposes which jurisdictions are still scaffold-only versus actually integrated.
+`content/legal/jurisdictions/index.jsonld` joins the global legal source registry, currently published raw corpora, and compiled compliance bundles so `resources.itonami.cloud` exposes which jurisdictions are still scaffold-only versus actually integrated.
 
 ## Threat Intelligence (TI)
 
@@ -105,14 +105,14 @@ Threat intelligence entities are written by the TI collector service into:
 
 ### Network Intel Collector ingest
 
-`etzhayyim-project-collector` (`collector.export_jsonld`) ingest is provided as a
+`itonami-project-collector` (`collector.export_jsonld`) ingest is provided as a
 App component:
 
-- `60-apps/etzhayyim-project-resources/wasm/components/resources-collector-ingest-r8n4c1j6`
+- `60-apps/itonami-project-resources/wasm/components/resources-collector-ingest-r8n4c1j6`
 
 ```bash
-cd 60-apps/etzhayyim-project-resources/wasm/components/resources-collector-ingest-r8n4c1j6
-etzhayyim build
+cd 60-apps/itonami-project-resources/wasm/components/resources-collector-ingest-r8n4c1j6
+itonami build
 kubectl apply -f <repo-deploy-config>
 ```
 
@@ -128,9 +128,9 @@ HTTP endpoints:
 - `/scheduler/trigger`
 - `/snapshot/latest`
 
-## Crawler Data (crawler.etzhayyim.com)
+## Crawler Data (crawler.itonami.cloud)
 
-Web crawl data collected by `crawler.etzhayyim.com` is normalized to JSON-LD and stored under `content/crawl/`.
+Web crawl data collected by `crawler.itonami.cloud` is normalized to JSON-LD and stored under `content/crawl/`.
 
 ### Storage Paths
 
@@ -144,8 +144,8 @@ Web crawl data collected by `crawler.etzhayyim.com` is normalized to JSON-LD and
 
 | `@type` | Schema | Description |
 |---|---|---|
-| `etzhayyim:CrawlJob` | `shacl/crawler/shapes.jsonld` | Crawl job metadata (seed URL, depth, status, timestamps) |
-| `etzhayyim:CrawlPage` | `shacl/crawler/shapes.jsonld` | Per-page crawl result (URL, HTTP status, title, size, links) |
+| `itonami:CrawlJob` | `shacl/crawler/shapes.jsonld` | Crawl job metadata (seed URL, depth, status, timestamps) |
+| `itonami:CrawlPage` | `shacl/crawler/shapes.jsonld` | Per-page crawl result (URL, HTTP status, title, size, links) |
 | `schema:WebSite` | `shacl/crawler/shapes.jsonld` | Site-level aggregation (page count, last crawled) |
 
 ### JSON-LD Context
@@ -153,24 +153,24 @@ Web crawl data collected by `crawler.etzhayyim.com` is normalized to JSON-LD and
 All crawler documents use `shacl/crawler/context.jsonld` as the shared `@context`. This maps:
 - `schema:` (schema.org) for standard web properties (url, name, contentSize)
 - `prov:` (W3C PROV) for provenance (generatedAtTime, wasGeneratedBy)
-- `etzhayyim:` (resources.etzhayyim.com/ontology#) for crawler-specific terms (depth, httpStatus, linkCount)
+- `itonami:` (resources.itonami.cloud/ontology#) for crawler-specific terms (depth, httpStatus, linkCount)
 
 ### Example: CrawlJob
 
 ```json
 {
-  "@context": "https://resources.etzhayyim.com/ontology/crawler/context.jsonld",
-  "@type": "etzhayyim:CrawlJob",
-  "@id": "https://resources.etzhayyim.com/content/crawl/job/crawl-1739760000",
+  "@context": "https://resources.itonami.cloud/ontology/crawler/context.jsonld",
+  "@type": "itonami:CrawlJob",
+  "@id": "https://resources.itonami.cloud/content/crawl/job/crawl-1739760000",
   "identifier": "crawl-1739760000",
-  "url": "https://etzhayyim.com",
+  "url": "https://itonami.cloud",
   "actionStatus": "completed",
   "depth": 2,
   "maxPages": 100,
   "pagesFound": 42,
   "startTime": "2026-02-17T00:00:00Z",
   "generatedAtTime": "2026-02-17T06:00:00Z",
-  "userAgent": "etzhayyim-crawler/1.0"
+  "userAgent": "itonami-crawler/1.0"
 }
 ```
 
@@ -178,13 +178,13 @@ All crawler documents use `shacl/crawler/context.jsonld` as the shared `@context
 
 ```json
 {
-  "@context": "https://resources.etzhayyim.com/ontology/crawler/context.jsonld",
-  "@type": "etzhayyim:CrawlPage",
-  "@id": "https://resources.etzhayyim.com/content/crawl/page/res-001",
+  "@context": "https://resources.itonami.cloud/ontology/crawler/context.jsonld",
+  "@type": "itonami:CrawlPage",
+  "@id": "https://resources.itonami.cloud/content/crawl/page/res-001",
   "identifier": "res-001",
-  "url": "https://etzhayyim.com",
+  "url": "https://itonami.cloud",
   "jobId": "crawl-1739760000",
-  "name": "ETZHAYYIM - Artificial Organism",
+  "name": "ITONAMI - Artificial Organism",
   "httpStatus": 200,
   "contentSize": 24576,
   "linkCount": 18,
@@ -196,16 +196,16 @@ All crawler documents use `shacl/crawler/context.jsonld` as the shared `@context
 
 ```json
 {
-  "@context": "https://resources.etzhayyim.com/ontology/crawler/context.jsonld",
+  "@context": "https://resources.itonami.cloud/ontology/crawler/context.jsonld",
   "@type": "schema:WebSite",
-  "@id": "https://resources.etzhayyim.com/content/crawl/site/etzhayyim.com",
-  "url": "https://etzhayyim.com",
-  "name": "ETZHAYYIM",
+  "@id": "https://resources.itonami.cloud/content/crawl/site/itonami.cloud",
+  "url": "https://itonami.cloud",
+  "name": "ITONAMI",
   "pageCount": 42,
   "lastCrawledAt": "2026-02-17T06:00:00Z",
   "hasPart": [
-    "https://resources.etzhayyim.com/content/crawl/page/res-001",
-    "https://resources.etzhayyim.com/content/crawl/page/res-002"
+    "https://resources.itonami.cloud/content/crawl/page/res-001",
+    "https://resources.itonami.cloud/content/crawl/page/res-002"
   ]
 }
 ```
@@ -213,7 +213,7 @@ All crawler documents use `shacl/crawler/context.jsonld` as the shared `@context
 ### Data Flow
 
 ```
-crawler.etzhayyim.com (App MCP)
+crawler.itonami.cloud (App MCP)
     |
     | MCP tools/call: crawler.list_results
     | REST: GET /crawls/{id}/results
@@ -225,21 +225,21 @@ resource-writer (scheduler / Tekton task)
     | 3. Validate against shacl/crawler/shapes.jsonld
     | 4. Write to content/crawl/ via gitstate
     v
-etzhayyim-project-resources (git repo)
+itonami-project-resources (git repo)
     |
     | content/crawl/job/<job_id>.jsonld
     | content/crawl/page/<result_id>.jsonld
     | content/crawl/site/<domain>.jsonld
     v
-resources.etzhayyim.com (published)
+resources.itonami.cloud (published)
 ```
 
 ### SHACL Validation
 
 Shapes are defined in `shacl/crawler/shapes.jsonld`:
-- `etzhayyim:CrawlJobShape` - validates CrawlJob entities
-- `etzhayyim:CrawlPageShape` - validates CrawlPage entities
-- `etzhayyim:CrawlSiteShape` - validates WebSite (site summary) entities
+- `itonami:CrawlJobShape` - validates CrawlJob entities
+- `itonami:CrawlPageShape` - validates CrawlPage entities
+- `itonami:CrawlSiteShape` - validates WebSite (site summary) entities
 
 ## Public Company IR/News Ingest (incremental)
 
@@ -259,7 +259,7 @@ Example (Vale S.A.):
 ### Ingest command
 
 ```bash
-python 60-apps/etzhayyim-project-resources/tools/260303-public-company-ir-news-ingest.py \
+python 60-apps/itonami-project-resources/tools/260303-public-company-ir-news-ingest.py \
   --company-id vale-sa \
   --dry-run
 ```
@@ -273,7 +273,7 @@ Storage backend has migrated to Cypher graph (kotodama WIT).
 
 Tool:
 
-- `60-apps/etzhayyim-project-resources/tools/jsonld-arrow-ingest`
+- `60-apps/itonami-project-resources/tools/jsonld-arrow-ingest`
 
 Default output tables:
 
@@ -285,7 +285,7 @@ Default output tables:
 
 For arrow-first typed tables, use:
 
-- `60-apps/etzhayyim-project-resources/tools/curated-arrow-ingest`
+- `60-apps/itonami-project-resources/tools/curated-arrow-ingest`
 
 Default current tables:
 
@@ -298,7 +298,7 @@ Default current tables:
 Dry-run example:
 
 ```bash
-cd 60-apps/etzhayyim-project-resources/tools/curated-arrow-ingest
+cd 60-apps/itonami-project-resources/tools/curated-arrow-ingest
 go run . --dry-run
 ```
 

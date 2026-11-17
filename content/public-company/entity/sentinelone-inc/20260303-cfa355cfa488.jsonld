@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260303-cfa355cfa488",
   "headline": "S - SentinelOne Announces Second Quarter Fiscal Year 2025 Financial Results - Revista ADVFN",
   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVWVUS21kdm4yejVSY19RVGFUMHFmbkRzeTVlWnAxdEhkV2IxVDBIclBDdXNyN3IydHgxcXN6SE1iYkxUdjJ0OEt1VGJSeUNBYzJjVWhiRDI1d25RZHl5UUg4aUZRRUVTTkt3MmZ2bldHV2VfTGVIeGJzRFJpZnhhVWgxd1JsVDdCcjVTcEZqWjJTZGlQSFlJel9ianFuakZMOGdSTFNBMDRoN18zQ1BfcnNOeFNtdDhFU2d2S3gtMEF0QXpkdVJyYnk5cFFyaEE?oc=5",

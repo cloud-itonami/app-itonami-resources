@@ -1,5 +1,5 @@
 {
-  "@context": "https://resources.etzhayyim.com/ontology/legal/context.jsonld",
+  "@context": "https://resources.itonami.cloud/ontology/legal/context.jsonld",
   "@type": "Dataset",
   "name": "日本の裁判所一覧",
   "description": "日本国の裁判所組織法に基づく裁判所の構成。最高裁判所、高等裁判所、地方裁判所、家庭裁判所、簡易裁判所の5種。",
@@ -9,7 +9,7 @@
   "@graph": [
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/supreme-court",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/supreme-court",
       "identifier": "jp-court-supreme",
       "name": "最高裁判所",
       "alternateName": "Supreme Court of Japan",
@@ -24,7 +24,7 @@
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/ip-high-court",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/ip-high-court",
       "identifier": "jp-court-ip-high",
       "name": "知的財産高等裁判所",
       "alternateName": "Intellectual Property High Court",
@@ -34,13 +34,13 @@
       "address": "東京都千代田区霞が関1丁目1番4号",
       "telephone": "03-3581-1710",
       "url": "https://www.ip.courts.go.jp/",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/tokyo-high",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/tokyo-high",
       "establishedBy": "知的財産高等裁判所設置法（平成16年法律第119号）",
       "description": "2005年4月設立。特許・実用新案・意匠・商標・著作権・不正競争防止法等の知的財産に関する訴訟の控訴審を専門的に取り扱う。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/tokyo-high",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/tokyo-high",
       "identifier": "jp-court-tokyo-high",
       "name": "東京高等裁判所",
       "alternateName": "Tokyo High Court",
@@ -50,13 +50,13 @@
       "address": "東京都千代田区霞が関1丁目1番4号",
       "telephone": "03-3581-5411",
       "url": "https://www.courts.go.jp/tokyo-h/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/supreme-court",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/supreme-court",
       "prefecture": "東京都",
       "description": "管轄区域が最も広い高等裁判所。東京都を含む1都10県の地方裁判所・家庭裁判所・簡易裁判所からの控訴事件を管轄。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/osaka-high",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/osaka-high",
       "identifier": "jp-court-osaka-high",
       "name": "大阪高等裁判所",
       "alternateName": "Osaka High Court",
@@ -66,13 +66,13 @@
       "address": "大阪府大阪市北区西天満2丁目1番10号",
       "telephone": "06-6363-1281",
       "url": "https://www.courts.go.jp/osaka-h/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/supreme-court",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/supreme-court",
       "prefecture": "大阪府",
       "description": "近畿地方を管轄する高等裁判所。2府4県の控訴事件を管轄。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/nagoya-high",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/nagoya-high",
       "identifier": "jp-court-nagoya-high",
       "name": "名古屋高等裁判所",
       "alternateName": "Nagoya High Court",
@@ -82,13 +82,13 @@
       "address": "愛知県名古屋市中区三の丸1丁目4番1号",
       "telephone": "052-203-1611",
       "url": "https://www.courts.go.jp/nagoya-h/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/supreme-court",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/supreme-court",
       "prefecture": "愛知県",
       "description": "中部地方を管轄する高等裁判所。金沢支部を有する。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/hiroshima-high",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/hiroshima-high",
       "identifier": "jp-court-hiroshima-high",
       "name": "広島高等裁判所",
       "alternateName": "Hiroshima High Court",
@@ -98,13 +98,13 @@
       "address": "広島県広島市中区上八丁堀2番43号",
       "telephone": "082-221-3171",
       "url": "https://www.courts.go.jp/hiroshima-h/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/supreme-court",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/supreme-court",
       "prefecture": "広島県",
       "description": "中国地方を管轄する高等裁判所。岡山支部・松江支部を有する。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/fukuoka-high",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/fukuoka-high",
       "identifier": "jp-court-fukuoka-high",
       "name": "福岡高等裁判所",
       "alternateName": "Fukuoka High Court",
@@ -114,13 +114,13 @@
       "address": "福岡県福岡市中央区城内1番1号",
       "telephone": "092-781-3141",
       "url": "https://www.courts.go.jp/fukuoka-h/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/supreme-court",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/supreme-court",
       "prefecture": "福岡県",
       "description": "九州・沖縄地方を管轄する高等裁判所。宮崎支部・那覇支部を有する。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/sendai-high",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/sendai-high",
       "identifier": "jp-court-sendai-high",
       "name": "仙台高等裁判所",
       "alternateName": "Sendai High Court",
@@ -130,13 +130,13 @@
       "address": "宮城県仙台市青葉区片平1丁目6番1号",
       "telephone": "022-222-6111",
       "url": "https://www.courts.go.jp/sendai-h/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/supreme-court",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/supreme-court",
       "prefecture": "宮城県",
       "description": "東北地方を管轄する高等裁判所。秋田支部を有する。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/sapporo-high",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/sapporo-high",
       "identifier": "jp-court-sapporo-high",
       "name": "札幌高等裁判所",
       "alternateName": "Sapporo High Court",
@@ -146,13 +146,13 @@
       "address": "北海道札幌市中央区大通西11丁目",
       "telephone": "011-231-4200",
       "url": "https://www.courts.go.jp/sapporo-h/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/supreme-court",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/supreme-court",
       "prefecture": "北海道",
       "description": "北海道を管轄する高等裁判所。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/takamatsu-high",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/takamatsu-high",
       "identifier": "jp-court-takamatsu-high",
       "name": "高松高等裁判所",
       "alternateName": "Takamatsu High Court",
@@ -162,13 +162,13 @@
       "address": "香川県高松市丸の内1番36号",
       "telephone": "087-851-1537",
       "url": "https://www.courts.go.jp/takamatsu-h/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/supreme-court",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/supreme-court",
       "prefecture": "香川県",
       "description": "四国地方を管轄する高等裁判所。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/tokyo-district",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/tokyo-district",
       "identifier": "jp-court-tokyo-district",
       "name": "東京地方裁判所",
       "alternateName": "Tokyo District Court",
@@ -178,13 +178,13 @@
       "address": "東京都千代田区霞が関1丁目1番4号",
       "telephone": "03-3581-5411",
       "url": "https://www.courts.go.jp/tokyo/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/tokyo-high",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/tokyo-high",
       "prefecture": "東京都",
       "description": "日本最大の地方裁判所。民事・刑事の第一審を管轄。立川支部を有する。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/osaka-district",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/osaka-district",
       "identifier": "jp-court-osaka-district",
       "name": "大阪地方裁判所",
       "alternateName": "Osaka District Court",
@@ -194,13 +194,13 @@
       "address": "大阪府大阪市北区西天満2丁目1番10号",
       "telephone": "06-6363-1281",
       "url": "https://www.courts.go.jp/osaka/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/osaka-high",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/osaka-high",
       "prefecture": "大阪府",
       "description": "大阪府を管轄する地方裁判所。堺支部・岸和田支部を有する。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/tokyo-family",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/tokyo-family",
       "identifier": "jp-court-tokyo-family",
       "name": "東京家庭裁判所",
       "alternateName": "Tokyo Family Court",
@@ -210,13 +210,13 @@
       "address": "東京都千代田区霞が関1丁目1番2号",
       "telephone": "03-3502-8311",
       "url": "https://www.courts.go.jp/tokyo-f/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/tokyo-high",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/tokyo-high",
       "prefecture": "東京都",
       "description": "家事事件（離婚・相続・養子縁組等）及び少年事件を管轄。"
     },
     {
       "@type": "Court",
-      "@id": "https://resources.etzhayyim.com/content/legal/jp/court/tokyo-summary",
+      "@id": "https://resources.itonami.cloud/content/legal/jp/court/tokyo-summary",
       "identifier": "jp-court-tokyo-summary",
       "name": "東京簡易裁判所",
       "alternateName": "Tokyo Summary Court",
@@ -225,7 +225,7 @@
       "jurisdiction": "東京都千代田区・中央区・港区等",
       "address": "東京都千代田区霞が関1丁目1番2号",
       "url": "https://www.courts.go.jp/tokyo-s/index.html",
-      "parentOrganization": "https://resources.etzhayyim.com/content/legal/jp/court/tokyo-district",
+      "parentOrganization": "https://resources.itonami.cloud/content/legal/jp/court/tokyo-district",
       "prefecture": "東京都",
       "description": "訴額140万円以下の民事事件及び罰金以下の刑に当たる軽微な刑事事件を管轄。"
     }

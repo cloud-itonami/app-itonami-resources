@@ -2,7 +2,7 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#",
       "cpc": "https://unstats.un.org/unsd/classifications/Econ/CPC/"
     }
@@ -15,37 +15,37 @@
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@type": "etzhayyim:CybersecProductKeyword",
-        "@id": "https://resources.etzhayyim.com/content/cybersecurity/products/itdr",
+        "@type": "itonami:CybersecProductKeyword",
+        "@id": "https://resources.itonami.cloud/content/cybersecurity/products/itdr",
         "identifier": "cs-product-itdr",
         "name": "ITDR (Identity Threat Detection and Response)",
-        "etzhayyim:keyword": "ITDR identity threat detection and response",
-        "etzhayyim:keywordJa": "ITDR アイデンティティ脅威検知・対応",
-        "etzhayyim:productCategory": "identity-security",
-        "etzhayyim:productSubcategory": "itdr",
-        "etzhayyim:cpcCode": "83143",
-        "etzhayyim:cpcLabel": "Information security services",
-        "etzhayyim:cpcJpy": 4700,
-        "etzhayyim:cpcUsd": 31.5,
-        "etzhayyim:searchVolumeMonthly": 18500,
-        "etzhayyim:competitionLevel": "high",
-        "etzhayyim:marketSegment": "enterprise",
-        "etzhayyim:deploymentModel": "hybrid",
-        "etzhayyim:primaryVendors": [
+        "itonami:keyword": "ITDR identity threat detection and response",
+        "itonami:keywordJa": "ITDR アイデンティティ脅威検知・対応",
+        "itonami:productCategory": "identity-security",
+        "itonami:productSubcategory": "itdr",
+        "itonami:cpcCode": "83143",
+        "itonami:cpcLabel": "Information security services",
+        "itonami:cpcJpy": 4700,
+        "itonami:cpcUsd": 31.5,
+        "itonami:searchVolumeMonthly": 18500,
+        "itonami:competitionLevel": "high",
+        "itonami:marketSegment": "enterprise",
+        "itonami:deploymentModel": "hybrid",
+        "itonami:primaryVendors": [
           "CyberArk",
           "CrowdStrike",
           "Microsoft",
           "SentinelOne",
           "Silverfort"
         ],
-        "etzhayyim:relatedKeywords": [
+        "itonami:relatedKeywords": [
           "IAM",
           "PAM",
           "identity protection",
           "MFA",
           "directory security"
         ],
-        "etzhayyim:mitreAttackTactics": [
+        "itonami:mitreAttackTactics": [
           "TA0001",
           "TA0003",
           "TA0004",
@@ -58,36 +58,36 @@
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@type": "etzhayyim:CybersecProductKeyword",
-        "@id": "https://resources.etzhayyim.com/content/cybersecurity/products/dspm",
+        "@type": "itonami:CybersecProductKeyword",
+        "@id": "https://resources.itonami.cloud/content/cybersecurity/products/dspm",
         "identifier": "cs-product-dspm",
         "name": "DSPM (Data Security Posture Management)",
-        "etzhayyim:keyword": "DSPM data security posture management",
-        "etzhayyim:keywordJa": "DSPM データセキュリティポスチャ管理",
-        "etzhayyim:productCategory": "data-security",
-        "etzhayyim:productSubcategory": "dspm",
-        "etzhayyim:cpcCode": "83143",
-        "etzhayyim:cpcLabel": "Information security services",
-        "etzhayyim:cpcJpy": 4300,
-        "etzhayyim:cpcUsd": 28.5,
-        "etzhayyim:searchVolumeMonthly": 12600,
-        "etzhayyim:competitionLevel": "high",
-        "etzhayyim:marketSegment": "enterprise",
-        "etzhayyim:deploymentModel": "saas",
-        "etzhayyim:primaryVendors": [
+        "itonami:keyword": "DSPM data security posture management",
+        "itonami:keywordJa": "DSPM データセキュリティポスチャ管理",
+        "itonami:productCategory": "data-security",
+        "itonami:productSubcategory": "dspm",
+        "itonami:cpcCode": "83143",
+        "itonami:cpcLabel": "Information security services",
+        "itonami:cpcJpy": 4300,
+        "itonami:cpcUsd": 28.5,
+        "itonami:searchVolumeMonthly": 12600,
+        "itonami:competitionLevel": "high",
+        "itonami:marketSegment": "enterprise",
+        "itonami:deploymentModel": "saas",
+        "itonami:primaryVendors": [
           "Varonis",
           "Cyera",
           "BigID",
           "Securiti",
           "Rubrik"
         ],
-        "etzhayyim:relatedKeywords": [
+        "itonami:relatedKeywords": [
           "data security",
           "insider risk",
           "SaaS data",
           "sensitive data discovery"
         ],
-        "etzhayyim:mitreAttackTactics": [
+        "itonami:mitreAttackTactics": [
           "TA0006",
           "TA0009",
           "TA0010"
@@ -99,36 +99,36 @@
       "@type": "ListItem",
       "position": 3,
       "item": {
-        "@type": "etzhayyim:CybersecProductKeyword",
-        "@id": "https://resources.etzhayyim.com/content/cybersecurity/products/api-security",
+        "@type": "itonami:CybersecProductKeyword",
+        "@id": "https://resources.itonami.cloud/content/cybersecurity/products/api-security",
         "identifier": "cs-product-api-security",
         "name": "API Security",
-        "etzhayyim:keyword": "API security platform",
-        "etzhayyim:keywordJa": "API セキュリティ",
-        "etzhayyim:productCategory": "application-security",
-        "etzhayyim:productSubcategory": "api-security",
-        "etzhayyim:cpcCode": "83143",
-        "etzhayyim:cpcLabel": "Information security services",
-        "etzhayyim:cpcJpy": 3900,
-        "etzhayyim:cpcUsd": 26,
-        "etzhayyim:searchVolumeMonthly": 67300,
-        "etzhayyim:competitionLevel": "high",
-        "etzhayyim:marketSegment": "mid-market",
-        "etzhayyim:deploymentModel": "saas",
-        "etzhayyim:primaryVendors": [
+        "itonami:keyword": "API security platform",
+        "itonami:keywordJa": "API セキュリティ",
+        "itonami:productCategory": "application-security",
+        "itonami:productSubcategory": "api-security",
+        "itonami:cpcCode": "83143",
+        "itonami:cpcLabel": "Information security services",
+        "itonami:cpcJpy": 3900,
+        "itonami:cpcUsd": 26,
+        "itonami:searchVolumeMonthly": 67300,
+        "itonami:competitionLevel": "high",
+        "itonami:marketSegment": "mid-market",
+        "itonami:deploymentModel": "saas",
+        "itonami:primaryVendors": [
           "Cloudflare",
           "Akamai",
           "Imperva",
           "Salt Security",
           "Noname Security"
         ],
-        "etzhayyim:relatedKeywords": [
+        "itonami:relatedKeywords": [
           "WAAP",
           "bot management",
           "schema validation",
           "runtime protection"
         ],
-        "etzhayyim:mitreAttackTactics": [
+        "itonami:mitreAttackTactics": [
           "TA0001",
           "TA0009",
           "TA0040"
@@ -140,36 +140,36 @@
       "@type": "ListItem",
       "position": 4,
       "item": {
-        "@type": "etzhayyim:CybersecProductKeyword",
-        "@id": "https://resources.etzhayyim.com/content/cybersecurity/products/caasm",
+        "@type": "itonami:CybersecProductKeyword",
+        "@id": "https://resources.itonami.cloud/content/cybersecurity/products/caasm",
         "identifier": "cs-product-caasm",
         "name": "CAASM (Cyber Asset Attack Surface Management)",
-        "etzhayyim:keyword": "CAASM cyber asset attack surface management",
-        "etzhayyim:keywordJa": "CAASM サイバー資産アタックサーフェス管理",
-        "etzhayyim:productCategory": "exposure-management",
-        "etzhayyim:productSubcategory": "caasm",
-        "etzhayyim:cpcCode": "83143",
-        "etzhayyim:cpcLabel": "Information security services",
-        "etzhayyim:cpcJpy": 3500,
-        "etzhayyim:cpcUsd": 23.5,
-        "etzhayyim:searchVolumeMonthly": 9800,
-        "etzhayyim:competitionLevel": "medium",
-        "etzhayyim:marketSegment": "enterprise",
-        "etzhayyim:deploymentModel": "hybrid",
-        "etzhayyim:primaryVendors": [
+        "itonami:keyword": "CAASM cyber asset attack surface management",
+        "itonami:keywordJa": "CAASM サイバー資産アタックサーフェス管理",
+        "itonami:productCategory": "exposure-management",
+        "itonami:productSubcategory": "caasm",
+        "itonami:cpcCode": "83143",
+        "itonami:cpcLabel": "Information security services",
+        "itonami:cpcJpy": 3500,
+        "itonami:cpcUsd": 23.5,
+        "itonami:searchVolumeMonthly": 9800,
+        "itonami:competitionLevel": "medium",
+        "itonami:marketSegment": "enterprise",
+        "itonami:deploymentModel": "hybrid",
+        "itonami:primaryVendors": [
           "Axonius",
           "Qualys",
           "JupiterOne",
           "runZero",
           "Armis"
         ],
-        "etzhayyim:relatedKeywords": [
+        "itonami:relatedKeywords": [
           "asset inventory",
           "CMDB",
           "attack surface",
           "cyber asset management"
         ],
-        "etzhayyim:mitreAttackTactics": [
+        "itonami:mitreAttackTactics": [
           "TA0007",
           "TA0009",
           "TA0010"
@@ -181,36 +181,36 @@
       "@type": "ListItem",
       "position": 5,
       "item": {
-        "@type": "etzhayyim:CybersecProductKeyword",
-        "@id": "https://resources.etzhayyim.com/content/cybersecurity/products/sspm",
+        "@type": "itonami:CybersecProductKeyword",
+        "@id": "https://resources.itonami.cloud/content/cybersecurity/products/sspm",
         "identifier": "cs-product-sspm",
         "name": "SSPM (SaaS Security Posture Management)",
-        "etzhayyim:keyword": "SSPM SaaS security posture management",
-        "etzhayyim:keywordJa": "SSPM SaaS セキュリティポスチャ管理",
-        "etzhayyim:productCategory": "cloud-security",
-        "etzhayyim:productSubcategory": "sspm",
-        "etzhayyim:cpcCode": "83143",
-        "etzhayyim:cpcLabel": "Information security services",
-        "etzhayyim:cpcJpy": 3600,
-        "etzhayyim:cpcUsd": 24,
-        "etzhayyim:searchVolumeMonthly": 11800,
-        "etzhayyim:competitionLevel": "medium",
-        "etzhayyim:marketSegment": "enterprise",
-        "etzhayyim:deploymentModel": "saas",
-        "etzhayyim:primaryVendors": [
+        "itonami:keyword": "SSPM SaaS security posture management",
+        "itonami:keywordJa": "SSPM SaaS セキュリティポスチャ管理",
+        "itonami:productCategory": "cloud-security",
+        "itonami:productSubcategory": "sspm",
+        "itonami:cpcCode": "83143",
+        "itonami:cpcLabel": "Information security services",
+        "itonami:cpcJpy": 3600,
+        "itonami:cpcUsd": 24,
+        "itonami:searchVolumeMonthly": 11800,
+        "itonami:competitionLevel": "medium",
+        "itonami:marketSegment": "enterprise",
+        "itonami:deploymentModel": "saas",
+        "itonami:primaryVendors": [
           "AppOmni",
           "Adaptive Shield",
           "Obsidian Security",
           "DoControl",
           "Zscaler"
         ],
-        "etzhayyim:relatedKeywords": [
+        "itonami:relatedKeywords": [
           "SaaS security",
           "misconfiguration",
           "identity posture",
           "shadow SaaS"
         ],
-        "etzhayyim:mitreAttackTactics": [
+        "itonami:mitreAttackTactics": [
           "TA0001",
           "TA0003",
           "TA0006",
@@ -223,36 +223,36 @@
       "@type": "ListItem",
       "position": 6,
       "item": {
-        "@type": "etzhayyim:CybersecProductKeyword",
-        "@id": "https://resources.etzhayyim.com/content/cybersecurity/products/exposure-management",
+        "@type": "itonami:CybersecProductKeyword",
+        "@id": "https://resources.itonami.cloud/content/cybersecurity/products/exposure-management",
         "identifier": "cs-product-exposure-management",
         "name": "Exposure Management Platform",
-        "etzhayyim:keyword": "cyber exposure management platform",
-        "etzhayyim:keywordJa": "エクスポージャー管理プラットフォーム",
-        "etzhayyim:productCategory": "exposure-management",
-        "etzhayyim:productSubcategory": "exposure-management",
-        "etzhayyim:cpcCode": "83143",
-        "etzhayyim:cpcLabel": "Information security services",
-        "etzhayyim:cpcJpy": 4600,
-        "etzhayyim:cpcUsd": 31,
-        "etzhayyim:searchVolumeMonthly": 22400,
-        "etzhayyim:competitionLevel": "very-high",
-        "etzhayyim:marketSegment": "enterprise",
-        "etzhayyim:deploymentModel": "hybrid",
-        "etzhayyim:primaryVendors": [
+        "itonami:keyword": "cyber exposure management platform",
+        "itonami:keywordJa": "エクスポージャー管理プラットフォーム",
+        "itonami:productCategory": "exposure-management",
+        "itonami:productSubcategory": "exposure-management",
+        "itonami:cpcCode": "83143",
+        "itonami:cpcLabel": "Information security services",
+        "itonami:cpcJpy": 4600,
+        "itonami:cpcUsd": 31,
+        "itonami:searchVolumeMonthly": 22400,
+        "itonami:competitionLevel": "very-high",
+        "itonami:marketSegment": "enterprise",
+        "itonami:deploymentModel": "hybrid",
+        "itonami:primaryVendors": [
           "Tenable One",
           "Rapid7 Exposure Command",
           "Qualys Enterprise TruRisk",
           "CrowdStrike Falcon Exposure Management",
           "Palo Alto Cortex Exposure Management"
         ],
-        "etzhayyim:relatedKeywords": [
+        "itonami:relatedKeywords": [
           "CTEM",
           "vulnerability management",
           "risk prioritization",
           "external attack surface management"
         ],
-        "etzhayyim:mitreAttackTactics": [
+        "itonami:mitreAttackTactics": [
           "TA0001",
           "TA0007",
           "TA0008",

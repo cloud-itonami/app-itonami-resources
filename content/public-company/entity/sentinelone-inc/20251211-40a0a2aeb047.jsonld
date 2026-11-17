@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251211-40a0a2aeb047",
   "headline": "SentinelOne: Finally Worth A Nibble (Rating Upgrade) (NYSE:S) - Seeking Alpha",
   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdkxPVXBkZEpsRnVXeVRSMTg4OG0wTC1JMjQwNER6b3k2amhPUHk1MzdEakJYdExDaERMc2NKV0N4NThvenl0NUNzR3pXdkFNYmZnTDl2TXhXSWl0VHc1dTFueUpZUnZQQXR1MVZ6dEt5Y1VmdmZOTTR4a1poVXlNRGpkS0JSNkFadDlsSWI0a2tabjBF?oc=5",

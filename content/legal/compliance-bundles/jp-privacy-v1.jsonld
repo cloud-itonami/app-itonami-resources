@@ -1,16 +1,16 @@
 {
   "@context": {
-    "@vocab": "https://resources.etzhayyim.com/ontology#",
+    "@vocab": "https://resources.itonami.cloud/ontology#",
     "schema": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
-  "@type": "etzhayyim:ComplianceRuleBundle",
-  "@id": "https://resources.etzhayyim.com/content/legal/compliance-bundles/jp-privacy-v1",
+  "@type": "itonami:ComplianceRuleBundle",
+  "@id": "https://resources.itonami.cloud/content/legal/compliance-bundles/jp-privacy-v1",
   "identifier": "jp-privacy-v1",
   "name": "Japan privacy baseline",
   "jurisdiction": "JP",
   "dateModified": "2026-03-11T10:16:11+00:00",
-  "etzhayyim:compiledFrom": [
+  "itonami:compiledFrom": [
     {
       "identifier": "jp-apppi",
       "title": "個人情報の保護に関する法律",

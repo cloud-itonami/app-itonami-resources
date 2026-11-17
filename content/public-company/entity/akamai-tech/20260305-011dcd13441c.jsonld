@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260305-011dcd13441c",
   "headline": "Akamai to run huge NVIDIA AI cluster for major US tech client in $200M deal - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQTBtVGNtd3dfR2xUc2ROc3BZRnlJMG91YXpQWUtWZThNQ3NUVmFYcm90LTk1ODN1Qi1PR1BpTmNwT0sxZzhhM25YaGwzZ2RPYjZiaVRzaHZtekYxMXdETWU5MG0xWWFQSjBRbmRtOFFybHBSZHA1SlZjSVlpWDJwSE1hUXNfWmNGcmRRY1pNckpEa2l0VkxfUWJ2ZnNCbHFzTmd5aUtn?oc=5",

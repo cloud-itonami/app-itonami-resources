@@ -13,10 +13,10 @@
     (is (= app/default-db @rf-db/app-db))
     (is (= "Resources Mcp Component" @(rf/subscribe [:app/title])))
     (is (= "resources-mcp-component" @(rf/subscribe [:app/name])))
-    (is (= "etzhayyim-project-resources" @(rf/subscribe [:app/project])))
+    (is (= "itonami-project-resources" @(rf/subscribe [:app/project])))
     (is (= "appview" @(rf/subscribe [:app/kind])))
     (is (= 2 @(rf/subscribe [:app/route-count])))
-    (is (= ["r3s0urc3.etzhayyim.com/*" "resources.etzhayyim.com/*"]
+    (is (= ["r3s0urc3.itonami.cloud/*" "resources.itonami.cloud/*"]
            @(rf/subscribe [:app/routes])))
     (is (= 8 (count @(rf/subscribe [:app/vars]))))
     (is (false? @(rf/subscribe [:app/xrpc?])))

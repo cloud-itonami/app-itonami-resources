@@ -3,19 +3,19 @@
 ## Component
 
 ```
-60-apps/etzhayyim-project-resources/wasm/etzhayyim-wasm-natural-person-np7k2m9x/
+60-apps/itonami-project-resources/wasm/itonami-wasm-natural-person-np7k2m9x/
 ├── main.go              # HTTP handlers, performer runtime, Matrix command dispatch
 ├── db_schema.go         # Arrow table schemas (nata.TableSchema)
 ├── db_persons.go        # natural_persons_current / _events table CRUD
 ├── db_analytics.go      # analytical projection tables + Flight SQL queries
-├── matrix_commands.go   # Matrix event handlers (org.etzhayyim.command.natural-person.*)
+├── matrix_commands.go   # Matrix event handlers (org.itonami.cloudmand.natural-person.*)
 ├── kotodama.toml
 ├── App manifest
-└── wit/world.wit        # imports etzhayyim:natural-person/natural-person (consumer)
+└── wit/world.wit        # imports itonami:natural-person/natural-person (consumer)
 ```
 
 Nanoid: `np7k2m9x`
-Subdomain: `np7k2m9x.etzhayyim.com`
+Subdomain: `np7k2m9x.itonami.cloud`
 
 ## Arrow Schema Design
 
@@ -94,30 +94,30 @@ Read path: `Query` / `QueryOrdered` / `QuerySQL` via nata/client DataFrame API
 
 | Event Type | Description | Payload |
 |---|---|---|
-| `org.etzhayyim.command.natural-person.create` | 新規自然人登録 | `CreatePersonRequest` JSON |
-| `org.etzhayyim.command.natural-person.update` | 更新 | `UpdatePersonRequest` JSON |
-| `org.etzhayyim.command.natural-person.delete` | 削除 (soft) | `{ "id": "..." }` |
-| `org.etzhayyim.command.natural-person.upsert-id-doc` | 本人確認書類追加 | `UpsertIdDocumentRequest` JSON |
-| `org.etzhayyim.command.natural-person.remove-id-doc` | 本人確認書類削除 | `RemoveIdDocumentRequest` JSON |
-| `org.etzhayyim.command.natural-person.link-contact` | 連絡先紐付け | `LinkContactRequest` JSON |
-| `org.etzhayyim.command.natural-person.unlink-contact` | 連絡先解除 | `UnlinkContactRequest` JSON |
-| `org.etzhayyim.command.natural-person.sync-clerk` | Clerk user 同期 | `{ "org_id": "..." }` |
-| `org.etzhayyim.command.natural-person.collect` | データ収集開始 | `CollectRequest` JSON |
-| `org.etzhayyim.command.natural-person.analyze` | 分析実行 | `AnalyzeRequest` JSON |
+| `org.itonami.cloudmand.natural-person.create` | 新規自然人登録 | `CreatePersonRequest` JSON |
+| `org.itonami.cloudmand.natural-person.update` | 更新 | `UpdatePersonRequest` JSON |
+| `org.itonami.cloudmand.natural-person.delete` | 削除 (soft) | `{ "id": "..." }` |
+| `org.itonami.cloudmand.natural-person.upsert-id-doc` | 本人確認書類追加 | `UpsertIdDocumentRequest` JSON |
+| `org.itonami.cloudmand.natural-person.remove-id-doc` | 本人確認書類削除 | `RemoveIdDocumentRequest` JSON |
+| `org.itonami.cloudmand.natural-person.link-contact` | 連絡先紐付け | `LinkContactRequest` JSON |
+| `org.itonami.cloudmand.natural-person.unlink-contact` | 連絡先解除 | `UnlinkContactRequest` JSON |
+| `org.itonami.cloudmand.natural-person.sync-clerk` | Clerk user 同期 | `{ "org_id": "..." }` |
+| `org.itonami.cloudmand.natural-person.collect` | データ収集開始 | `CollectRequest` JSON |
+| `org.itonami.cloudmand.natural-person.analyze` | 分析実行 | `AnalyzeRequest` JSON |
 
-Matrix room: `#natural-person-commands:etzhayyim.com` (app-owned room)
+Matrix room: `#natural-person-commands:itonami.cloud` (app-owned room)
 Application Service: `np7k2m9x` が user provision + room membership を管理
 
 ### XRPC Query Surface
 
 ```
-POST /xrpc/etzhayyim.natural_person.v1.NaturalPersonQueryService/GetPerson
-POST /xrpc/etzhayyim.natural_person.v1.NaturalPersonQueryService/ListPersons
-POST /xrpc/etzhayyim.natural_person.v1.NaturalPersonQueryService/SearchPersons
-POST /xrpc/etzhayyim.natural_person.v1.NaturalPersonQueryService/GetAnalyticsSummary
-POST /xrpc/etzhayyim.natural_person.v1.NaturalPersonQueryService/GetDemographics
-POST /xrpc/etzhayyim.natural_person.v1.NaturalPersonQueryService/GetKYCStatus
-POST /xrpc/etzhayyim.natural_person.v1.NaturalPersonQueryService/GetFamilyRelations
+POST /xrpc/itonami.natural_person.v1.NaturalPersonQueryService/GetPerson
+POST /xrpc/itonami.natural_person.v1.NaturalPersonQueryService/ListPersons
+POST /xrpc/itonami.natural_person.v1.NaturalPersonQueryService/SearchPersons
+POST /xrpc/itonami.natural_person.v1.NaturalPersonQueryService/GetAnalyticsSummary
+POST /xrpc/itonami.natural_person.v1.NaturalPersonQueryService/GetDemographics
+POST /xrpc/itonami.natural_person.v1.NaturalPersonQueryService/GetKYCStatus
+POST /xrpc/itonami.natural_person.v1.NaturalPersonQueryService/GetFamilyRelations
 ```
 
 ### Flight SQL Analytical Queries
@@ -146,14 +146,14 @@ db.QueryOrdered("natural_persons_analytics",
 
 ```
 Human/Agent → Matrix CS API
-  → org.etzhayyim.command.natural-person.collect
+  → org.itonami.cloudmand.natural-person.collect
     → App command handler
       → Workflow: collect-natural-persons
         → Activity: fetch-clerk-directory    → Clerk API → person records
         → Activity: fetch-external-registry  → 外部 registry → normalized records
         → Activity: deduplicate-merge        → merge-insert into current + analytics
         → Activity: emit-events              → append to events table
-      → Matrix response event: org.etzhayyim.command.natural-person.collect.result
+      → Matrix response event: org.itonami.cloudmand.natural-person.collect.result
 ```
 
 ### CollectRequest
@@ -187,10 +187,10 @@ Human/Agent → Matrix CS API
 ```
 performer.Runtime (np7k2m9x)
 ├── Matrix ingress
-│   ├── org.etzhayyim.command.natural-person.* → command handlers
+│   ├── org.itonami.cloudmand.natural-person.* → command handlers
 │   └── response events → Matrix room/thread
 ├── XRPC (query-only)
-│   └── /xrpc/etzhayyim.natural_person.v1.NaturalPersonQueryService/*
+│   └── /xrpc/itonami.natural_person.v1.NaturalPersonQueryService/*
 ├── natad/LanceDB
 │   ├── natural_persons_events    (append)
 │   ├── natural_persons_current   (merge-insert, key=person_id)
@@ -206,16 +206,16 @@ performer.Runtime (np7k2m9x)
 
 ```wit
 // wit/world.wit
-package etzhayyim:natural-person-app@0.1.0;
+package itonami:natural-person-app@0.1.0;
 
 world natural-person-app {
-  include etzhayyim:platform/etzhayyim-mcp@0.1.0;
+  include itonami:platform/itonami-mcp@0.1.0;
 
   // wRPC import: read/write natural persons via provider
-  import etzhayyim:natural-person/natural-person@0.1.0;
+  import itonami:natural-person/natural-person@0.1.0;
 
   // wRPC import: family relations
-  import etzhayyim:family/family@0.1.0;
+  import itonami:family/family@0.1.0;
 }
 ```
 
@@ -238,7 +238,7 @@ route = "/healthz"
 
 [[trigger.http]]
 component = "natural-person-np7k2m9x"
-route = "/xrpc/etzhayyim.natural_person.v1.NaturalPersonQueryService/..."
+route = "/xrpc/itonami.natural_person.v1.NaturalPersonQueryService/..."
 
 [[trigger.http]]
 component = "natural-person-np7k2m9x"
@@ -278,11 +278,11 @@ metadata:
   name: np7k2m9x-kotodama
   namespace: kotodama-runtime
   annotations:
-    performer.etzhayyim.com/subdomains: "np7k2m9x"
+    performer.itonami.cloud/subdomains: "np7k2m9x"
   labels:
     app.kubernetes.io/name: np7k2m9x-kotodama
 spec:
-  image: ghcr.io/etzhayyim/natural-person-np7k2m9x:v0.1.0
+  image: ghcr.io/itonami/natural-person-np7k2m9x:v0.1.0
   replicas: 1
   executor: containerd-shim-kotodama
   enableAutoscaling: false
@@ -296,7 +296,7 @@ spec:
 2. `db_persons.go` — CRUD via nata/client (UpsertOne, Query, QueryOrdered, Delete)
 3. `db_analytics.go` — Analytics projection update + Flight SQL query helpers (QuerySQL)
 4. `main.go` — performer.Runtime + Adapter + ContextRoutes + actor integration
-5. `matrix_commands.go` — Matrix event type dispatch (org.etzhayyim.command.natural-person.*)
-6. `wit/world.wit` — Consumer world importing etzhayyim:natural-person + etzhayyim:family
+5. `matrix_commands.go` — Matrix event type dispatch (org.itonami.cloudmand.natural-person.*)
+6. `wit/world.wit` — Consumer world importing itonami:natural-person + itonami:family
 7. `kotodama.toml` + `deploy config`
-8. Deploy: `etzhayyim build` → `etzhayyim push` → `kubectl apply`
+8. Deploy: `itonami build` → `itonami push` → `kubectl apply`

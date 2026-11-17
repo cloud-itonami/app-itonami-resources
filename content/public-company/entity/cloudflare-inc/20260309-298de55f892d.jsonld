@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-298de55f892d",
   "headline": "Cloudflare shares climb 3.5% amid renewed optimism on AI and enterprise security growth - Quiver Quantitative",
   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM0JHRXZIRWdCVkRjUTU1amxUM1FjUjd0aU1QbmlfTTBhZm5XZUFHVjdCaWdPY29KaHE2M0FwZTV1Y0FUdk9aSmNUakpuNTYxenhrbHp0OFlhNE5SZ1lzQmZSZG0xUmc3aHhSbEFoenVDMDI2UmlWWjFQYXdKRnZsdy1kVnc0QzA4cGx6VUZ5Qm15X0Jvd1dUREd0ZnpTSmpMVms4RER0N2VuZXM2UmZ2bU1DVDFGSFpWbHNzTG56OA?oc=5",

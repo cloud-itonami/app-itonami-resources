@@ -2,21 +2,21 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "ItemList",
   "identifier": "cybersecurity-index-2026",
   "name": "Cybersecurity Resources Index",
-  "description": "resources.etzhayyim.com 上のサイバーセキュリティ企業・製品 seed コーパスの一覧。",
+  "description": "resources.itonami.cloud 上のサイバーセキュリティ企業・製品 seed コーパスの一覧。",
   "numberOfItems": 3,
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "https://resources.etzhayyim.com/content/cybersecurity/company/seed.jsonld",
+        "@id": "https://resources.itonami.cloud/content/cybersecurity/company/seed.jsonld",
         "@type": "CreativeWork",
         "identifier": "cybersecurity-company-seed-2026",
         "name": "Cybersecurity Companies Seed Data",
@@ -27,7 +27,7 @@
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "https://resources.etzhayyim.com/content/cybersecurity/products/seed.jsonld",
+        "@id": "https://resources.itonami.cloud/content/cybersecurity/products/seed.jsonld",
         "@type": "CreativeWork",
         "identifier": "cybersecurity-products-seed-2026",
         "name": "Cybersecurity Product Keywords — CPC Seed Data",
@@ -38,7 +38,7 @@
       "@type": "ListItem",
       "position": 3,
       "item": {
-        "@id": "https://resources.etzhayyim.com/content/cybersecurity/products/platform-expansion.jsonld",
+        "@id": "https://resources.itonami.cloud/content/cybersecurity/products/platform-expansion.jsonld",
         "@type": "CreativeWork",
         "identifier": "cybersecurity-platform-expansion-2026",
         "name": "Cybersecurity Platform Expansion Keywords — CPC Seed Data",

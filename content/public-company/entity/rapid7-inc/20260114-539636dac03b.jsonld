@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260114-539636dac03b",
   "headline": "New Rapid7-ARMO tools spot live cloud attacks and shut them down faster - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOGYyczZZQ2p2a09oWTBHQTNpWDVINDRnMVBEdS1FOHJyVnJFRjU5RnBnbUpKekRqZTk3MWRERHB6WGV4UGZsZzJCdzFMRnlvWm53VkJ0M0FMZUswcUdtbDdDODNNN2FfRGpZTkREeUlYVVhyOHhTZ0YxOWhXN2xoTGRrX1Z2RmRobXY0SzFtZTR1bFF2YlMxQ1JzZzdhNmZoYnprdHd4SE9NZnZ4UEVPTnE3MGdmMFZJOGpQOA?oc=5",

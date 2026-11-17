@@ -1,16 +1,16 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
   "@type": "Dataset",
   "name": "New Zealand mine action / ERW implementation statutes",
-  "description": "NZ Acts implementing APMBC and CCM. Scaffold — seeded for site.etzhayyim.com verification crawl against legislation.govt.nz.",
+  "description": "NZ Acts implementing APMBC and CCM. Scaffold — seeded for site.itonami.cloud verification crawl against legislation.govt.nz.",
   "inLanguage": "en-NZ",
   "isBasedOn": "https://www.legislation.govt.nz/",
   "dateModified": "2026-04-17",
-  "etzhayyim:lawCount": 2,
-  "etzhayyim:verificationStatus": "pending — legislation.govt.nz returned 403 to WebFetch 2026-04-17 (bot-block). Re-run via authenticated site.etzhayyim.com crawler with user-agent identification.",
+  "itonami:lawCount": 2,
+  "itonami:verificationStatus": "pending — legislation.govt.nz returned 403 to WebFetch 2026-04-17 (bot-block). Re-run via authenticated site.itonami.cloud crawler with user-agent identification.",
   "@graph": [
     {
       "@type": "Legislation",
@@ -19,8 +19,8 @@
       "legislationIdentifier": "1998 No 111",
       "datePublished": "1998-12-15",
       "url": "https://www.legislation.govt.nz/act/public/1998/0111/latest/whole.html",
-      "etzhayyim:treaty": "APMBC",
-      "etzhayyim:verifyCitation": true
+      "itonami:treaty": "APMBC",
+      "itonami:verifyCitation": true
     },
     {
       "@type": "Legislation",
@@ -29,8 +29,8 @@
       "legislationIdentifier": "2009 No 68",
       "datePublished": "2009-12-16",
       "url": "https://www.legislation.govt.nz/act/public/2009/0068/latest/whole.html",
-      "etzhayyim:treaty": "CCM",
-      "etzhayyim:verifyCitation": true
+      "itonami:treaty": "CCM",
+      "itonami:verifyCitation": true
     }
   ]
 }

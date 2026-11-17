@@ -6,14 +6,14 @@
     "sh": "http://www.w3.org/ns/shacl#",
     "prov": "http://www.w3.org/ns/prov#",
     "schema": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
   "@graph": [
     {
-      "@id": "etzhayyim:CrawlJobShape",
+      "@id": "itonami:CrawlJobShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:CrawlJob",
-      "rdfs:comment": "Validates a web crawl job record produced by crawler.etzhayyim.com.",
+      "sh:targetClass": "itonami:CrawlJob",
+      "rdfs:comment": "Validates a web crawl job record produced by crawler.itonami.cloud.",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -40,17 +40,17 @@
           }
         },
         {
-          "sh:path": "etzhayyim:depth",
+          "sh:path": "itonami:depth",
           "sh:datatype": "xsd:integer",
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:maxPages",
+          "sh:path": "itonami:maxPages",
           "sh:datatype": "xsd:integer",
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:pagesFound",
+          "sh:path": "itonami:pagesFound",
           "sh:datatype": "xsd:integer",
           "sh:minCount": 0
         },
@@ -67,9 +67,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:CrawlPageShape",
+      "@id": "itonami:CrawlPageShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:CrawlPage",
+      "sh:targetClass": "itonami:CrawlPage",
       "rdfs:comment": "Validates a crawled web page record. Each page is one HTTP response captured by the crawler.",
       "sh:property": [
         {
@@ -85,7 +85,7 @@
           "sh:maxCount": 1
         },
         {
-          "sh:path": "etzhayyim:jobId",
+          "sh:path": "itonami:jobId",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1
         },
@@ -95,7 +95,7 @@
           "sh:minCount": 0
         },
         {
-          "sh:path": "etzhayyim:httpStatus",
+          "sh:path": "itonami:httpStatus",
           "sh:datatype": "xsd:integer",
           "sh:minCount": 1
         },
@@ -105,7 +105,7 @@
           "sh:minCount": 0
         },
         {
-          "sh:path": "etzhayyim:linkCount",
+          "sh:path": "itonami:linkCount",
           "sh:datatype": "xsd:integer",
           "sh:minCount": 0
         },
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "@id": "etzhayyim:CrawlSiteShape",
+      "@id": "itonami:CrawlSiteShape",
       "@type": "sh:NodeShape",
       "sh:targetClass": "schema:WebSite",
       "rdfs:comment": "Aggregated site-level summary produced after a crawl job completes.",
@@ -134,18 +134,18 @@
           "sh:minCount": 0
         },
         {
-          "sh:path": "etzhayyim:pageCount",
+          "sh:path": "itonami:pageCount",
           "sh:datatype": "xsd:integer",
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:lastCrawledAt",
+          "sh:path": "itonami:lastCrawledAt",
           "sh:datatype": "xsd:dateTime",
           "sh:minCount": 1
         },
         {
           "sh:path": "schema:hasPart",
-          "sh:class": "etzhayyim:CrawlPage",
+          "sh:class": "itonami:CrawlPage",
           "sh:minCount": 0
         }
       ]

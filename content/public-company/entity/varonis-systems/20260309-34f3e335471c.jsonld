@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-34f3e335471c",
   "headline": "Varonis Systems, Inc. $VRNS Shares Sold by Victory Capital Management Inc. - MarketBeat",
   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM2JJR3JRVFZtT2Y3QUFNYmx0NHd4WnZ3WEFuZXJINTFBdmtEZXNObmhmNDd2U01hd1N1Y0Z5YzBWS3ZDUGFzR0diY0doUVNpUzR6bHY0OHdZWTlnb1o4b0xXV0pvRjIxeFVoQzdhalJuMlVFTEM4dnpuY3NxSGFDV3NiR1R1RzBRNnE4eWkyNUo3S0ZBVVVoMHlPekpQSll6dl9tM1BWMm1zRFlmX0tUTEZnVTRKNHZjS2thajRPcXpKQ21WbUFfd2VzWQ?oc=5",

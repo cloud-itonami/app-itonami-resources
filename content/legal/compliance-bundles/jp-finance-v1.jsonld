@@ -1,16 +1,16 @@
 {
   "@context": {
-    "@vocab": "https://resources.etzhayyim.com/ontology#",
+    "@vocab": "https://resources.itonami.cloud/ontology#",
     "schema": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
-  "@type": "etzhayyim:ComplianceRuleBundle",
-  "@id": "https://resources.etzhayyim.com/content/legal/compliance-bundles/jp-finance-v1",
+  "@type": "itonami:ComplianceRuleBundle",
+  "@id": "https://resources.itonami.cloud/content/legal/compliance-bundles/jp-finance-v1",
   "identifier": "jp-finance-v1",
   "name": "Japan financial-services baseline",
   "jurisdiction": "JP",
   "dateModified": "2026-03-11T10:16:11+00:00",
-  "etzhayyim:compiledFrom": [
+  "itonami:compiledFrom": [
     {
       "name": "金融商品取引法",
       "url": "https://laws.e-gov.go.jp/law/323AC0000000025"

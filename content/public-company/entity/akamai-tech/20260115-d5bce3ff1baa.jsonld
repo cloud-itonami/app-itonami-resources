@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260115-d5bce3ff1baa",
   "headline": "Akamai Technologies to Host Fourth Quarter and Full-Year 2025 Financial Results Conference Call on February 19, 2026 | AKAM Stock News - Quiver Quantitative",
   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOd21KU29yTEl2aVluaXpSQlRwdk9qMVk3d295eWwtQXZRc2gwTENYaFdDaENQVDduOG83RXFwNnRYcFR1ZS1RU1FoNHl0ZDdELXFOal9mUU5FWE93QnBOcjltWHRzQVBkMHJ2V3c1TzB0ejREWkx1OVBoSTZPRGFQQm50enlMdzhvdHFLRW5BbHhHSnhKNDJzbjZfQzVONkxIR2tNU1ZaYlpkQnZPcEJlcFVvYmN5RUdMeU5keW10Qm9jaU8wNGZ6SDFGTTIzamhPZmZyWU5CNFdOSDVIRmozcU1JOTFhdw?oc=5",

@@ -2,17 +2,17 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
-  "@type": "etzhayyim:PublicCompanyProfile",
+  "@type": "itonami:PublicCompanyProfile",
   "identifier": "ww-grainger",
   "name": "W.W. Grainger, Inc.",
   "legalName": "W.W. Grainger, Inc.",
   "tickerSymbol": "GWW",
-  "etzhayyim:exchangeMic": "XNYS",
-  "etzhayyim:countryCode": "US",
+  "itonami:exchangeMic": "XNYS",
+  "itonami:countryCode": "US",
   "url": "https://investor.grainger.com/",
   "description": "Public company profile for automated IR/News ingestion and entity generation.",
   "prov:generatedAtTime": "2026-03-03T00:00:00Z"

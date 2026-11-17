@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250731-b024a394b0e6",
   "headline": "Earnings call transcript: Cloudflare Q2 2025 beats earnings, stock rises - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQ3BRSl9OY29nYTExdHJ5ZmlycUNLOFNyd0VYZko3TER4NjNVUFB5bWpOR1JYX0E2Yy1kcnJXbmdmeGc1dm9CM2NXMkhTeVoxZFFXYjA3VFdjYlBMaDVVUWZKX0phQ29EUkQtbjlaV3d6c181ZEVHUW1GMllWLTJPVXB2UERvUlhUemRGZzgzcGFRbmRzU1J3c2QySXZyMHpUbXVDZGllb3BFUzlJMndkeGxXdWNzcUNyNFBWQlhmb0haR1lP?oc=5",

@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260307-15e7a5e94db0",
   "headline": "Why Wells Fargo Sees Promise in SentinelOne (S) but Stops Short of Going Bullish - Yahoo Finance",
   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Od3NSektLd2ljWmNuOTF0dUttMXFpd0RaMFYzcUVKa3otMElVNEJkVHdpaWFXQnNQcjM0TVV1RTlvbWtsTzg5ckNhaHpzV3BMVFRFTWFQVW0xUHlVcEk0eUQxd205Vi11TEdIWEZFZVVsbUVHZDZNVFFmZzBVQzg?oc=5",

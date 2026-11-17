@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260211-c7d1eb11dae5",
   "headline": "Why Rapid7 (RPD) Shares Are Sliding Today - StockStory",
   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVA0WDVGSTEwdEtRTFhuTW4xOW9RZE1LdktZMldqVGkwUmRGdTF5dmFWTHZFQzVXbV9ma0NILU1IQTliX2hib0ZFWWdjbGhhYV9rNG1YWXVQN0JxNVpNei12MFJ0ajN1Q2ZDLU9ERjlVTHJxMUtUY0RqbVJhYkE3aEgxeHluZ256MEQtemNFWkpDQWUwYkc1b0U1UGg3elN2cGVLdg?oc=5",

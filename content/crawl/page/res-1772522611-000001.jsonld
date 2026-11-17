@@ -1,7 +1,7 @@
 {
-  "@context": "https://resources.etzhayyim.com/ontology/crawler/context.jsonld",
-  "@type": "etzhayyim:CrawlPage",
-  "@id": "https://resources.etzhayyim.com/content/crawl/page/res-1772522611-000001",
+  "@context": "https://resources.itonami.cloud/ontology/crawler/context.jsonld",
+  "@type": "itonami:CrawlPage",
+  "@id": "https://resources.itonami.cloud/content/crawl/page/res-1772522611-000001",
   "identifier": "res-1772522611-000001",
   "url": "https://www.xnxx.com",
   "jobId": "crawl-1772522609-000001",

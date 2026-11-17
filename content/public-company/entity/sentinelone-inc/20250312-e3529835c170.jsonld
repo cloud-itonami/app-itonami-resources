@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250312-e3529835c170",
   "headline": "Earnings call transcript: SentinelOne Q4 2025 beats EPS expectations, stock drops - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTDJRS3hLdUJUMTB5bXhxTDUtbjVlS25lZUhiSHl4dkswa2Q0Q2JYU3EyZU1KQU1XM0VSallTSmhKakJTZ0NYdUl0LXNkYmo0VTkyOFRKd2REY3IweUktMGlvUjVJY3B4NElhMDNOeWFZbVF1M0V5MktHTU43dnNaSGxIT3lsaVNCam04YlVtdzhHeEVqRm85aGNpR1BZbjBfYmlrVV9DZWZ4dExZbFVQaU5lR1lfRlpnR0RYYm43TVhqdzhGdFFMYXZhNG4zWDdZ?oc=5",

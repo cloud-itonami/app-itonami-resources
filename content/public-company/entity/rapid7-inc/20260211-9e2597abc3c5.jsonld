@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260211-9e2597abc3c5",
   "headline": "28 cybersecurity firms win Rapid7’s 2026 Partner of the Year honors - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRzJ3QlBxZC1ObHU2WTF3Ry1rem1KSHROZnc2SFA3R2RsX3R3X2VMZDlhTlpHdEJQc1o0UjJEV19aSVh6Tm9OMlp3SUJBWFJjRGo2ZTdmV05LTHc3ZlRkWlRMUWUyTGxxbUUwUzhHN3Y0V2tzaGFSN3hSV3JrMDZPWVVwblB1bkNkdHo5NmlxOWlqTVdBenNjTE9MbEpaNzNSc2VB?oc=5",

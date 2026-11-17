@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-0e23fa26dcc2",
   "headline": "Cloudflare, Inc. (NET) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance",
   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQWJyZnlpUHkwTHdGd2NJc3BHbWRGYnBUMGRYVkpLT3Z1NEhUMGxOSWNESG5hLWpnamtlc2NXTWNMX0RiZU9uQlUyNXVpVWVpQ1Q4TVU1TTdKRDNvbGlqTnhVSmQwdVFpOUdxbjE0elV5ZjRZZElPZVI4ck9Qa3lLa1E1WVRvQQ?oc=5",

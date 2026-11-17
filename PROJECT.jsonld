@@ -3,12 +3,12 @@
     "https://schema.org/",
     {
       "@version": 1.1,
-      "@vocab": "https://resources.etzhayyim.com/ontology#",
-      "@base": "https://resources.etzhayyim.com/ontology#",
+      "@vocab": "https://resources.itonami.cloud/ontology#",
+      "@base": "https://resources.itonami.cloud/ontology#",
       "id": "@id",
       "type": "@type",
       "schema": "https://schema.org/",
-      "etzhayyim": "https://etzhayyim.com/schemas/",
+      "itonami": "https://itonami.cloud/schemas/",
       "dct": "http://purl.org/dc/terms/",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
       "name": "dct:title",
@@ -25,32 +25,32 @@
     }
   ],
   "@type": "Dataset",
-  "@id": "urn:etzhayyim:project:etzhayyim-project-resources",
-  "name": "ETZHAYYIM Resources",
-  "identifier": "etzhayyim-project-resources",
-  "description": "Project / Org / Contract / Activity / Blocker などの状態を JSON-LD で保持する git-backed リソース基盤。resources.etzhayyim.com 経由で公開。",
-  "url": "https://resources.etzhayyim.com/etzhayyim-project-resources/",
+  "@id": "urn:itonami:project:itonami-project-resources",
+  "name": "ITONAMI Resources",
+  "identifier": "itonami-project-resources",
+  "description": "Project / Org / Contract / Activity / Blocker などの状態を JSON-LD で保持する git-backed リソース基盤。resources.itonami.cloud 経由で公開。",
+  "url": "https://resources.itonami.cloud/itonami-project-resources/",
   "version": "1.3.0",
-  "codeRepository": "https://github.com/etzhayyim/etzhayyim-apps-etzhayyim",
+  "codeRepository": "https://github.cloud/itonami/itonami-apps-itonami",
   "author": {
     "@type": "Organization",
-    "name": "etzhayyim",
-    "url": "https://etzhayyim.com"
+    "name": "itonami",
+    "url": "https://itonami.cloud"
   },
   "hasPart": [
     {
       "@type": "WebAPI",
-      "name": "resources-etzhayyim-endpoint",
-      "url": "https://resources.etzhayyim.com"
+      "name": "resources-itonami-endpoint",
+      "url": "https://resources.itonami.cloud"
     }
   ],
-  "etzhayyim:resourceBoundary": "project",
-  "etzhayyim:capability": [
+  "itonami:resourceBoundary": "project",
+  "itonami:capability": [
     "Resource and agreement state publishing",
     "Crawler-derived JSON-LD ingestion normalization",
     "SHACL validation and artifact storage"
   ],
-  "etzhayyim:resourceModel": {
+  "itonami:resourceModel": {
     "computeResources": [
       "storage",
       "cpu",
@@ -75,8 +75,8 @@
       "shaclShape": "shacl/capital/social-capital-shapes.jsonld"
     }
   },
-  "etzhayyim:dodafMapping": {
-    "DIV-2": "etzhayyim data classes and jsonld artifacts",
+  "itonami:dodafMapping": {
+    "DIV-2": "itonami data classes and jsonld artifacts",
     "StdV-1": "JSON-LD/SHACL/Accept negotiation"
   },
   "rdfUnifiedDocuments": {
@@ -89,7 +89,7 @@
         "content": {
           "@context": "https://schema.org/",
           "@type": "TechArticle",
-          "name": "Architecture: etzhayyim-project-resources",
+          "name": "Architecture: itonami-project-resources",
           "description": "Repository-backed JSON-LD resources and SHACL shapes. Writers are schedulers/collectors; readers are UIs, agents, and downstream pipelines.",
           "keywords": [
             "jsonld",
@@ -102,9 +102,9 @@
             {
               "@type": "TechArticle",
               "name": "Crawler Data Flow",
-              "description": "crawler.etzhayyim.com (SpinApp MCP component) produces CrawlJob and CrawlResult objects in memory. A resource-writer component calls the crawler MCP endpoint (o0dqx491.etzhayyim.com/api/mcp), normalizes responses to etzhayyim:CrawlJob, etzhayyim:CrawlPage, and schema:WebSite JSON-LD, validates against shacl/crawler/shapes.jsonld, and persists to content/crawl/ via gitstate. The deterministic key scheme is: crawl/job/<job_id>, crawl/page/<result_id>, crawl/site/<domain>.",
+              "description": "crawler.itonami.cloud (SpinApp MCP component) produces CrawlJob and CrawlResult objects in memory. A resource-writer component calls the crawler MCP endpoint (o0dqx491.itonami.cloud/api/mcp), normalizes responses to itonami:CrawlJob, itonami:CrawlPage, and schema:WebSite JSON-LD, validates against shacl/crawler/shapes.jsonld, and persists to content/crawl/ via gitstate. The deterministic key scheme is: crawl/job/<job_id>, crawl/page/<result_id>, crawl/site/<domain>.",
               "keywords": [
-                "crawler.etzhayyim.com",
+                "crawler.itonami.cloud",
                 "MCP",
                 "gitstate",
                 "CrawlJob",
@@ -120,8 +120,8 @@
         "content": {
           "@context": {
             "@version": 1.1,
-            "@vocab": "https://resources.etzhayyim.com/ontology#",
-            "@base": "https://resources.etzhayyim.com/ontology#",
+            "@vocab": "https://resources.itonami.cloud/ontology#",
+            "@base": "https://resources.itonami.cloud/ontology#",
             "id": "@id",
             "type": "@type",
             "dct": "http://purl.org/dc/terms/",
@@ -138,9 +138,9 @@
             },
             "schema": "https://schema.org/"
           },
-          "id": "https://resources.etzhayyim.com/etzhayyim-project-resources/TECH_STACK.jsonld",
+          "id": "https://resources.itonami.cloud/itonami-project-resources/TECH_STACK.jsonld",
           "type": "schema:TechArticle",
-          "name": "Technology Stack: etzhayyim-project-resources",
+          "name": "Technology Stack: itonami-project-resources",
           "description": "Operational and publishing stack for public JSON-LD resources, including ingestion tooling, validation, CI/CD, and static publication pipeline.",
           "createdAt": "2026-02-17T00:00:00Z",
           "updatedAt": "2026-02-17T00:00:00Z",
@@ -205,7 +205,7 @@
                   "schema:name": "pnpm",
                   "name": "pnpm",
                   "url": "https://pnpm.io",
-                  "schema:description": "Used for CDN build/app packaging, including JSON-LD static site generation task for resources.etzhayyim.com."
+                  "schema:description": "Used for CDN build/app packaging, including JSON-LD static site generation task for resources.itonami.cloud."
                 }
               },
               {
@@ -264,7 +264,7 @@
                   "schema:name": "Git-backed content store",
                   "name": "Git repository",
                   "schema:description": "No dedicated runtime database in this project. JSON-LD records are persisted in repo content paths (e.g., content/crawl/*) and published as static files.",
-                  "schema:url": "https://resources.etzhayyim.com/etzhayyim-project-resources/content/crawl/"
+                  "schema:url": "https://resources.itonami.cloud/itonami-project-resources/content/crawl/"
                 }
               },
               {
@@ -287,7 +287,7 @@
         "content": {
           "@context": "https://schema.org/",
           "@type": "ItemList",
-          "name": "Activities: etzhayyim-project-resources",
+          "name": "Activities: itonami-project-resources",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -304,7 +304,7 @@
               "item": {
                 "@type": "HowTo",
                 "name": "Ingest crawler data",
-                "description": "Receive crawl results from crawler.etzhayyim.com (via MCP tool call or batch export), normalize to etzhayyim:CrawlJob / etzhayyim:CrawlPage / schema:WebSite JSON-LD, validate against shacl/crawler/shapes.jsonld, and write to content/crawl/{job,page,site}/<id>.jsonld using gitstate."
+                "description": "Receive crawl results from crawler.itonami.cloud (via MCP tool call or batch export), normalize to itonami:CrawlJob / itonami:CrawlPage / schema:WebSite JSON-LD, validate against shacl/crawler/shapes.jsonld, and write to content/crawl/{job,page,site}/<id>.jsonld using gitstate."
               }
             }
           ]
@@ -315,7 +315,7 @@
         "content": {
           "@context": "https://schema.org/",
           "@type": "ItemList",
-          "name": "Capabilities: etzhayyim-project-resources",
+          "name": "Capabilities: itonami-project-resources",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -341,7 +341,7 @@
               "item": {
                 "@type": "DefinedTerm",
                 "name": "Crawler Data Persistence",
-                "description": "Persist crawler.etzhayyim.com crawl results as JSON-LD under content/crawl/. Jobs, pages, and site summaries are stored with deterministic keys and validated against shacl/crawler/shapes.jsonld."
+                "description": "Persist crawler.itonami.cloud crawl results as JSON-LD under content/crawl/. Jobs, pages, and site summaries are stored with deterministic keys and validated against shacl/crawler/shapes.jsonld."
               }
             },
             {
@@ -362,37 +362,37 @@
           "@context": [
             "https://schema.org/",
             {
-              "etzhayyim": "https://etzhayyim.com/schemas/",
-              "capabilities": "etzhayyim:capabilities",
-              "survivalIndicators": "etzhayyim:survivalIndicators",
-              "scheduler": "etzhayyim:scheduler",
-              "milestones": "etzhayyim:milestones",
-              "blockers": "etzhayyim:blockers",
+              "itonami": "https://itonami.cloud/schemas/",
+              "capabilities": "itonami:capabilities",
+              "survivalIndicators": "itonami:survivalIndicators",
+              "scheduler": "itonami:scheduler",
+              "milestones": "itonami:milestones",
+              "blockers": "itonami:blockers",
               "dependsOn": {
-                "@id": "etzhayyim:dependsOn",
+                "@id": "itonami:dependsOn",
                 "@type": "@id"
               },
-              "ingestKey": "etzhayyim:ingestKey",
-              "window": "etzhayyim:window",
-              "valueUpdatedAt": "etzhayyim:valueUpdatedAt"
+              "ingestKey": "itonami:ingestKey",
+              "window": "itonami:window",
+              "valueUpdatedAt": "itonami:valueUpdatedAt"
             }
           ],
           "@type": "CreativeWork",
-          "name": "ETZHAYYIM Resources Scheduler",
-          "identifier": "etzhayyim-project-resources/scheduler",
+          "name": "ITONAMI Resources Scheduler",
+          "identifier": "itonami-project-resources/scheduler",
           "description": "Project schedule (milestones) and blockers.",
           "dateCreated": "2026-02-15T04:25:26+00:00",
           "milestones": [
             {
               "@type": "CreativeWork",
               "name": "Periodic collector ingest to resources",
-              "description": "Run collector.export_jsonld from etzhayyim-project-collector and normalize into content/ti/{indicator,host,locale}.",
+              "description": "Run collector.export_jsonld from itonami-project-collector and normalize into content/ti/{indicator,host,locale}.",
               "dueDate": "2026-02-22",
               "status": "Done"
             }
           ],
           "scheduler": {
-            "@type": "etzhayyim:SchedulerConfig",
+            "@type": "itonami:SchedulerConfig",
             "automations": [
               {
                 "name": "resources-collector-export-ingest",

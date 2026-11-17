@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260109-f23a203b1b69",
   "headline": "Varonis Systems, Inc. to Report Q4 and Full-Year 2025 Financial Results on February 3, 2026 - Quiver Quantitative",
   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWnhQU2p0SXY4eU5hOTVtUmU1cFBubkgtUkV4WUxreVVVUkp1NzUzM1MtUWNJek5XR0ExS1REN3ZXUFFzR2pXZV9pSHBDNkxjZUQwSktyeDhjNGs1RnVzTzZpbGUxUEVjeWZrRVROSmszdm1Tdy0wUVZlaFkySU9OaVpaMWlTNHU5dVhvOUg3RXdPODM0TGp3LUEtSHhOcWJLUXA0WXdmX0pXRlpHVnBUd1RrS0JFQmx3cEhrVXVYNGkwbmlUQUxF?oc=5",

@@ -1,19 +1,19 @@
 {
   "@context": [
-    "https://resources.etzhayyim.com/ontology/supply-chain/context.jsonld",
+    "https://resources.itonami.cloud/ontology/supply-chain/context.jsonld",
     {
-      "stageOrder": "etzhayyim:stageOrder",
-      "dependsOnIds": "etzhayyim:dependsOnIds",
-      "sourceUrls": "etzhayyim:sourceUrls",
+      "stageOrder": "itonami:stageOrder",
+      "dependsOnIds": "itonami:dependsOnIds",
+      "sourceUrls": "itonami:sourceUrls",
       "sameAs": "schema:sameAs",
-      "processName": "etzhayyim:processName",
-      "inputComponentIds": "etzhayyim:inputComponentIds",
-      "outputComponentIds": "etzhayyim:outputComponentIds"
+      "processName": "itonami:processName",
+      "inputComponentIds": "itonami:inputComponentIds",
+      "outputComponentIds": "itonami:outputComponentIds"
     }
   ],
   "@graph": [
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/processes",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/processes",
       "@type": "Dataset",
       "identifier": "cleaning-robot-processes",
       "name": "Cleaning Robot End-to-End Process Graph",
@@ -21,7 +21,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/process/raw-material-preparation",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/process/raw-material-preparation",
       "@type": "Thing",
       "identifier": "raw-material-preparation",
       "processName": "Raw material preparation",
@@ -45,7 +45,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/process/component-fabrication",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/process/component-fabrication",
       "@type": "Thing",
       "identifier": "component-fabrication",
       "processName": "Battery, PCB, motor, and sensor fabrication",
@@ -80,7 +80,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/process/subassembly-and-ems",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/process/subassembly-and-ems",
       "@type": "Thing",
       "identifier": "subassembly-and-ems",
       "processName": "Subassembly and EMS integration",
@@ -109,7 +109,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/process/oem-productization",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/process/oem-productization",
       "@type": "Thing",
       "identifier": "oem-productization",
       "processName": "OEM productization and final assembly",
@@ -139,7 +139,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/process/export-logistics",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/process/export-logistics",
       "@type": "Thing",
       "identifier": "export-logistics",
       "processName": "Export logistics and regional distribution",

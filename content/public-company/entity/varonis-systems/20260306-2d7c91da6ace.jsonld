@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260306-2d7c91da6ace",
   "headline": "Deadline Soon: Varonis Systems, Inc. (VRNS) Shareholders Who Lost Money Urged to Contact the Law Offices of Frank R. Cruz About Securities Fraud Lawsuit - Business Wire",
   "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNUmJOVnNvM0xtbERrcU9sTEkwT2hYQmNBTGtFLW1OZGh4TXBCeEl2SUhsTDhrYzMycjZtTEpyeDhRRzdiNWtjYlhGdUVQdlNLcTBKNHVmd2pjeFdNdThyMklCSS1UTEFyM09hZnRFMl9pRGhucTRlWXJSdURacEJBT2F6ZTJDby03Z1ZTR1RMcWE2ZWVUQmtsSnNQaWZWVFFpRDI1azdDRnF6Zm1qVWYxZUpvcWwyUngwQTlSZzVUVUJvTW5xeC02Q3FQOHFOLW4tZ3RldkZ4NG1XWGp6Z1A0eXB6UDVpV0tFYlczS3FQcUJaWDZlaXAydzhDMHYtd0NzXzVWbXRJcnhLSTlRcXJrU2VpaUxmRkxvVXlXVUF2MEtjbXVtUU1MNFRKLUl1QQ?oc=5",

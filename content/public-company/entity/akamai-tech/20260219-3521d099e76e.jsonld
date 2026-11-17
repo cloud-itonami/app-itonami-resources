@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260219-3521d099e76e",
   "headline": "Akamai crashes as investors fret over weak guidance (AKAM:NASDAQ) - Seeking Alpha",
   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMGdfd1BicTBTbThUTXNyRjRXZU0zTTg3NTl0bWttRnVBYkQ1Vl8wMzNtTFBsdWNFVFpBM1NaRDlwbHVKNUhnMDVXVnloSUp1eThhOU1WZVZsWjNpOVlNUkZrTVJnSHNHcmVzOE50MUV1VDkwYXFNR2RhYVpPSXBwN0xiQ2tFRkl6bmlfNHVNWUpYV0U?oc=5",

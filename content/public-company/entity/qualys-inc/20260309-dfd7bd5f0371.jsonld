@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-dfd7bd5f0371",
   "headline": "American Century Companies Inc. Purchases 79,557 Shares of Qualys, Inc. $QLYS - MarketBeat",
   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUXdISzNGSGlIM3hHbTF4SHVzaTdLMXFyeVlNM1oxdG5Vb3Q2ZVNnR3VhTmF1bTVEZEJvUkl1cUQtMEtDZDFtUEduSHUwYnQ1RnRzbFRWdEpwTGlPdW1waE5SQ1pGMWN5Y1k4VWhBRVpMR3NOTjdSRTBlRTFzLVlobElKT1Q1RXUzUzM0Q0F5cV9EWklla2tfWmxoM3ZGOVBVWmhsbFkzTGxFV2gwZDQ4SW1HMjQ4V3hCNkRPbFByRHJLRWQ4Rk5UZV9RbHgxZw?oc=5",

@@ -10,8 +10,8 @@ Example schema:
 
 ```json
 {
-  "@context": ["https://schema.org/", {"etzhayyim": "https://resources.etzhayyim.com/ontology#", "prov": "http://www.w3.org/ns/prov#"}],
-  "@type": "etzhayyim:PublicCompanyAccounting",
+  "@context": ["https://schema.org/", {"itonami": "https://resources.itonami.cloud/ontology#", "prov": "http://www.w3.org/ns/prov#"}],
+  "@type": "itonami:PublicCompanyAccounting",
   "identifier": "apple-inc-accounting-2025",
   "company_id": "apple-inc",
   "currency": "USD",
@@ -27,4 +27,4 @@ Example schema:
 }
 ```
 
-When absent, the flow generator falls back to `etzhayyim-public-company-flow-model-v1` estimates.
+When absent, the flow generator falls back to `itonami-public-company-flow-model-v1` estimates.

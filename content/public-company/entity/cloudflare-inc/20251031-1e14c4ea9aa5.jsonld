@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251031-1e14c4ea9aa5",
   "headline": "Why Are Cloudflare (NET) Shares Soaring Today - TradingView",
   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTjhxN0VjQmk0WnF1UXZXN2VPTEdYSER2WUJxU05mYXVhZFFqOTN2LXhMNzdmZzloOF9fLXJaZndPRjMyWXNwQ3RWN2hTY3MxMFRjTllHQno2WTdnVnI4eWNrQ1BwNFFQQ2tZdEN3Z3JiYjNlYjdULXhPdTB5ZzRGU0dqcFdmNWMzWkotYVBfOUtiS2JkYjNwQ3V3SXVxT2stSFNpYTZnUQ?oc=5",

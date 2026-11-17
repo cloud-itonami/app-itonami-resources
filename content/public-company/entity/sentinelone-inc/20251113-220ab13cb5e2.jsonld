@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251113-220ab13cb5e2",
   "headline": "SentinelOne Announces Date of Fiscal Third Quarter 2026 Financial Results Conference Call and Participation in Upcoming Investor Conference - Business Wire",
   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNOE9Ud3p5RXJwNEVCRE9kRDkwdmdqZkdMXzl3QkRQOGZ2a1Z4alNaSzRSd2JoQW1JcDR4QnhhZ1N1ZnF5S1c3M2h6dDRLUzRDc2JDS0xHOGtPYjBEN0pVaFY5Q3JZdEt0bkoxdlVIOVhPbHgxSjdITVhGSF9LMVMybThqc2M5QXJtamY3dDhyMnhpSS1lbWFyNzkwOWdjWWJoY0hDeGc3NkJBZzlnRGFMVjVnVllQajhURVNKNHlNNUFHc0VuOXdWbFY5dEU0allhTDJ6V01FWndVLUsyME9UenFJM3B6R2VsNTF2emxmM0R1V0RoSHVtOXhwV0NiRkxYQktOekJRX0VfTGcxVFFvaFJPMTVtd1djcWd6R3A0ZUlGdw?oc=5",

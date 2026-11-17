@@ -1,16 +1,16 @@
 {
   "@context": {
-    "@vocab": "https://resources.etzhayyim.com/ontology#",
+    "@vocab": "https://resources.itonami.cloud/ontology#",
     "schema": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
-  "@type": "etzhayyim:ComplianceRuleBundle",
-  "@id": "https://resources.etzhayyim.com/content/legal/compliance-bundles/un-charter-rights-v1",
+  "@type": "itonami:ComplianceRuleBundle",
+  "@id": "https://resources.itonami.cloud/content/legal/compliance-bundles/un-charter-rights-v1",
   "identifier": "un-charter-rights-v1",
   "name": "UN Charter",
   "jurisdiction": "INTERNATIONAL",
   "dateModified": "2026-03-11T10:16:11+00:00",
-  "etzhayyim:compiledFrom": [
+  "itonami:compiledFrom": [
     {
       "name": "Charter of the United Nations",
       "url": "https://www.un.org/en/about-us/un-charter/full-text"

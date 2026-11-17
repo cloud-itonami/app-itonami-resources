@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260205-0fa695a71cfe",
   "headline": "Tenable Holdings, Inc. (NASDAQ:TENB) Q4 2025 Earnings Call Transcript - Insider Monkey",
   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZFJXQlhXS0JaaFprYy1uSm9YcTRSTWpFVi1SZXM5ZjJlUy02dU5aMXhfOUdVRUxva1ZfcUxxRTRnSGZVUUdoQnVwazRUTFdQTjlBbnFweWxVVm5QNUV5Z2JsWFJyNlZ4eWJ3bHNtMmJBYVlRRjBOcTlTVHdhUV9RT1puMEs4U1BhTDAzdGRYNEU2Z1d6UXQtc044bGVxNDZQWWdmeTdZaVVqNXlf?oc=5",

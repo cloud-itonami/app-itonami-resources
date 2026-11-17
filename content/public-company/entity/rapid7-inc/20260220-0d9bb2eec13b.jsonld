@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260220-0d9bb2eec13b",
   "headline": "Rapid7, Tenable, SentinelOne, Zscaler, and Qualys Shares Plummet, What You Need To Know - Yahoo Finance",
   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMHNjVXJ6UHdlVG1jVnVVVFlpUjFQbGZnVkU0UF84MUlRYW9UTHI5M3Z3cG9zX1NiMktVUFZ0aVhVVUx4OG9OUmxZMVBpMUxoV1FiVFA4TWIzb2IxemhsZFNPMUVidkF6Q1hhR1AxMzNxUm9yakFuREQ1eXNMcTVoTnI2bzVjQ1VZak9WOGRlTks?oc=5",

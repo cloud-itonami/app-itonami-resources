@@ -2,18 +2,18 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
-  "@type": "etzhayyim:PublicCompanyProfile",
+  "@type": "itonami:PublicCompanyProfile",
   "identifier": "hino-motors",
   "name": "Hino Motors, Ltd.",
   "legalName": "Hino Motors, Ltd.",
   "tickerSymbol": "7205",
-  "etzhayyim:exchangeMic": "XTKS",
-  "etzhayyim:countryCode": "JP",
-  "etzhayyim:parentCompanyId": "toyota-motor",
+  "itonami:exchangeMic": "XTKS",
+  "itonami:countryCode": "JP",
+  "itonami:parentCompanyId": "toyota-motor",
   "url": "https://www.hino-global.com/",
   "description": "Public company profile for automated IR/News ingestion and entity generation.",
   "prov:generatedAtTime": "2026-03-03T00:00:00Z"

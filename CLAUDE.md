@@ -1,11 +1,11 @@
-# etzhayyim-project-resources — Entity Graph Runbook
+# itonami-project-resources — Entity Graph Runbook
 
-`60-apps/etzhayyim-project-resources` の権威ルール。
+`60-apps/itonami-project-resources` の権威ルール。
 詳細設計は `90-docs/260313-entity-graph-arrow-jsonld-design.md` を正とする。
 
 ## CRITICAL: Entity Graph Standard — SQL WIT Only
 
-→ `etzhayyim dodaf tv1 query --id etzhayyim-project-resources-entity-graph-standard-sql-wit-o` / MCP `etzhayyim.dodaf.tv1.query`
+→ `itonami dodaf tv1 query --id itonami-project-resources-entity-graph-standard-sql-wit-o` / MCP `itonami.dodaf.tv1.query`
 
 ## Namespace 命名規則
 
@@ -13,18 +13,18 @@
 
 | prefix | namespace IRI | 対象エンティティ |
 |---|---|---|
-| `party` | `https://etzhayyim.com/entities/party/` | 個人・法人 (Party, PartyPerson) |
-| `org` | `https://etzhayyim.com/entities/org/` | 組織 (court, agency, company) |
-| `ci` | `https://etzhayyim.com/entities/ci/` | Configuration Item |
+| `party` | `https://itonami.cloud/entities/party/` | 個人・法人 (Party, PartyPerson) |
+| `org` | `https://itonami.cloud/entities/org/` | 組織 (court, agency, company) |
+| `ci` | `https://itonami.cloud/entities/ci/` | Configuration Item |
 | `case` | `https://courts.go.jp/cases/` | 判例 (case-intelligence) |
-| `caseintel` | `https://etzhayyim.com/vocab/caseintel/` | caseintel 述語語彙 |
-| `capital` | `https://etzhayyim.com/entities/capital/` | Capital エンティティ群 |
-| `product` | `https://etzhayyim.com/entities/product/` | Product |
-| `location` | `https://etzhayyim.com/entities/location/` | Location (address, building) |
-| `ip` | `https://etzhayyim.com/entities/ip/` | IP アドレス |
-| `webpage` | `https://etzhayyim.com/entities/webpage/` | Webpage (crawl entity) |
-| `pachinko-store` | `https://etzhayyim.com/entities/pachinko-store/` | パチンコ店舗 |
-| `pachinko-chain` | `https://etzhayyim.com/entities/pachinko-chain/` | パチンコチェーン |
+| `caseintel` | `https://itonami.cloud/vocab/caseintel/` | caseintel 述語語彙 |
+| `capital` | `https://itonami.cloud/entities/capital/` | Capital エンティティ群 |
+| `product` | `https://itonami.cloud/entities/product/` | Product |
+| `location` | `https://itonami.cloud/entities/location/` | Location (address, building) |
+| `ip` | `https://itonami.cloud/entities/ip/` | IP アドレス |
+| `webpage` | `https://itonami.cloud/entities/webpage/` | Webpage (crawl entity) |
+| `pachinko-store` | `https://itonami.cloud/entities/pachinko-store/` | パチンコ店舗 |
+| `pachinko-chain` | `https://itonami.cloud/entities/pachinko-chain/` | パチンコチェーン |
 | `schema` | `https://schema.org/` | Schema.org 標準語彙 |
 | `xsd` | `http://www.w3.org/2001/XMLSchema#` | XSD リテラルデータ型 |
 
@@ -56,5 +56,5 @@ service GraphQueryService {
 
 ## Use-When-Needed Policy
 
-このファイルは `etzhayyim-project-resources` 配下を変更するときのみ参照する。
+このファイルは `itonami-project-resources` 配下を変更するときのみ参照する。
 設計詳細は `90-docs/260313-entity-graph-arrow-jsonld-design.md` に委譲。

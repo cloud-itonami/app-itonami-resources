@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-950a6341afd0",
   "headline": "Outage at Cloudflare temporarily disrupts access to some popular websites - abcnews.com",
   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnJCblZmbkEteGVzTjF4T1ZCWF92aGRsYk1sUlZwVnYxaDhvdFNtYUUtazRTZ0lzR1Eyc2xSYTR0bWY5ZHJyWmJ4bHoyUEd6eUtoTE1LbjNlcm1rU3RPcjdrRHE5aWZQb3RrQVhkMkpfUmF1SEk1NmJLckNodi12czBXY3ZJejRDTnpCNXBOUEVOTXNpb3EtOXFhMU81QTTSAaQBQVVfeXFMTUlyYXZlcTR0TjFLWmQzMGViTXVCWDdjMmhqQjlTSElIc2NzTTRSZHdDZzFZZjA2djZJcncwZTFweFEtRFl6WWQyZ0NHdVAyMHRIbHJiQm80bmF1bGhUXzQtLUI3ZVA1ZDJzT2ZocXI3QlVfWDVBOUI3VDZqXzlzb1FiNnNFU2h1MmhBQVRNajF6akl3R2N0cWNBQXA0T25kNHhJdzI?oc=5",

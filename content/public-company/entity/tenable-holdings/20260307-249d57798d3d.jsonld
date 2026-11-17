@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260307-249d57798d3d",
   "headline": "Why Wells Fargo Is Cautious on Tenable (TENB) Despite Its Market Position - Finviz",
   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOExlSlA4MjZCM0xaLXU2OG9FWXJzUjhvLURCcVlJMF92T3JJMmpvT19KUmR4TTh2cVV5N184ZnkxVG50TGtoLWg4anF6bktyRFJLdm1vbGRxQ3ZrV0xxZGREeEtYNkZUd1NYbGgzRmwycFcwVExPWGgxNXRmc0R3a0NyM05PNlJoNFVCQklORk1lcmFlMlA4N0gtd1d0SXkxbm5zOQ?oc=5",

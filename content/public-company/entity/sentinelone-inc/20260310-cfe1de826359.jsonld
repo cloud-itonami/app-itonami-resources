@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-cfe1de826359",
   "headline": "ZAWYA-PRESSR: SentinelOne appoints Sonalee Parekh as chief financial officer - TradingView",
   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR25rZWgyRzJqbi1RQ1h4UFAtT2R2WWNodW5LQ1c2dEgzWTVjbW9rNXhGYmsyODhnWlo4dEJIY01wUXN5a096SkpLc19QaW43T2JSbkpVYXdxTW42MzI3QjBuZ182OEd0RDJ4RWs4N3Z6eWEyT24tTVdNZC1jZGJwMkptWmhHT3oteU1YQWw4dDFHOVB3MS1SQlN2YjRxN19kMVQ2QkpHS3JlT1RaeE54am5CdzFJSlI0Q2h1dDJlWmg0aUdQcmhnbWt6QUF4cmFCM1FlMHBaUlFTNjFKaTFKbE5kOHNNQQ?oc=5",

@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251014-0aac0aa73f43",
   "headline": "Earnings call transcript: Tenable Q2 2025 sees 12% revenue growth and AI expansion - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR3Y4eV9lMktKVzBQNzNQS19uU3RXUklKcG5CVTE2bFU1ZC1QRzNuQ2p4SW5rSV9CVnJnRUNleE9uZldFVjM1X29VeHZHdXprNWFyMFh5NGZleFJkbGNVVzA5cGxTc2Qyck4xZmlGM2FjcUhIRTlUR1BlcHlhR01xNnVRTk5GMFZfR3FXTXNTUXBoR3ZWQ0dzdzhUTVh6YWpuX3JSdFBnYzFzR3lnaVRrN1ZwTDVPQkY4czhjdFFiTTJ4bFEwWEZWakRCT1NwWHpsMkE?oc=5",

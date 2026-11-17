@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260220-35d922e1f44d",
   "headline": "Why Varonis Systems (VRNS) Shares Are Falling Today - TradingView",
   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOWFxTW1jVVFZNnNrSGMyXzJNRmN2NjZZTGhZa1ZRSkZuRFdKQXJXNlJpUWF0YVBoaE5PaGtxVEYzb3NYRDRSR0ZqeEZ6NlNtT21oQ3VFVGs3QW14VTZINVVWdXJxelY0eGdVX0ZEWTZLcXF1TXZTSHd3cGhCZTRJOU1tckxuRzl6c0tHakFaMTY2N3FfWkNobTRsazd3QTFpSUFkaW9pQ2x1MW91VjZB?oc=5",

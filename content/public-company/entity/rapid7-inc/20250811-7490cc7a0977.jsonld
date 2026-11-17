@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250811-7490cc7a0977",
   "headline": "Rapid7 to Present at Canaccord and Piper Sandler Conferences: Key Investor Updates Coming - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPclhKZGZ3Y1F1R2VRcHFHQ1d6ZlJRM1VRMG92YXVHT0lMeDQ3R0JMb1FQX0F4REdkYUphMlFta2tKMm9WaGxtdlp1S0pTYm0zSlcyTVBNX21jeEVDOFpxYTVaVkVUaGIwWks0VTc5VWlzZnNVREFLcDhUTXo1RnJMU3hhdFQtUHJQOUxJVkNVcmtHOXhhYzcxckt6emg?oc=5",

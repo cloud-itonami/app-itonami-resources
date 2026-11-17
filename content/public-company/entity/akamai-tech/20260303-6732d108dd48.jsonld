@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260303-6732d108dd48",
   "headline": "Sprout Social, Marqeta, HubSpot, Unity, and Akamai Technologies Stocks Trade Up, What You Need To Know - TradingView",
   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcjQzazNvUGh1aVEtam1SY2V1VnlvYzZPcmlfMy1uak1Vd1c5YlBFakFJU3BiMnZmUXNVNVVveE9ld2poOTJXbS1RdjZ2Q3ZFZXY5SHRSbWxjQ09Ed253dkZGaUlSRXkwSDJic1pLOGE5dFJwUDBwOExYLXp0Z05yMmthOTJLbnFSUE1lYjZjRFhJbWhuR0ZEXzFPV1diQ19vOGpNNERSaUZNLVk0Qi1IWGZCR19PT2Y5d1JRVHoxYl9ILVhfSHVCbFB3UnRFd2Y0VUdPb1RKTTBGS3dnalVCc19zbmRwRUh2QXpYQW56Yw?oc=5",

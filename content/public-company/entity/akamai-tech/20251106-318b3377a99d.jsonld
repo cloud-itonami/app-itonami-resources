@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251106-318b3377a99d",
   "headline": "AKAMAI REPORTS THIRD QUARTER 2025 FINANCIAL RESULTS - PR Newswire",
   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd0NCZ1plZm1XNEV2a2ZjRGwtQ1NiZEJGRVdxSHFsT1VqRjdDRmVqRFVyN0x4dTdFeVo0QWVqaUh1TTZ0SndtSVhkSmgxcGNpc3lPMzdHRWpmNUJScGhXSnEwcFNoQ2laOUNCTFNJYW1RU1RmNFEwRzVrbUo2bm5rSUlUSDRMMHk3Y0hfd2JSVDU0UUQ5aWw5TWFuM21WZ1FVU1BfSVY1c3dUMnc?oc=5",

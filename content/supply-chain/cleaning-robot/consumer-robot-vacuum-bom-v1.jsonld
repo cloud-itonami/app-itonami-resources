@@ -1,21 +1,21 @@
 {
   "@context": [
-    "https://resources.etzhayyim.com/ontology/supply-chain/context.jsonld",
+    "https://resources.itonami.cloud/ontology/supply-chain/context.jsonld",
     {
       "sameAs": "schema:sameAs",
       "keywords": "schema:keywords",
       "hasPart": "schema:hasPart",
-      "dependsOnIds": "etzhayyim:dependsOnIds",
-      "variantType": "etzhayyim:variantType",
-      "bomCategory": "etzhayyim:bomCategory",
-      "sharePct": "etzhayyim:sharePct",
-      "supplierCompanyIds": "etzhayyim:supplierCompanyIds",
-      "referenceProcessIds": "etzhayyim:referenceProcessIds"
+      "dependsOnIds": "itonami:dependsOnIds",
+      "variantType": "itonami:variantType",
+      "bomCategory": "itonami:bomCategory",
+      "sharePct": "itonami:sharePct",
+      "supplierCompanyIds": "itonami:supplierCompanyIds",
+      "referenceProcessIds": "itonami:referenceProcessIds"
     }
   ],
   "@graph": [
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1",
       "@type": "Dataset",
       "identifier": "consumer-robot-vacuum-bom-v1",
       "name": "Consumer Robot Vacuum BOM Variant v1",
@@ -36,17 +36,17 @@
         "export-logistics"
       ],
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/components",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-electronics",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-drive-system",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-battery-system",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-plastics",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-assembly-and-logistics"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/components",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-electronics",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-drive-system",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-battery-system",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-plastics",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-assembly-and-logistics"
       ],
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-electronics",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-electronics",
       "@type": "Thing",
       "identifier": "consumer-bom-line-electronics",
       "name": "Electronics and navigation stack",
@@ -54,9 +54,9 @@
       "sharePct": 31,
       "description": "Main control board, docking board, IMU, cliff sensors, wireless module, LiDAR navigation module.",
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/main-control-pcb",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/lidar-navigation-module",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/imu-and-safety-sensor-set"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/main-control-pcb",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/lidar-navigation-module",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/imu-and-safety-sensor-set"
       ],
       "supplierCompanyIds": [
         "kinwong",
@@ -69,7 +69,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-drive-system",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-drive-system",
       "@type": "Thing",
       "identifier": "consumer-bom-line-drive-system",
       "name": "Suction and drive system",
@@ -77,9 +77,9 @@
       "sharePct": 24,
       "description": "Suction motor, wheel motors, blower path, side brush actuation, roller drive and balancing.",
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/suction-motor",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/drive-motor-set",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/brush-and-roller-module"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/suction-motor",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/drive-motor-set",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/brush-and-roller-module"
       ],
       "supplierCompanyIds": [
         "nidec"
@@ -91,7 +91,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-battery-system",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-battery-system",
       "@type": "Thing",
       "identifier": "consumer-bom-line-battery-system",
       "name": "Battery pack and charging system",
@@ -99,8 +99,8 @@
       "sharePct": 17,
       "description": "Lithium-ion pack, BMS board, charger path, dock charging contacts, adapter.",
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/lithium-battery-pack",
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/dock-charging-assembly"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/lithium-battery-pack",
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/dock-charging-assembly"
       ],
       "supplierCompanyIds": [
         "panasonic-energy"
@@ -111,7 +111,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-plastics",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-plastics",
       "@type": "Thing",
       "identifier": "consumer-bom-line-plastics",
       "name": "Housing, bumper, dock plastics",
@@ -119,7 +119,7 @@
       "sharePct": 18,
       "description": "Injection-molded upper/lower shells, bumper frame, dock shell, dustbin and filter support structures.",
       "hasPart": [
-        "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/injection-molded-housing"
+        "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/injection-molded-housing"
       ],
       "supplierCompanyIds": [
         "sabic",
@@ -129,7 +129,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-assembly-and-logistics",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/consumer-robot-vacuum-bom-v1#line-assembly-and-logistics",
       "@type": "Thing",
       "identifier": "consumer-bom-line-assembly-and-logistics",
       "name": "Final assembly, QA, packaging, distribution",

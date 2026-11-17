@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-2bb8ab152674",
   "headline": "VRNS Investors Have Opportunity to Lead Varonis Systems, Inc. Securities Fraud Lawsuit with the Schall Law Firm - PR Newswire",
   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdFRsNzcxazZRalJXaVo2MC1hMHdLb2NZVXRnYzVFOTh3c3pub3g5c0kzX3NuQnYzOHJLZzlwZUFDSnAwaWczM2VBNEtOeFM3VFRYTUJhYmNwZjdhYnhOVlR6dzFzbU1qdmZPdlVzOUxNMUNHZnI0TEVNT1FXUS0xNnJ0OTQ5Z0FQUVpuT0VaLVUybzVjOG9wdE83OGpfQ2dWZWRScGQ2ank0RnlwcGlScDB3VjFIX1pITmNLYmJLOVlTMldnc2dIVjFTbkpwQ0hiVzYySzhZNGNZOV82Y1gzZmtnZHNlQ1BSVVNMQnEtb0hVYTZwWjY5Qw?oc=5",

@@ -13,8 +13,8 @@
   this migration itself changed:
 
   - `:app/route-count` and `:app/routes` now report what `wrangler.jsonc`
-    actually declares (2 route patterns: `r3s0urc3.etzhayyim.com/*` and
-    `resources.etzhayyim.com/*`), not the stale `0` / `[]` the Svelte
+    actually declares (2 route patterns: `r3s0urc3.itonami.cloud/*` and
+    `resources.itonami.cloud/*`), not the stale `0` / `[]` the Svelte
     constant carried.
   - `:app/relative-path` now names this file, not the deleted Svelte one.
   - `:app/xrpc?` is now false. This migration's wrangler.jsonc drops
@@ -38,11 +38,11 @@
 
     (require '[jp-go-dds.page :as page] '[clojure.java.io :as io])
     (spit \"public/index.html\"
-          (page/->page {:title \"etzhayyim-project-resources\"
+          (page/->page {:title \"itonami-project-resources\"
                          :lang \"ja\"
                          :description \"resources — Resource Management Platform appview (reagent + re-frame + jp-go-dds).\"
                          :css (slurp (io/resource \"jp_go_dds/dds.css\"))}
-                        [:div {:id \"app\"} \"etzhayyim-project-resources loading…\"]
+                        [:div {:id \"app\"} \"itonami-project-resources loading…\"]
                         [:script {:src \"js/app.js\"}]))"
   (:require [reagent.dom :as rdom]
             [re-frame.core :as rf]
@@ -55,11 +55,11 @@
 
 (def default-db
   {:app/title "Resources Mcp Component"
-   :app/project "etzhayyim-project-resources"
+   :app/project "itonami-project-resources"
    :app/name "resources-mcp-component"
    :app/kind "appview"
    :app/route-count 2
-   :app/routes ["r3s0urc3.etzhayyim.com/*" "resources.etzhayyim.com/*"]
+   :app/routes ["r3s0urc3.itonami.cloud/*" "resources.itonami.cloud/*"]
    :app/vars ["AGENTGATEWAY_MCP_ROUTER_URL" "APP_CAPABILITIES" "APP_DESCRIPTION"
               "APP_DISPLAY_NAME" "APP_FRAMEWORK" "APP_NANOID" "APP_PERFORMER_TYPE"
               "APP_UI_TYPE"]
