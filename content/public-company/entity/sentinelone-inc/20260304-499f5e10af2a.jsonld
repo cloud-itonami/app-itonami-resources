@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260304-499f5e10af2a",
   "headline": "SentinelOne Stock Decline & Financial Outlook 2026 | Cybersecurity Stock Analysis - News and Statistics - IndexBox - Market Intelligence Platform",
   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRFdkZ1FhRHFHZUVrSjhvNDJ2WllWV1N2SkhZeW15UHV3UVh0dTZwNlk0NkJBVTA5NjlmTTJwaTBGWHJIYS1uelZjcGI3ZmlLQlpvM3ZEaC1YYjdUTks3MVFkVDUzNzdvcWM2X1lUVlpFS29UNnhpLTJ5dEIxdjY0S2pOU1E0WXpH?oc=5",

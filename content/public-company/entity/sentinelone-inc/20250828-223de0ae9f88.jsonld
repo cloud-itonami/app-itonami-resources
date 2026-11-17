@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250828-223de0ae9f88",
   "headline": "Earnings call transcript: SentinelOne beats Q2 2026 EPS forecast, stock rises - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMDk2LXRtZWs2LVBQMmRWeDZfS0cyWGdTSERmcVBNaXpoU21uMTJCbDJBOUIyTHYzTFNkTGVMTXJHOGhnVHNTU2c5TU9ZYlVDUEJjcEZqMDA5LXlBVDEyZGE1eV9Pc1lXVzR2bVBKZUVCZzNWLVRGWGFacFRBMnZPRVhoU1diN1NxdXE4Z3JJak4wMndvRVlzNDlQZng0bDNEd0lUYmRGS1lIcEtURkI0djVVYUthcTB2eXJyYzJpNGRYSmtvNmt4b0R0VQ?oc=5",

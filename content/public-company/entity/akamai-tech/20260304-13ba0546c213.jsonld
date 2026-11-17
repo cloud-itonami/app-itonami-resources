@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260304-13ba0546c213",
   "headline": "Akamai Technologies CEO Details AI Inference Cloud Push, 45%-50% Cloud Growth at Conference - Yahoo Finance",
   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWXZ1UjB0ZERvZDVpSnBYVTAxUWozeW5tRkwtQ1hKdThQRWoySlFVOWdNVGtWV1d5b1dJN3pJTy1qWG9DN0V1cWEtN2xEVVdnUk1XV0NrRVpxY0J3UGpLc04xNWVETU96ZU95c1hWZFh3UTFuOVVsYzE2a3VHaTlQakUzeXlIUWc?oc=5",

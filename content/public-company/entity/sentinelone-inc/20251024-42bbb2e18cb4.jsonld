@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251024-42bbb2e18cb4",
   "headline": "SentinelOne: Expensive Today, Cheap Tomorrow If Growth Delivers (NYSE:S) - Seeking Alpha",
   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNlg0WnpBUm1PSl95MjhBNmdoellGS0tZWGVPc0U5emczdmFDUDlaQlJEOTNORTM0YzZSZEN1dGZEZEwxQzJtMzBZTjdLVmVpQk80UTd3dTlpY3kzUy1sNVB1UVRKNmxEMTh4SHZHT0xBdEZyVVp6dFZ4eEdBcGpLbVVtMXctbFNDMV9oZjZwb29iSjBGWUJad01XWGZNOW5iYV8tRQ?oc=5",

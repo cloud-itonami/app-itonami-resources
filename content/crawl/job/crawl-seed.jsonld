@@ -1,14 +1,14 @@
 {
-  "@context": "https://resources.etzhayyim.com/ontology/crawler/context.jsonld",
-  "@type": "etzhayyim:CrawlJob",
-  "@id": "https://resources.etzhayyim.com/content/crawl/job/crawl-seed",
+  "@context": "https://resources.itonami.cloud/ontology/crawler/context.jsonld",
+  "@type": "itonami:CrawlJob",
+  "@id": "https://resources.itonami.cloud/content/crawl/job/crawl-seed",
   "identifier": "crawl-seed",
-  "url": "https://etzhayyim.com",
+  "url": "https://itonami.cloud",
   "actionStatus": "completed",
   "depth": 2,
   "maxPages": 100,
   "pagesFound": 42,
   "startTime": "2026-02-17T00:41:12Z",
   "generatedAtTime": "2026-02-17T01:41:12Z",
-  "userAgent": "etzhayyim-crawler/1.0"
+  "userAgent": "itonami-crawler/1.0"
 }

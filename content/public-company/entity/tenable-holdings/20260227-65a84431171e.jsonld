@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260227-65a84431171e",
   "headline": "Tenable Holdings, Inc. SEC 10-K Report - TradingView",
   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWkZ5aTV2Y2RfZ3BySWtfbnVfVDgwUi1vOWVYUTExMWVJUE9Tb2oyeXA5dXZTSFEzekZtMVdIR2JHT01MbmZ6czdLLW05VWlzSGlsWDF4eXNUNXk0bzdTVmFwV1U4bDZWdnUtZTdDNFVlNFRUYnJuUkxnd0RDb3JGTmt6cTEzenhxQXZHSUhZbzZ1WHV4R04yLVhMVWloUzg?oc=5",

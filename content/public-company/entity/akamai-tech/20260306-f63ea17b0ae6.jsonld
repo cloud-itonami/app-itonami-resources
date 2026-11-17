@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260306-f63ea17b0ae6",
   "headline": "Akamai Technologies spotlights AI-powered connectivity and cloud advances at MWC26 - Traders Union",
   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaU9mOE1weDhjMlRWRXNTUUxTRW1MRHlOc0tEMEg3UDVVMHdpMXY5eE8tdjV6MTI1bnpMZHlVaG1PSjVBUWh1OVdTS1IteW1jZ0pWM1VtYXpLZFFnbGFYbGhZY2twZFMwZjgteXhwcTZqSXB3RmtBUzlwRWhrWlNwNWNDWGo2Z0dMcUE?oc=5",

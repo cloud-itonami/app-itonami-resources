@@ -1,6 +1,6 @@
 {
-  "@context": "https://etzhayyim.com/ns/kotodama/v1",
-  "@id": "did:web:resources.etzhayyim.com",
+  "@context": "https://itonami.cloud/ns/kotodama/v1",
+  "@id": "did:web:resources.itonami.cloud",
   "name": "resources",
   "nanoid": "r3s0urc3",
   "project": "resources",
@@ -26,8 +26,8 @@
   "triggers": {
     "subscribeRepos": {
       "collections": [
-        "ai.etzhayyim.apps.resources.resource",
-        "ai.etzhayyim.apps.resources.allocation"
+        "cloud.itonami.apps.resources.resource",
+        "cloud.itonami.apps.resources.allocation"
       ]
     }
   }

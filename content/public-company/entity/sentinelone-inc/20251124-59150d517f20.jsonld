@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251124-59150d517f20",
   "headline": "SentinelOne stock price target lowered to $22 by Cantor Fitzgerald - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYkt5bFljVHdubm5mc1lnc0Q1UWFrQVI2QkF6aHlHblp0bXBFM0RHVW5kVFBYdXBvSWtJdGo0V0t1cHU2RldjUjBYVFJHaE5iWTlVOVF5Z281MDJKeWt0U01pRHpPNzNnVUItY21tTDZMcm1iTm5DN25OdExNRVBOLUhPdHZGTEgwTThJXy1LaXkwb3N3cEtDRmpMMUZaQXpOSlFjaV8yY2hkNEJXMmE2aHJodmVHLWstZmRUUWZJdkRiUEU?oc=5",

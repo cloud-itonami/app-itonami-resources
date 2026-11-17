@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-7185de569b90",
   "headline": "Gartner tags AI-powered Tenable platform guarding factories and grids - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPem9FMFZweV94bFA3UVhvNmZKRE9EZUIxUENQMUhucFNmYXJQZzZkTXdrWGlOMExIYnRySTZvNm8yb1lHU1o1OVA4RjBnQzRuYTc3TzE2UDlEYWZQYkZiYzNwYlE1SXBxbW96aUluQ3pyWHBvOVU2SkUxTDhZelB6eVlyTWpxQjNvVG5kV2c4cDRzNURfaFQ1TUpGblFpbnZMUWpvMkFfZ2M2bWNMTHY0aFNodmpLWUR1MjZEM2hiTjE?oc=5",

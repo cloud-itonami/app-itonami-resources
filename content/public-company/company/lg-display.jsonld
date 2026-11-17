@@ -2,18 +2,18 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
-  "@type": "etzhayyim:PublicCompanyProfile",
+  "@type": "itonami:PublicCompanyProfile",
   "identifier": "lg-display",
   "name": "LG Display Co., Ltd.",
   "legalName": "LG Display Co., Ltd.",
   "tickerSymbol": "034220",
-  "etzhayyim:exchangeMic": "XKRX",
-  "etzhayyim:countryCode": "KR",
-  "etzhayyim:parentCompanyId": "lg-corp",
+  "itonami:exchangeMic": "XKRX",
+  "itonami:countryCode": "KR",
+  "itonami:parentCompanyId": "lg-corp",
   "url": "https://www.lgdisplay.com/eng",
   "description": "Public company profile for automated IR/News ingestion and entity generation.",
   "prov:generatedAtTime": "2026-03-03T00:00:00Z"

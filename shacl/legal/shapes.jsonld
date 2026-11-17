@@ -2,13 +2,13 @@
   "@context": {
     "sh": "http://www.w3.org/ns/shacl#",
     "schema": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+    "itonami": "https://resources.itonami.cloud/ontology#",
     "eli": "http://data.europa.eu/eli/ontology#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "@graph": [
     {
-      "@id": "etzhayyim:LegislationShape",
+      "@id": "itonami:LegislationShape",
       "@type": "sh:NodeShape",
       "sh:targetClass": "schema:Legislation",
       "sh:property": [
@@ -38,26 +38,26 @@
           "sh:nodeKind": "sh:IRI"
         },
         {
-          "sh:path": "etzhayyim:legislationIdentifier",
+          "sh:path": "itonami:legislationIdentifier",
           "sh:maxCount": 1,
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:legislationType",
+          "sh:path": "itonami:legislationType",
           "sh:maxCount": 1,
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:legislationStatus",
+          "sh:path": "itonami:legislationStatus",
           "sh:maxCount": 1,
           "sh:datatype": "xsd:string"
         }
       ]
     },
     {
-      "@id": "etzhayyim:CourtShape",
+      "@id": "itonami:CourtShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:Court",
+      "sh:targetClass": "itonami:Court",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -75,21 +75,21 @@
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:courtType",
+          "sh:path": "itonami:courtType",
           "sh:minCount": 1,
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:courtLevel",
+          "sh:path": "itonami:courtLevel",
           "sh:minCount": 1,
           "sh:datatype": "xsd:integer"
         }
       ]
     },
     {
-      "@id": "etzhayyim:CourtCaseShape",
+      "@id": "itonami:CourtCaseShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:CourtCase",
+      "sh:targetClass": "itonami:CourtCase",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -102,41 +102,41 @@
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:caseNumber",
+          "sh:path": "itonami:caseNumber",
           "sh:minCount": 1,
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:caseName",
+          "sh:path": "itonami:caseName",
           "sh:minCount": 1,
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:decisionDate",
+          "sh:path": "itonami:decisionDate",
           "sh:minCount": 1,
           "sh:datatype": "xsd:date"
         },
         {
-          "sh:path": "etzhayyim:decisionType",
+          "sh:path": "itonami:decisionType",
           "sh:minCount": 1,
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:decidedBy",
+          "sh:path": "itonami:decidedBy",
           "sh:minCount": 1,
           "sh:nodeKind": "sh:IRI"
         },
         {
-          "sh:path": "etzhayyim:ecli",
+          "sh:path": "itonami:ecli",
           "sh:maxCount": 1,
           "sh:datatype": "xsd:string"
         }
       ]
     },
     {
-      "@id": "etzhayyim:JudgeShape",
+      "@id": "itonami:JudgeShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:Judge",
+      "sh:targetClass": "itonami:Judge",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -154,21 +154,21 @@
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:judgeCategory",
+          "sh:path": "itonami:judgeCategory",
           "sh:minCount": 1,
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:assignedCourt",
+          "sh:path": "itonami:assignedCourt",
           "sh:minCount": 1,
           "sh:nodeKind": "sh:IRI"
         }
       ]
     },
     {
-      "@id": "etzhayyim:LawyerShape",
+      "@id": "itonami:LawyerShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:Lawyer",
+      "sh:targetClass": "itonami:Lawyer",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -186,21 +186,21 @@
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:registrationNumber",
+          "sh:path": "itonami:registrationNumber",
           "sh:minCount": 1,
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:barAssociation",
+          "sh:path": "itonami:barAssociation",
           "sh:minCount": 1,
           "sh:nodeKind": "sh:IRI"
         }
       ]
     },
     {
-      "@id": "etzhayyim:BarAssociationShape",
+      "@id": "itonami:BarAssociationShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:BarAssociation",
+      "sh:targetClass": "itonami:BarAssociation",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -218,16 +218,16 @@
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:barAssociationCode",
+          "sh:path": "itonami:barAssociationCode",
           "sh:minCount": 1,
           "sh:datatype": "xsd:string"
         }
       ]
     },
     {
-      "@id": "etzhayyim:TreatyShape",
+      "@id": "itonami:TreatyShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:Treaty",
+      "sh:targetClass": "itonami:Treaty",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -240,26 +240,26 @@
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:signedDate",
+          "sh:path": "itonami:signedDate",
           "sh:maxCount": 1,
           "sh:datatype": "xsd:date"
         },
         {
-          "sh:path": "etzhayyim:entryIntoForceDate",
+          "sh:path": "itonami:entryIntoForceDate",
           "sh:maxCount": 1,
           "sh:datatype": "xsd:date"
         },
         {
-          "sh:path": "etzhayyim:signatoryJurisdictions",
+          "sh:path": "itonami:signatoryJurisdictions",
           "sh:minCount": 1,
           "sh:datatype": "xsd:string"
         }
       ]
     },
     {
-      "@id": "etzhayyim:RegulationShape",
+      "@id": "itonami:RegulationShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:Regulation",
+      "sh:targetClass": "itonami:Regulation",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -277,12 +277,12 @@
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:issuingAuthority",
+          "sh:path": "itonami:issuingAuthority",
           "sh:minCount": 1,
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:regulationStatus",
+          "sh:path": "itonami:regulationStatus",
           "sh:maxCount": 1,
           "sh:datatype": "xsd:string"
         }

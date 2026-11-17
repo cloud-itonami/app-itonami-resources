@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-f816b45ec4da",
   "headline": "Tenable® Holdings, Inc. Named a Challenger in 2026 Gartner® Magic Quadrant™ for CPS Protection Platforms - Quiver Quantitative",
   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVUwtUFZ2aElXUWZiTHZpZHhGMklFcVloS19sdVBVTWtGWWFodGNRNE9MNVpiak5TSDVuYWY1dHdZTHk5ZUExSjNnMmh2UDZJVEh0VkxKT24yYjZoTDBzVWY2SzBFX1J5eGdXXzFSemZYemtHLVR1UVJEMG5pNTRxUzFzbWlLbU96UlVtTXZtQ1BqMVo3WDhOcGZGWXpwN1JFc1VrMG1ZWkR5SHdlMVU2UTQ2dlJqRnhGZFNVcWNWSUVFMDlNNVl0RzJUR2JZYTl0YkhzSTR1OVVJNXpGdXN6RTQ2ZlRPRlIxM2lsWU5R?oc=5",

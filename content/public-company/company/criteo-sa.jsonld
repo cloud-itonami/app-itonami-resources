@@ -2,17 +2,17 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
-  "@type": "etzhayyim:PublicCompanyProfile",
+  "@type": "itonami:PublicCompanyProfile",
   "identifier": "criteo-sa",
   "name": "Criteo S.A.",
   "legalName": "Criteo S.A.",
   "tickerSymbol": "CRTO",
-  "etzhayyim:exchangeMic": "XNAS",
-  "etzhayyim:countryCode": "FR",
+  "itonami:exchangeMic": "XNAS",
+  "itonami:countryCode": "FR",
   "url": "https://investor.criteo.com/",
   "description": "Public company profile for automated IR/News ingestion and entity generation.",
   "prov:generatedAtTime": "2026-03-03T00:00:00Z"

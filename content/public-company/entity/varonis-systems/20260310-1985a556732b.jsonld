@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-1985a556732b",
   "headline": "BW Gestao de Investimentos Ltda. Purchases Shares of 319,751 Varonis Systems, Inc. $VRNS - MarketBeat",
   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNXFOOTlfQ3RUZGJZZjd5b3JudFR6clNXZ21aNF9OZUNKdmZ3UkxSNmw2cVVEb1VJaWVEMVRISHcyT3FxVjZMbzBqWFpmb1pSQUZSZFR5VkNQRVN4dGswM3BlOENwLTJSb2lFcFNrbHFLa3FldEszQnIxR21YWktzRlVSaC1LdzBVOE5yZDlrbFZWNnlqUG1wTlNvZUY5UVo4ZXhFcWtpN3liSWJPVy01WVB2NnhZd1RkSTd5WDBrbkl0RzNqc0wweDYyaE9TVkhYSmg2NE5jYzFjRGxs?oc=5",

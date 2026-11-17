@@ -2,18 +2,18 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
-  "@type": "etzhayyim:PublicCompanyProfile",
+  "@type": "itonami:PublicCompanyProfile",
   "identifier": "suzuki-motor",
   "name": "Suzuki Motor Corporation",
   "legalName": "Suzuki Motor Corporation",
   "tickerSymbol": "7269",
-  "etzhayyim:exchangeMic": "XTKS",
-  "etzhayyim:countryCode": "JP",
-  "etzhayyim:subsidiaryCompanyIds": [
+  "itonami:exchangeMic": "XTKS",
+  "itonami:countryCode": "JP",
+  "itonami:subsidiaryCompanyIds": [
     "maruti-suzuki-india"
   ],
   "url": "https://www.globalsuzuki.com/",

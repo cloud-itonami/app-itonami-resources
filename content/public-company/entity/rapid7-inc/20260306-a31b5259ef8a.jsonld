@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260306-a31b5259ef8a",
   "headline": "Investment Analysis 2026: Coinbase vs. Cautionary Stocks Rapid7 & Hayward - News and Statistics - IndexBox - Market Intelligence Platform",
   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTkt6MzhjaGd4Q1VDSnZ6LTVpbjJfeDhiQUtJc1h6X0s3UHBlaDB6azNod3Ffd0Q0aE8ySDVUN3FyRGpQS3hSSGt2STQ3YzVxamhkaURnYk9xX1Q5ZWtKNUhtSW0tRkNZQnhiblZpcHlxOTRtSF9MRV9palQ3YUhRelVndnRXSWZWUm9scGlBRk9memhzbWl5X0prc1AtVFVkd0E2LWZB?oc=5",

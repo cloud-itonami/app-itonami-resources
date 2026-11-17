@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250312-1410f966f026",
   "headline": "SentinelOne Announces Fourth Quarter and Fiscal Year 2025 Financial Results - Business Wire",
   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU25pWFRhbkVTNmxLcFpQQXB4RmhGUjluOElFdlgwUUhLb0JjZldBUnFkclBlQ3N3VlFDdEl1dnBhUDVaQU84Sk5uRnNnN2Vtb25ZV2xfS0lKSWNZam5YdGMyR3FyQUhGNkhTaU1ta3Q3RlBIdThKWUYtS3NXLUdCTFMxcXZVd04ybV9aSkpQa1ZFNmN4UndILUhodHF4Z01WQk5sUGxhTm5JdkhUb0lSTnNCRmpkMEJZMC1FNE1UM0tCdXluSUNJRTZobXk?oc=5",

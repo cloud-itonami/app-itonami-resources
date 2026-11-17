@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260204-6c335921886a",
   "headline": "Cyber firm Tenable beats 2025 goals and expands $338M buyback - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ2ZnUjVPTnhzTk9NTUd0UnJ1VTNvb3ItVmVEcTlyaU1wdkxNWFZhUlBhX25wanpjUXE5c3c3VS1fcmJqRXpsWHFRbW1ESTdQYnhPc1h0cUVlSkZTZmtzSEpiZ1kwYkQzMnlvTHc4MG1GeFRSWmdaQUxsbXROanV6azJpZmE3SHdiYll2el9feG96OTE5aXFkbjdlWWF4dmp6cEU4NXJTcVNnOE1GYk9QQTJlaTBOUTQ?oc=5",

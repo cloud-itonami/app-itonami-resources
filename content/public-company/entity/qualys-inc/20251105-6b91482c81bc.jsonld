@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251105-6b91482c81bc",
   "headline": "Qualys (NASDAQ: QLYS) sets Dec 2 fireside chat at UBS Tech & AI Conference, webcast - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUFJWZ0RsUm5xdDl4R0pISHZMRUZjT0c3NTlXdG43bjZJVDl5Y05GTW4xRmpSZlptdnYyUUQzTDRjeFBPaU8waTlTQUVNRzJlbDlCX0wxSFk4bTZobEY1VHozdzdXY2NWTER1MGxtVm1KNEpPMXFpNk0xZlRTYXdpLUpmdEdhWEtldmRXMUVwaTFiT082bmc?oc=5",

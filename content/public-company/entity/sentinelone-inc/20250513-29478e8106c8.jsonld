@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250513-29478e8106c8",
   "headline": "SentinelOne Announces Date of Fiscal First Quarter 2026 Financial Results Conference Call - Business Wire",
   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTm1feXJUcy02Nk9sMHpUUHRweVZMeFU0N3NqcmM0MEFSZm53dEpIbkRoWHg1aVlJbnBtUFJMS2NJQkMxOTZmWTF1OUsyNWpBRjdzd2x2NFc2dmxabTRnUVh1VENKTnRodHlHV2g3dnpxYjB2c3plcm92MTE2RnVuSlVCajFaVGt3YlpaczRTQjVDVDZRWkRjdG1WcEhwZ3VfR3JFalpndDU3Z0tyenBfVC1qYjJLc0R2cmcweUFGNE1aWk9wTms2SnI2bGoxbExTaXJNT295Vm5lMGFjUjE0?oc=5",

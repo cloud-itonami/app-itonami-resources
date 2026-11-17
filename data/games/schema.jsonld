@@ -1,5 +1,5 @@
 {
-  "@context": "https://gamers.etzhayyim.com/ontology/context.jsonld",
+  "@context": "https://gamers.itonami.cloud/ontology/context.jsonld",
   "@graph": [
     {
       "@id": "game:GameGuide",
@@ -10,7 +10,7 @@
         "@id": "schema:Article"
       },
       "rdfs:isDefinedBy": {
-        "@id": "https://gamers.etzhayyim.com/ontology"
+        "@id": "https://gamers.itonami.cloud/ontology"
       }
     },
     {
@@ -22,7 +22,7 @@
         "@id": "schema:Person"
       },
       "rdfs:isDefinedBy": {
-        "@id": "https://gamers.etzhayyim.com/ontology"
+        "@id": "https://gamers.itonami.cloud/ontology"
       }
     },
     {

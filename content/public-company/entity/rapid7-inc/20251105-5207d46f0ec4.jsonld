@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251105-5207d46f0ec4",
   "headline": "Rapid7, Inc. SEC 10-Q Report - TradingView",
   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQkx2MEg4b2haRHJHTms1WE1MWmVQRUVOMVpBRkhKeUF1eXlIeHVXTXZnT2JHUVk3eEwycEZMWGk0cEFYV3NDeDBabDFxVDNuZnp1TC1ocm1xODhIUUdSako4R2NGUVI0aEJpYmE3WjZyZERqRERmbDZHdlFRZFVLZTFwWm1FWFQyZ1p5ZGhtNDE4dw?oc=5",

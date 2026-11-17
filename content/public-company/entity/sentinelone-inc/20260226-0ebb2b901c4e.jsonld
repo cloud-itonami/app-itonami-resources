@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260226-0ebb2b901c4e",
   "headline": "ZoomInfo, SentinelOne, Toast, Doximity, and American Express Global Business Travel Shares Are Soaring, What You Need To Know - Yahoo Finance",
   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOczFuNzExaHZvNEVwODNjd2pYenZuMkM1MXpGUzMzVDZ5T3JjWk85U0dyRDVjOVlFTU9CSkpid1FGN1V0Mk9IcUo3Sm9RT1hjdWh3b0x2TlFOd3Z2b2FUQl9DOXc0Mk9ZSHdrd0xuWldwQkZMMGhCSjBWck5CeFp3MUozVzVPUmhQbUNyalBROERmQjdl?oc=5",

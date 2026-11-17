@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250808-61f6579f4857",
   "headline": "Earnings call transcript: Rapid7 Q2 2025 beats EPS forecast, stock dips - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRi1WUWNMZ2hSV2k1ZDNlOWZuYS02bDlRSERPaUFxODA3eHhOZXdoUkxsRlZLUzRNWEhwLWRkQTRJS1AtaFByMXg5WEtJSS1ZbzBsVlpfYUJfeF9Ib2NYTlBrLV9ZSW9pTEwtNWJYU0t3eFZkQkRnX1oybldVa29Gd1gxSFFuR0ZTU3BoZmFHOVBhdEh2QjNUcTVIVWtaQVRucjdFZGdLYWZFaFNmekdsMmdyM1NJRHc0d3Fqa2ZaMW8zVGs?oc=5",

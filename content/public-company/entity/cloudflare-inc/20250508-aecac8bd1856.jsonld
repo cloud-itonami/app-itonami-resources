@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250508-aecac8bd1856",
   "headline": "Cloudflare Announces First Quarter 2025 Financial Results - Cloudflare",
   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRi1IeUV1Sk5SR1JJdkNUUkliS3pYLTRZYS0tU01xRU52dTVQVG93elUyTUt3OV9XNnRPdkFVV2dBcFhVdjVKRVNPdUZYbS0zcFl5bHhDT0t3eHpFelhVRHpaYnJtbng3ZjVEQ0xzTGFGUGFjeDVwc1Nsd2tJZUhBakQ2QjlTc2NDb0UtekxZdVpsdlJ4U2d4OXpHS1RoZnhPVUR5U2M2WHBnZURwZ2JtRw?oc=5",

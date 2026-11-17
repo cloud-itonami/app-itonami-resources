@@ -2,24 +2,24 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://etzhayyim.com/schemas/",
-      "capabilities": "etzhayyim:capabilities",
-      "survivalIndicators": "etzhayyim:survivalIndicators",
-      "scheduler": "etzhayyim:scheduler",
-      "milestones": "etzhayyim:milestones",
-      "blockers": "etzhayyim:blockers",
+      "itonami": "https://itonami.cloud/schemas/",
+      "capabilities": "itonami:capabilities",
+      "survivalIndicators": "itonami:survivalIndicators",
+      "scheduler": "itonami:scheduler",
+      "milestones": "itonami:milestones",
+      "blockers": "itonami:blockers",
       "dependsOn": {
-        "@id": "etzhayyim:dependsOn",
+        "@id": "itonami:dependsOn",
         "@type": "@id"
       },
-      "ingestKey": "etzhayyim:ingestKey",
-      "window": "etzhayyim:window",
-      "valueUpdatedAt": "etzhayyim:valueUpdatedAt"
+      "ingestKey": "itonami:ingestKey",
+      "window": "itonami:window",
+      "valueUpdatedAt": "itonami:valueUpdatedAt"
     }
   ],
   "@type": "Project",
-  "identifier": "etzhayyim-project-entities",
-  "name": "ai etzhayyim project entities",
+  "identifier": "itonami-project-entities",
+  "name": "ai itonami project entities",
   "status": "In Progress",
   "description": "Supply chain entity graph: material sources (iron, petroleum, fiber, food), associated entities (companies, persons, families), intermediate production (manufacturing, processing, logistics hubs), and logistics assets (vehicles, vessels, railways, containers). All modeled as SpinApp components with WIT import/export dependencies for wRPC mesh communication.",
   "capabilities": {
@@ -30,7 +30,7 @@
       {
         "@type": "DefinedTerm",
         "name": "Material Source Registry",
-        "description": "Register and track global material extraction sites (iron mines, oil fields, fiber farms, food production) with geospatial coordinates for maps.etzhayyim.com integration."
+        "description": "Register and track global material extraction sites (iron mines, oil fields, fiber farms, food production) with geospatial coordinates for maps.itonami.cloud integration."
       },
       {
         "@type": "DefinedTerm",
@@ -90,38 +90,38 @@
           "@context": [
             "https://schema.org/",
             {
-              "etzhayyim": "https://etzhayyim.com/schemas/",
-              "capabilities": "etzhayyim:capabilities",
-              "survivalIndicators": "etzhayyim:survivalIndicators",
-              "scheduler": "etzhayyim:scheduler",
-              "milestones": "etzhayyim:milestones",
-              "blockers": "etzhayyim:blockers",
+              "itonami": "https://itonami.cloud/schemas/",
+              "capabilities": "itonami:capabilities",
+              "survivalIndicators": "itonami:survivalIndicators",
+              "scheduler": "itonami:scheduler",
+              "milestones": "itonami:milestones",
+              "blockers": "itonami:blockers",
               "dependsOn": {
-                "@id": "etzhayyim:dependsOn",
+                "@id": "itonami:dependsOn",
                 "@type": "@id"
               },
-              "ingestKey": "etzhayyim:ingestKey",
-              "window": "etzhayyim:window",
-              "valueUpdatedAt": "etzhayyim:valueUpdatedAt"
+              "ingestKey": "itonami:ingestKey",
+              "window": "itonami:window",
+              "valueUpdatedAt": "itonami:valueUpdatedAt"
             }
           ],
           "@type": "CreativeWork",
-          "name": "ai etzhayyim project entities Scheduler",
-          "identifier": "etzhayyim-project-entities/scheduler",
+          "name": "ai itonami project entities Scheduler",
+          "identifier": "itonami-project-entities/scheduler",
           "description": "Project schedule (milestones) and blockers.",
           "dateCreated": "2026-02-15T04:25:26+00:00",
           "milestones": [
             {
               "@type": "CreativeWork",
               "name": "Supply chain WIT interfaces and SHACL shapes",
-              "description": "Define etzhayyim:supply-chain WIT package with 16 interfaces covering material sources, entities, production, and logistics. SHACL validation shapes for all entity types.",
+              "description": "Define itonami:supply-chain WIT package with 16 interfaces covering material sources, entities, production, and logistics. SHACL validation shapes for all entity types.",
               "status": "Done",
               "dueDate": "2026-02-28"
             },
             {
               "@type": "CreativeWork",
               "name": "Material source entity components (iron, petroleum, fiber, food)",
-              "description": "4 wasm components with crawler integration for collecting material source locations globally, plus maps.etzhayyim.com GeoJSON visualization.",
+              "description": "4 wasm components with crawler integration for collecting material source locations globally, plus maps.itonami.cloud GeoJSON visualization.",
               "status": "Done",
               "dueDate": "2026-02-28"
             },

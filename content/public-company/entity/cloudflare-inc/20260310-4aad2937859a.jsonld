@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-4aad2937859a",
   "headline": "Capital International Inc. CA Increases Position in Cloudflare, Inc. $NET - MarketBeat",
   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSHhoanItb0pkWE1KOUFncU9qSy13ZmFWakRLVjFFWExQTnlraTNHVy10T0Q4UVB3N0dhbTZZZ0xhN3RGMnNxWGh0TEdiZ1lwZ2dIN1RrRC1kT1JUTl9ZX0M3bk15aTM0UjRLd2UwRVFNNE9YNDJmYTNrZGJselVtbGZoMmwzMDVGOC1iMHJvM1N2ejJKWWRFQ21ZVHBGclljZ3FvOTRRQXlTSEtQRTNlRTNfYTUwVXc3ZVhLamNXUE5QRHM3OHo1ZWlB?oc=5",

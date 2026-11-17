@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260304-75ac14ba4012",
   "headline": "Peering Into Akamai Technologies Inc's Recent Short Interest - Sahm",
   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUUowd0s1Rm5wdG5NR3JoZm9aNFFMUzgzWHRoQ3A3a1ZjaVRiVS1SWXNwa3ZDem02aGh1b09kLU5wYUplTjFSZm1nalZTTnFlM3F0ZEhHbjdPWW1VY3h5VEN2YV9MMVFRREZodjNVQ0QzUE84TFlpVmdtdGdZS3Zkd1FmczhyeU9mV3VLdDBjS1IzWDRWUEVEMzVxaHQ4VlBZaEFOWXNnQjFxTF8wT2JyNA?oc=5",

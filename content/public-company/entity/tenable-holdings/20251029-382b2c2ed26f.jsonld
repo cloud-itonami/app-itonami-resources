@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251029-382b2c2ed26f",
   "headline": "Tenable Announces Third Quarter 2025 Financial Results - Yahoo Finance",
   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZXNrU0FEMy1qYzhXSkZuWmVuT095YlNYQlZKWDY0WnZ5TzlfZ3liRjNkRUtWQ3FObWc5dEVQUElRbzhaV2dlaUhWYWZlanNYblVhY3dpeWd0OTltemd3ZzB3bXlRa29XWFpadGQ3UU1OUFZlcEhXeTNfTEh1QXRqSnFQSzdYLU92SUE?oc=5",

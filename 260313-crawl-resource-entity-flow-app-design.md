@@ -1,11 +1,11 @@
 # Crawl Resource Entity Flow App Design
 
 Date: 2026-03-13
-Scope: `crawler.etzhayyim.com` が分類済みの Web ページを入力として、`etzhayyim-project-resources` 内で `resource`、`entity`、`resource flow` に正規化し、下流 (`yabai`, search, graph, analytics) に渡す App の設計。
+Scope: `crawler.itonami.cloud` が分類済みの Web ページを入力として、`itonami-project-resources` 内で `resource`、`entity`、`resource flow` に正規化し、下流 (`yabai`, search, graph, analytics) に渡す App の設計。
 
 ## 1. Problem
 
-現状の `etzhayyim-project-resources` は crawler 結果を `content/crawl/job`, `content/crawl/page`, `content/crawl/site` に保存できるが、その先の
+現状の `itonami-project-resources` は crawler 結果を `content/crawl/job`, `content/crawl/page`, `content/crawl/site` に保存できるが、その先の
 
 - ページ本文から何を `resource` とみなすか
 - どの `entity` に紐付けるか
@@ -29,7 +29,7 @@ Scope: `crawler.etzhayyim.com` が分類済みの Web ページを入力とし�
 ## 3. Component
 
 ```
-60-apps/etzhayyim-project-resources/wasm/etzhayyim-wasm-crawl-resource-flow-crf8m2q1/
+60-apps/itonami-project-resources/wasm/itonami-wasm-crawl-resource-flow-crf8m2q1/
 ├── main.go
 ├── db_schema.go
 ├── db_flow.go
@@ -46,7 +46,7 @@ Scope: `crawler.etzhayyim.com` が分類済みの Web ページを入力とし�
 ```
 
 Nanoid: `crf8m2q1`
-Subdomain: `crf8m2q1.etzhayyim.com`
+Subdomain: `crf8m2q1.itonami.cloud`
 
 役割:
 
@@ -59,7 +59,7 @@ Subdomain: `crf8m2q1.etzhayyim.com`
 ### Primary Input
 
 - `content/crawl/page/<result_id>.jsonld`
-- `@type = etzhayyim:CrawlPage`
+- `@type = itonami:CrawlPage`
 - crawler または前段 classifier が付与した以下の情報を利用する
   - `url`
   - `name`
@@ -342,20 +342,20 @@ Arrow/LanceDB row key は以下で安定化する。
 
 | Event Type | Description |
 |---|---|
-| `org.etzhayyim.command.crawl-resource-flow.ingest-page` | 単一 page を取り込み |
-| `org.etzhayyim.command.crawl-resource-flow.ingest-batch` | 複数 page を再処理 |
-| `org.etzhayyim.command.crawl-resource-flow.resolve-entity` | provisional entity の名寄せ |
-| `org.etzhayyim.command.crawl-resource-flow.publish-yabai` | high-risk candidate の publish |
-| `org.etzhayyim.command.crawl-resource-flow.review` | review 結果反映 |
+| `org.itonami.cloudmand.crawl-resource-flow.ingest-page` | 単一 page を取り込み |
+| `org.itonami.cloudmand.crawl-resource-flow.ingest-batch` | 複数 page を再処理 |
+| `org.itonami.cloudmand.crawl-resource-flow.resolve-entity` | provisional entity の名寄せ |
+| `org.itonami.cloudmand.crawl-resource-flow.publish-yabai` | high-risk candidate の publish |
+| `org.itonami.cloudmand.crawl-resource-flow.review` | review 結果反映 |
 
 ### XRPC Query
 
 ```
-POST /xrpc/etzhayyim.crawl_resource_flow.v1.CrawlResourceFlowQueryService/GetPageFlow
-POST /xrpc/etzhayyim.crawl_resource_flow.v1.CrawlResourceFlowQueryService/ListPageFlows
-POST /xrpc/etzhayyim.crawl_resource_flow.v1.CrawlResourceFlowQueryService/GetEntityResolution
-POST /xrpc/etzhayyim.crawl_resource_flow.v1.CrawlResourceFlowQueryService/ListPendingReviews
-POST /xrpc/etzhayyim.crawl_resource_flow.v1.CrawlResourceFlowQueryService/SearchEntitiesByValue
+POST /xrpc/itonami.crawl_resource_flow.v1.CrawlResourceFlowQueryService/GetPageFlow
+POST /xrpc/itonami.crawl_resource_flow.v1.CrawlResourceFlowQueryService/ListPageFlows
+POST /xrpc/itonami.crawl_resource_flow.v1.CrawlResourceFlowQueryService/GetEntityResolution
+POST /xrpc/itonami.crawl_resource_flow.v1.CrawlResourceFlowQueryService/ListPendingReviews
+POST /xrpc/itonami.crawl_resource_flow.v1.CrawlResourceFlowQueryService/SearchEntitiesByValue
 ```
 
 ## 11. Yabai / Search / Graph Integration

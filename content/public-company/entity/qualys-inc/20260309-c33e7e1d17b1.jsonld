@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260309-c33e7e1d17b1",
   "headline": "Media Alert: Qualys Extends Major Partner Status with San Francisco Unicorns Through 2027, Championing the Growth of U.S. Cricket - PR Newswire",
   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPVjZITXdtM1YxTTljNExpZ1V2VGplbnhsYXJFZTRJLVg1cUdHcGp0anRRWGhVMlJUZVhUUmpGUURzQ2xKTFBoVFdXc2xLbnVtM0FYM0JHakhhaTVXVk9tMlRkRTh1Mml4OGprMmVSTjY1ckxQaFFYNG92dE5qZU91QTFVX251amtwLXFXbWJxQzhvSnFOUGRJZkFkOXgzSkdXRGlKanoxZVpnMFFEdThDUVc3M3RIczg3Z1N5SnFfd0ZFRXRyQTdBYnhDbklwUm9ndzV0d0EtNU5zMEp4bWZwVTJuQzU1UjVrMWl3UUczVWNJbXBuMGRIUEFmNTdpT1h6UEF6VHRCTUdsTFNmc0E?oc=5",

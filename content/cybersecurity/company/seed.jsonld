@@ -2,38 +2,38 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "ItemList",
   "name": "Cybersecurity Companies Seed Data",
-  "description": "主要サイバーセキュリティ企業を製品カテゴリ・上場プロフィールと紐付けた seed data。resources.etzhayyim.com で公開するベンダー基礎コーパス。",
+  "description": "主要サイバーセキュリティ企業を製品カテゴリ・上場プロフィールと紐付けた seed data。resources.itonami.cloud で公開するベンダー基礎コーパス。",
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "crowdstrike-holdings",
         "name": "CrowdStrike Holdings, Inc.",
         "tickerSymbol": "CRWD",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.crowdstrike.com/",
         "sameAs": [
           "https://ir.crowdstrike.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/crowdstrike-holdings.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/crowdstrike-holdings.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "edr",
           "xdr",
           "mdr",
           "threat-intel",
           "asm"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Falcon Insight",
           "Falcon XDR",
           "Falcon Complete",
@@ -49,25 +49,25 @@
       "position": 2,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "paloalto-networks",
         "name": "Palo Alto Networks, Inc.",
         "tickerSymbol": "PANW",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.paloaltonetworks.com/",
         "sameAs": [
           "https://investors.paloaltonetworks.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/paloalto-networks.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/paloalto-networks.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "ngfw",
           "xdr",
           "soar",
           "cnapp",
           "sase"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Strata",
           "Cortex XDR",
           "XSOAR",
@@ -83,24 +83,24 @@
       "position": 3,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "fortinet-inc",
         "name": "Fortinet, Inc.",
         "tickerSymbol": "FTNT",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.fortinet.com/",
         "sameAs": [
           "https://investor.fortinet.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/fortinet-inc.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/fortinet-inc.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "ngfw",
           "sase",
           "xdr",
           "email-security"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "FortiGate",
           "FortiSASE",
           "FortiEDR",
@@ -116,24 +116,24 @@
       "position": 4,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "checkpoint-soft",
         "name": "Check Point Software Technologies Ltd.",
         "tickerSymbol": "CHKP",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "IL",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "IL",
         "url": "https://www.checkpoint.com/",
         "sameAs": [
           "https://www.checkpoint.com/ir/",
-          "https://resources.etzhayyim.com/content/public-company/company/checkpoint-soft.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/checkpoint-soft.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "ngfw",
           "sase",
           "cloud-security",
           "email-security"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Quantum",
           "Harmony",
           "CloudGuard",
@@ -148,23 +148,23 @@
       "position": 5,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "cyberark-soft",
         "name": "CyberArk Software Ltd.",
         "tickerSymbol": "CYBR",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "IL",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "IL",
         "url": "https://www.cyberark.com/",
         "sameAs": [
           "https://investors.cyberark.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/cyberark-soft.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/cyberark-soft.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "pam",
           "iam",
           "itdr"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Privilege Cloud",
           "Endpoint Privilege Manager",
           "Identity Security Platform"
@@ -178,23 +178,23 @@
       "position": 6,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "okta-inc",
         "name": "Okta, Inc.",
         "tickerSymbol": "OKTA",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.okta.com/",
         "sameAs": [
           "https://investor.okta.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/okta-inc.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/okta-inc.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "iam",
           "pam",
           "itdr"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Workforce Identity Cloud",
           "Customer Identity Cloud",
           "Okta Privileged Access"
@@ -208,24 +208,24 @@
       "position": 7,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "zscaler-inc",
         "name": "Zscaler, Inc.",
         "tickerSymbol": "ZS",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.zscaler.com/",
         "sameAs": [
           "https://ir.zscaler.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/zscaler-inc.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/zscaler-inc.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "ztna",
           "sase",
           "casb",
           "sspm"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Zscaler Internet Access",
           "Zscaler Private Access",
           "Zscaler Digital Experience"
@@ -239,24 +239,24 @@
       "position": 8,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "trend-micro",
         "name": "Trend Micro Incorporated",
         "tickerSymbol": "4704",
-        "etzhayyim:exchangeMic": "XTKS",
-        "etzhayyim:countryCode": "JP",
+        "itonami:exchangeMic": "XTKS",
+        "itonami:countryCode": "JP",
         "url": "https://www.trendmicro.com/",
         "sameAs": [
           "https://investors.trendmicro.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/trend-micro.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/trend-micro.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "xdr",
           "email-security",
           "cnapp",
           "asm"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Trend Vision One",
           "Cloud One",
           "Apex One",
@@ -271,24 +271,24 @@
       "position": 9,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "sentinelone-inc",
         "name": "SentinelOne, Inc.",
         "tickerSymbol": "S",
-        "etzhayyim:exchangeMic": "XNYS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNYS",
+        "itonami:countryCode": "US",
         "url": "https://www.sentinelone.com/",
         "sameAs": [
           "https://investors.sentinelone.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/sentinelone-inc.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/sentinelone-inc.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "edr",
           "xdr",
           "itdr",
           "cnapp"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Singularity Endpoint",
           "Singularity XDR",
           "Singularity Identity",
@@ -303,24 +303,24 @@
       "position": 10,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "rapid7-inc",
         "name": "Rapid7, Inc.",
         "tickerSymbol": "RPD",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.rapid7.com/",
         "sameAs": [
           "https://investors.rapid7.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/rapid7-inc.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/rapid7-inc.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "vulnerability-scanner",
           "mdr",
           "siem",
           "exposure-management"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "InsightVM",
           "InsightIDR",
           "Managed Detection and Response",
@@ -335,24 +335,24 @@
       "position": 11,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "tenable-holdings",
         "name": "Tenable Holdings, Inc.",
         "tickerSymbol": "TENB",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.tenable.com/",
         "sameAs": [
           "https://investors.tenable.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/tenable-holdings.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/tenable-holdings.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "vulnerability-scanner",
           "exposure-management",
           "asm",
           "cloud-security"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Tenable Nessus",
           "Tenable.io",
           "Tenable One",
@@ -367,24 +367,24 @@
       "position": 12,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "qualys-inc",
         "name": "Qualys, Inc.",
         "tickerSymbol": "QLYS",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.qualys.com/",
         "sameAs": [
           "https://investor.qualys.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/qualys-inc.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/qualys-inc.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "vulnerability-scanner",
           "caasm",
           "asm",
           "exposure-management"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "VMDR",
           "TotalCloud",
           "CyberSecurity Asset Management",
@@ -399,23 +399,23 @@
       "position": 13,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "varonis-systems",
         "name": "Varonis Systems, Inc.",
         "tickerSymbol": "VRNS",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.varonis.com/",
         "sameAs": [
           "https://ir.varonis.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/varonis-systems.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/varonis-systems.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "dspm",
           "dlp",
           "data-security"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Varonis Data Security Platform",
           "SaaS Security Posture",
           "Managed Data Detection and Response"
@@ -429,24 +429,24 @@
       "position": 14,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "akamai-tech",
         "name": "Akamai Technologies, Inc.",
         "tickerSymbol": "AKAM",
-        "etzhayyim:exchangeMic": "XNAS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNAS",
+        "itonami:countryCode": "US",
         "url": "https://www.akamai.com/",
         "sameAs": [
           "https://www.ir.akamai.com/",
-          "https://resources.etzhayyim.com/content/public-company/company/akamai-tech.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/akamai-tech.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "waf",
           "api-security",
           "ztna",
           "ddos-protection"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "App and API Protector",
           "Guardicore Segmentation",
           "Enterprise Application Access",
@@ -461,24 +461,24 @@
       "position": 15,
       "item": {
         "@type": "Organization",
-        "additionalType": "etzhayyim:CybersecurityCompany",
+        "additionalType": "itonami:CybersecurityCompany",
         "identifier": "cloudflare-inc",
         "name": "Cloudflare, Inc.",
         "tickerSymbol": "NET",
-        "etzhayyim:exchangeMic": "XNYS",
-        "etzhayyim:countryCode": "US",
+        "itonami:exchangeMic": "XNYS",
+        "itonami:countryCode": "US",
         "url": "https://www.cloudflare.com/",
         "sameAs": [
           "https://cloudflare.net/",
-          "https://resources.etzhayyim.com/content/public-company/company/cloudflare-inc.jsonld"
+          "https://resources.itonami.cloud/content/public-company/company/cloudflare-inc.jsonld"
         ],
-        "etzhayyim:primaryCategories": [
+        "itonami:primaryCategories": [
           "waf",
           "ztna",
           "sase",
           "api-security"
         ],
-        "etzhayyim:flagshipProducts": [
+        "itonami:flagshipProducts": [
           "Cloudflare WAF",
           "Cloudflare One",
           "API Shield",

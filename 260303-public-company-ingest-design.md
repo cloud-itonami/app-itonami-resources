@@ -1,7 +1,7 @@
 # Public Company IR/News Ingest Design (Single-Company Increment)
 
 Date: 2026-03-03
-Scope: `etzhayyim-project-resources` first increment for one public company (`vale-sa`).
+Scope: `itonami-project-resources` first increment for one public company (`vale-sa`).
 
 ## Goal
 
@@ -17,7 +17,7 @@ Ingest IR/News signals for one company and normalize them into JSON-LD entities 
   - Declares IR/News feed URLs using `DataFeed` / `DataFeedItem`.
 - Signal entities (generated):
   - `content/public-company/entity/<company-id>/<id>.jsonld`
-  - Each entity is a normalized `NewsArticle` with `additionalType=etzhayyim:PublicCompanySignal`.
+  - Each entity is a normalized `NewsArticle` with `additionalType=itonami:PublicCompanySignal`.
 
 ## Ingest Flow
 

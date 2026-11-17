@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260210-97ef05c5243e",
   "headline": "RAPID7 INC (NASDAQ:RPD) Reports Q4 Beat but 2026 Guidance Sparks Sell-Off - ChartMill",
   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWUY5LXVkZmdSczBLa2FlRlBqVlQtQkVhU0JQVWVsdjMtM2szcVVXc2NzSGhtdTV2QnlMaHdZdXI3LS1iYTllZVdzUU9NQ0RsWFc0MmZXaDYwaWRabW8zaFRCQ3U3NVNCemZzWjZUSnJ1bEllREVmNFFrY21RMEpRclgwaDU3RktZN0R0Yk5ZbktoN3RDa2JZZ0I0SGsxYy1FMF9mZWUyLUJ0SVJWOHM2aFpwQWl0OTlZbjYtbGJn?oc=5",

@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-76ad97cada33",
   "headline": "SentinelOne appoints Sonalee Parekh as Chief Financial Officer - People Matters Middle East",
   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaEdFQk1pazRSak1KV1JrbFhHUTJCYjl6NEc3Q0FuVWJNRFJWYV9rcWZ5YTZReWk0R19tUk1NV3FjRTdRRFY2YmJ4TWxmb2pYOTM4c3pUbk92OXliTThGVEptVXU0cU5HT0E3aXRmQTl1NjFEYjdEdjhpaDVuLWQ2aWFYdG5RckJFMGpzaFhPcHNTbmIxcV9GUnNCdy1ORTBYQUdGZWZXdUtUckl6WmotREJSc2Z1VDJXY25veWF3?oc=5",

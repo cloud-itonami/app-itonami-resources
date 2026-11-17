@@ -1,11 +1,11 @@
 {
   "@context": {
-    "@vocab": "https://resources.etzhayyim.com/ontology#",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+    "@vocab": "https://resources.itonami.cloud/ontology#",
+    "itonami": "https://resources.itonami.cloud/ontology#",
     "schema": "https://schema.org/"
   },
-  "@type": "etzhayyim:ComplianceBundleSourceMap",
-  "@id": "https://resources.etzhayyim.com/content/legal/jp/compliance/jp-privacy-article-map",
+  "@type": "itonami:ComplianceBundleSourceMap",
+  "@id": "https://resources.itonami.cloud/content/legal/jp/compliance/jp-privacy-article-map",
   "identifier": "jp-privacy-article-map-v1",
   "bundleId": "jp-privacy-v1",
   "bundleName": "Japan privacy baseline",

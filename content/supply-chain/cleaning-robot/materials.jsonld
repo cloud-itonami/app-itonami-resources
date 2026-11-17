@@ -1,16 +1,16 @@
 {
   "@context": [
-    "https://resources.etzhayyim.com/ontology/supply-chain/context.jsonld",
+    "https://resources.itonami.cloud/ontology/supply-chain/context.jsonld",
     {
       "sameAs": "schema:sameAs",
-      "materialRole": "etzhayyim:materialRole",
-      "sourceUrls": "etzhayyim:sourceUrls",
-      "downstreamCompanyIds": "etzhayyim:downstreamCompanyIds"
+      "materialRole": "itonami:materialRole",
+      "sourceUrls": "itonami:sourceUrls",
+      "downstreamCompanyIds": "itonami:downstreamCompanyIds"
     }
   ],
   "@graph": [
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/materials",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/materials",
       "@type": "Dataset",
       "identifier": "cleaning-robot-materials",
       "name": "Cleaning Robot Raw Materials and Engineered Inputs",
@@ -18,7 +18,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/material/lithium-battery-chemicals",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/material/lithium-battery-chemicals",
       "@type": "Thing",
       "identifier": "lithium-battery-chemicals",
       "name": "Battery-grade lithium chemicals",
@@ -35,7 +35,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/material/copper-feedstock",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/material/copper-feedstock",
       "@type": "Thing",
       "identifier": "copper-feedstock",
       "name": "Copper feedstock for PCB and motor windings",
@@ -53,7 +53,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/material/ndpr-rare-earth",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/material/ndpr-rare-earth",
       "@type": "Thing",
       "identifier": "ndpr-rare-earth",
       "name": "NdPr rare-earth magnet material",
@@ -70,7 +70,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/material/engineering-thermoplastics",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/material/engineering-thermoplastics",
       "@type": "Thing",
       "identifier": "engineering-thermoplastics",
       "name": "Engineering thermoplastics",

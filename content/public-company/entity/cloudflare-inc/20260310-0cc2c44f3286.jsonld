@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-0cc2c44f3286",
   "headline": "Cloudflare, Inc. $NET Shares Sold by Capital International Ltd. CA - MarketBeat",
   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbnZnWEN4UHNfdXpfTllhSV9OZUZKQ3U2M25XQmF5cVhvLWhTa0cwSUJaR21SeG1HTEdvd05yQmcxaW5pYjNxX0pVSy1oUzdJUS0tbHp0OTJDZ1YzZ2pnXy0xUTdNcU1mRjFZazJGV1REZ0M3ekROWExSTjQ5RHZ3WnlWYzNqczNtcXVTaHRTX1hCWlhqUFFEcDROajBvaXRGMEY3c2Y1VGRtR3JKSV9rRE16a2Ntanc0VmRzeVZObTI?oc=5",

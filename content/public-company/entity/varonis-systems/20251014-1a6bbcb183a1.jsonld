@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251014-1a6bbcb183a1",
   "headline": "AI identity protection for Agentforce — Varonis launches inventory, visibility and automatic least‑agency controls - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWjRTdEtPWGhRc2RIek1yVFJtaFlub2F6SFhuS1JVYXU5VXZWN3hGWHo2ck1iY2oxLVhVZmZNdVRvcVIyMUFhcTdEQWhvLVVLVWJxOVFBRFktSHJITFFyTjMyUGhIUGJVUUFYb09tanowNjRlS3RVWUVtOTdubTVXTGJ2SE9CelVsUHIzc3M3ZHRDU2NpVWxPVUJaNnJWUk0zU2kzNm5rNXdwZjlm?oc=5",

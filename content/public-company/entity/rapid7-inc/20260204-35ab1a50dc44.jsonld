@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260204-35ab1a50dc44",
   "headline": "Why We're Not Concerned Yet About Rapid7, Inc.'s (NASDAQ:RPD) 25% Share Price Plunge - simplywall.st",
   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY05WZVV4czhkR1ZBVEU4NDJ0NTRxZ01WSHIwVTNJVU1PNk51ZzBRV0FZNlBWNU5BNjZNWTFmLXJLcHpTUlBPNVdaYXM3b1F4ZVFoX2g2NEpMOENKblh3OEtKRmNLNzVCclBXS3VBTDVBQnNRQm1fVFFoaDhqNVNCU0JteVFROEZBMUZDdVROMXVPc2NoWlpYXy0yXzJlbERMcXNrV2dIZFpIcTBYa0NaVzJVU25PX2VPNmtRa3dmOGxDQdIBxwFBVV95cUxObWpGWjB0ejcybHhaMTcwanlNay1LNlNaN2dtY3dNQ3dYb3ZnNzJ0TjFBQVhTLWRaMVcxbUhybkZWME9VZ3VldTAybUtDX01YWDZESzJrLWVQSU1jN0lhbDF0MWItcmlKcHRGYTJ5V0hvcWFqak9hSm1qTi1hTmhhWGhwM05yYVBzUkZ6Rm9sU1QxUXNJWXh6MWdTYjRTMXgtTW93cGx4MVVPZ0tSTVpENlV5cThaTUZwaHQtM0ZOMmZEV3VpT2RV?oc=5",

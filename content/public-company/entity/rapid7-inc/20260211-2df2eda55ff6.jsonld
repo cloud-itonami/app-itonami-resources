@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260211-2df2eda55ff6",
   "headline": "Why Rapid7 (RPD) Stock Is Dropping Today - Bitget",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUQjB4VDIzQ2VONWp1ZFhqWEs0NDBBa0hFd2tWb2g0aW9acmFUM043QXg5Q1oxSXBhVHhkVUtaeVI2Sl9xMXpEN0JfeTBFSVdaQkdycnFSaWNOOFl6dkHSAWNBVV95cUxONWR2eXlJZi11SnpMLTBYU3VNeFMtd1lPN0FqZU9VeWV3cXhLcmxGdXBaZHlha2tmYlpTMmFZeFl5VC1IYUtxQWhmS0RSRldWUzF3Y1U5VkYwcklvT18wcUhwTUE?oc=5",

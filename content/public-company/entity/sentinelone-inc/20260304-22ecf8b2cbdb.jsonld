@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260304-22ecf8b2cbdb",
   "headline": "SentinelOne names Sonalee Parekh as new finance chief - CFOtech Australia",
   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZ2RrX0o1RGlPRUhjaTdvZ1J2eGdUYkJNbGNKMjlsa08wS1hUY2ExZk1NYnVaSUszbzc5ZDNYNUdJOENQdWdFNVR1NlhCbEp2Tmg1M2lkaXJKT3BZT05mLVg3ZTBaTW1QcmJreG11ZkJDTEs4ZnhjTGl0Y3Y1eGh1OWhpV0tTbDRJV1E?oc=5",

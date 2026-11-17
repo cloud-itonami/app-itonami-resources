@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251204-de6dd46c8e81",
   "headline": "SentinelOne Announces Third Quarter Fiscal Year 2026 Financial Results - Business Wire",
   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYjU3MFVfUlA1QnJIY0FWV2dmMU5iTTdlNU51VldKdTdhVVlORllBa2VoRzQwUTNGbklxcFNDeG9sSjEtRVpPMXVaLVQ3R0thNkEtdHItVUR0SEpuTU5yUGlTTFNPNUoxOFR2dm5lakRld3NfMlNIekVNT0xLbjhRV1MwNV9yM1dLWlZrbW5BRjNHZ19Pa1lFWmdMXzkwaTh1OHRVTlBKTDZ4OVB5TVNnMVNhTWt5OXF4ZFR6N1BCZmNrQ3l6TEE?oc=5",

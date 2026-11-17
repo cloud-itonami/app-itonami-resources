@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260218-a6ab501c9a2c",
   "headline": "Is SentinelOne's Sell-Off a Warning Sign or an Opportunity? - TradingView",
   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQemt5X1I1Y0hIbkhVWk9GU2d1N2ZSdWhXa3hJWVg1Z2ZCUjlhaFBLY0FiQ0RwRVJVeEtzaGFqcFZCZC1GbE1ZeWtOYi1EcTJNb1haYWpKc3ZvOEFyODhlalVpRU1iVkV3emcyYzR0anVEUFRVTUI2MjVzc2ZpVmNoZVp0TnZXSGNWbldCWWtOQm9vdkVRX3BtUTVXSnpoWlV2R3V2N2VVUzBFUFlYMkhtdXZvZVBqOWVSc2pR?oc=5",

@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250827-79058ea36425",
   "headline": "Qualys Achieves FedRAMP High Authorization for Comprehensive Risk Management Platform - PR Newswire",
   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObDdLMERVLTRZeUdNVlZrODFsNkVDWE1NT19WVVRfc2l4aWwtSkR4bHMtbWw3STRBS19rU3QxbF9QZVRhaVNrTVFCaHZfeEwzNGtQS2txVjl0S0VDeUxJdy1yWGxiZVRfVXZJc2xsQ1ZSSW5hUUlFS2F4Y0VSWktHdlg4bURrU1JvekNrMkI3eGJzQ0RRZWxfT2NhamhqTl9vNW5RNllfd2VLckgyQ19fUGQ4SGlETE1VU1g5TUx6a3V2QjNmV1F6WkFnNmRLSTZrelRVSHBWU2c?oc=5",

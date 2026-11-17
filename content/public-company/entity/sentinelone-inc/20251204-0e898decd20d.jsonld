@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251204-0e898decd20d",
   "headline": "SentinelOne shares slide 6% on weak Q4 revenue guidance - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd2J6R2VqQlhnclNrbG92aUFTN3VrMDNydmtlaVltNmhhYW5ab3d5LUpUczhSRHlyQzFDWW1pZzJ1U2dqX0dIN3ZlTkFFWUtteFl4RUtDbEtCMlJEU0VQcW9zZHZaOWQ3S1Y3cnpVV3NVQWtpemhIRGNwemkydVoxdmtzODNScVB4ZVpXcjZ1akRVaGlwX2EybERsbUpMRjg4ZEZqb29pUXVNclk?oc=5",

@@ -1,17 +1,17 @@
 {
   "@context": [
-    "https://resources.etzhayyim.com/ontology/supply-chain/context.jsonld",
+    "https://resources.itonami.cloud/ontology/supply-chain/context.jsonld",
     {
       "sameAs": "schema:sameAs",
-      "stage": "etzhayyim:stage",
-      "sourceUrls": "etzhayyim:sourceUrls",
-      "dependsOnIds": "etzhayyim:dependsOnIds",
-      "outputComponentIds": "etzhayyim:outputComponentIds"
+      "stage": "itonami:stage",
+      "sourceUrls": "itonami:sourceUrls",
+      "dependsOnIds": "itonami:dependsOnIds",
+      "outputComponentIds": "itonami:outputComponentIds"
     }
   ],
   "@graph": [
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plants",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plants",
       "@type": "Dataset",
       "identifier": "cleaning-robot-plants",
       "name": "Cleaning Robot Processing and Manufacturing Plants",
@@ -19,8 +19,8 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plant/panasonic-energy-japan-cell-production",
-      "@type": "etzhayyim:ManufacturingPlant",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plant/panasonic-energy-japan-cell-production",
+      "@type": "itonami:ManufacturingPlant",
       "identifier": "panasonic-energy-japan-cell-production",
       "name": "Panasonic Energy Battery Production",
       "plantType": "fabrication",
@@ -48,8 +48,8 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plant/kinwong-pcb-fabrication",
-      "@type": "etzhayyim:ManufacturingPlant",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plant/kinwong-pcb-fabrication",
+      "@type": "itonami:ManufacturingPlant",
       "identifier": "kinwong-pcb-fabrication",
       "name": "Kinwong PCB Fabrication Base",
       "plantType": "fabrication",
@@ -81,8 +81,8 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plant/nidec-motor-production",
-      "@type": "etzhayyim:ManufacturingPlant",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plant/nidec-motor-production",
+      "@type": "itonami:ManufacturingPlant",
       "identifier": "nidec-motor-production",
       "name": "Nidec Appliance and Drive Motor Production",
       "plantType": "fabrication",
@@ -114,8 +114,8 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plant/foxconn-final-assembly",
-      "@type": "etzhayyim:ManufacturingPlant",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plant/foxconn-final-assembly",
+      "@type": "itonami:ManufacturingPlant",
       "identifier": "foxconn-final-assembly",
       "name": "Foxconn Final Electronics Assembly",
       "plantType": "assembly",
@@ -156,8 +156,8 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plant/ecovacs-product-integration",
-      "@type": "etzhayyim:ManufacturingPlant",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plant/ecovacs-product-integration",
+      "@type": "itonami:ManufacturingPlant",
       "identifier": "ecovacs-product-integration",
       "name": "ECOVACS Cleaning Robot Product Integration",
       "plantType": "assembly",
@@ -193,8 +193,8 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plant/slamtec-lidar-integration",
-      "@type": "etzhayyim:ManufacturingPlant",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plant/slamtec-lidar-integration",
+      "@type": "itonami:ManufacturingPlant",
       "identifier": "slamtec-lidar-integration",
       "name": "SLAMTEC LiDAR and Navigation Module Integration",
       "plantType": "fabrication",
@@ -225,8 +225,8 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plant/hesai-lidar-production",
-      "@type": "etzhayyim:ManufacturingPlant",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plant/hesai-lidar-production",
+      "@type": "itonami:ManufacturingPlant",
       "identifier": "hesai-lidar-production",
       "name": "Hesai Robotics LiDAR Production",
       "plantType": "fabrication",
@@ -256,8 +256,8 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plant/sabic-plastics-compounding",
-      "@type": "etzhayyim:ProcessingPlant",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plant/sabic-plastics-compounding",
+      "@type": "itonami:ProcessingPlant",
       "identifier": "sabic-plastics-compounding",
       "name": "SABIC Engineering Plastics Compounding",
       "processType": "refining",
@@ -284,8 +284,8 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/plant/gausium-commercial-cleaning-assembly",
-      "@type": "etzhayyim:ManufacturingPlant",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/plant/gausium-commercial-cleaning-assembly",
+      "@type": "itonami:ManufacturingPlant",
       "identifier": "gausium-commercial-cleaning-assembly",
       "name": "Gausium Commercial Cleaning Robot Assembly",
       "plantType": "assembly",

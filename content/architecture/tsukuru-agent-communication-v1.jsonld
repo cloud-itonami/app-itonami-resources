@@ -2,25 +2,25 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#",
-      "dependsOnIds": "etzhayyim:dependsOnIds",
-      "supportedOperations": "etzhayyim:supportedOperations",
-      "approvalBoundary": "etzhayyim:approvalBoundary",
-      "verificationStage": "etzhayyim:verificationStage"
+      "dependsOnIds": "itonami:dependsOnIds",
+      "supportedOperations": "itonami:supportedOperations",
+      "approvalBoundary": "itonami:approvalBoundary",
+      "verificationStage": "itonami:verificationStage"
     }
   ],
   "@graph": [
     {
-      "@id": "https://resources.etzhayyim.com/content/architecture/tsukuru-agent-communication-v1",
+      "@id": "https://resources.itonami.cloud/content/architecture/tsukuru-agent-communication-v1",
       "@type": "Dataset",
       "identifier": "tsukuru-agent-communication-v1",
       "name": "Tsukuru Agent Communication Architecture v1",
-      "description": "Design graph for delegated supplier communication across tsukuru.etzhayyim.com, resources.etzhayyim.com, and performer actor mailboxes.",
+      "description": "Design graph for delegated supplier communication across tsukuru.itonami.cloud, resources.itonami.cloud, and performer actor mailboxes.",
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/architecture/tsukuru-agent-communication-v1#entity-contact-point",
+      "@id": "https://resources.itonami.cloud/content/architecture/tsukuru-agent-communication-v1#entity-contact-point",
       "@type": "Thing",
       "identifier": "entity-contact-point",
       "name": "Entity Contact Point",
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/architecture/tsukuru-agent-communication-v1#contact-invite",
+      "@id": "https://resources.itonami.cloud/content/architecture/tsukuru-agent-communication-v1#contact-invite",
       "@type": "Thing",
       "identifier": "contact-invite",
       "name": "Contact Invite",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/architecture/tsukuru-agent-communication-v1#agent-delegate-policy",
+      "@id": "https://resources.itonami.cloud/content/architecture/tsukuru-agent-communication-v1#agent-delegate-policy",
       "@type": "Thing",
       "identifier": "agent-delegate-policy",
       "name": "Agent Delegate Policy",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/architecture/tsukuru-agent-communication-v1#communication-message-event",
+      "@id": "https://resources.itonami.cloud/content/architecture/tsukuru-agent-communication-v1#communication-message-event",
       "@type": "Thing",
       "identifier": "communication-message-event",
       "name": "Communication Message Event",
@@ -90,10 +90,10 @@
       ]
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/architecture/tsukuru-agent-communication-v1#resources-entity",
+      "@id": "https://resources.itonami.cloud/content/architecture/tsukuru-agent-communication-v1#resources-entity",
       "@type": "Thing",
       "identifier": "resources-entity",
-      "name": "resources.etzhayyim.com entity layer",
+      "name": "resources.itonami.cloud entity layer",
       "description": "Canonical entity graph storing supply company identity, contact points, and communication architecture metadata.",
       "supportedOperations": [
         "CreateResource",
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/architecture/tsukuru-agent-communication-v1#tsukuru-entity-contacts",
+      "@id": "https://resources.itonami.cloud/content/architecture/tsukuru-agent-communication-v1#tsukuru-entity-contacts",
       "@type": "Thing",
       "identifier": "tsukuru-entity-contacts",
       "name": "tsukuru entity contact storage",
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/architecture/tsukuru-agent-communication-v1#performer-actor-identity",
+      "@id": "https://resources.itonami.cloud/content/architecture/tsukuru-agent-communication-v1#performer-actor-identity",
       "@type": "Thing",
       "identifier": "performer-actor-identity",
       "name": "performer actor identity",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/architecture/tsukuru-agent-communication-v1#performer-mailbox-service",
+      "@id": "https://resources.itonami.cloud/content/architecture/tsukuru-agent-communication-v1#performer-mailbox-service",
       "@type": "Thing",
       "identifier": "performer-mailbox-service",
       "name": "performer mailbox service",

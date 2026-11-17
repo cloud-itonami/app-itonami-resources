@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20200529-fa9b65753c2e",
   "headline": "Qualys (QLYS) Names Joo Mi Kim As New Chief Financial Officer - Pulse 2.0",
   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOakRaN2VDN3BlVTNTX1F6R09iRkF3N2lFQWE1a1hEVUw3OFE2b1otWnJLcGhvZG5GUVBwUmpPU2YzdkF3WlM3ZWFTQ25MYUdnMVE2ZG5OMFpBRERkc0h6aHFfNkJ2NTAwUS1NVkk2ajR1ODE4d1NmOWVmbmU0SnpkNXdDejZsZw?oc=5",

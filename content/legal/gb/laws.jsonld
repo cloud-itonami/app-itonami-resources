@@ -1,18 +1,18 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
   "@type": "Dataset",
   "name": "UK mine action / ERW implementation statutes",
-  "description": "Primary legislation implementing APMBC (Ottawa 1997) and CCM (Oslo 2008) in the United Kingdom. Scaffold — seeded for site.etzhayyim.com verification crawl against legislation.gov.uk.",
+  "description": "Primary legislation implementing APMBC (Ottawa 1997) and CCM (Oslo 2008) in the United Kingdom. Scaffold — seeded for site.itonami.cloud verification crawl against legislation.gov.uk.",
   "inLanguage": "en-GB",
   "isBasedOn": "https://www.legislation.gov.uk/",
   "dateModified": "2026-04-17",
-  "etzhayyim:lawCount": 2,
-  "etzhayyim:verificationStatus": "verified-primary-source",
-  "etzhayyim:verifiedAt": "2026-04-17",
-  "etzhayyim:verifiedVia": "WebFetch against legislation.gov.uk",
+  "itonami:lawCount": 2,
+  "itonami:verificationStatus": "verified-primary-source",
+  "itonami:verifiedAt": "2026-04-17",
+  "itonami:verifiedVia": "WebFetch against legislation.gov.uk",
   "@graph": [
     {
       "@type": "Legislation",
@@ -21,13 +21,13 @@
       "legislationIdentifier": "1998 c. 33",
       "datePublished": "1998-07-28",
       "url": "https://www.legislation.gov.uk/ukpga/1998/33",
-      "etzhayyim:treaty": "APMBC",
-      "etzhayyim:scope": [
+      "itonami:treaty": "APMBC",
+      "itonami:scope": [
         "Art.1 prohibition (use/develop/produce/stockpile/transfer)",
         "offences s.2–6",
         "jurisdiction"
       ],
-      "etzhayyim:verifyCitation": false
+      "itonami:verifyCitation": false
     },
     {
       "@type": "Legislation",
@@ -36,13 +36,13 @@
       "legislationIdentifier": "2010 c. 11",
       "datePublished": "2010-03-25",
       "url": "https://www.legislation.gov.uk/ukpga/2010/11",
-      "etzhayyim:treaty": "CCM",
-      "etzhayyim:scope": [
+      "itonami:treaty": "CCM",
+      "itonami:scope": [
         "CCM Art.1 offences",
         "assistance prohibition",
         "investment prohibition"
       ],
-      "etzhayyim:verifyCitation": false
+      "itonami:verifyCitation": false
     }
   ]
 }

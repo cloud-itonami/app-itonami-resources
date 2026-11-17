@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260115-5b51d52984a0",
   "headline": "SentinelOne, Inc. (S): A Bull Case Theory - Yahoo Finance",
   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZTMwX1JCT0NwWDNuMW9zMEJfbHdVRWNHMndTWVVPOFBVRlZtT2t6T3BuclJpV0hsdV81bVJtR3V6Ym5EUlRISmFWcklKWVFYdk5mVGItYXoxWDAxelV3LU1weV9ZUWNpUmMwNnJ6ZW50UzlQVXpWR014SnBWT2ZGWVNjOEg?oc=5",

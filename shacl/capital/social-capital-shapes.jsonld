@@ -5,13 +5,13 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "sh": "http://www.w3.org/ns/shacl#",
     "schema": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
   "@graph": [
     {
-      "@id": "etzhayyim:SocialCapitalRecordShape",
+      "@id": "itonami:SocialCapitalRecordShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:SocialCapitalRecord",
+      "sh:targetClass": "itonami:SocialCapitalRecord",
       "rdfs:comment": "Validates a social capital record representing branding value derived from a person's time investment. branding_value_jpy = hourly_rate_jpy * duration_seconds / 3600.",
       "sh:property": [
         {
@@ -21,36 +21,36 @@
           "sh:maxCount": 1
         },
         {
-          "sh:path": "etzhayyim:personId",
+          "sh:path": "itonami:personId",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:maxCount": 1
         },
         {
-          "sh:path": "etzhayyim:hourlyRateJpy",
+          "sh:path": "itonami:hourlyRateJpy",
           "sh:datatype": "xsd:decimal",
           "sh:minCount": 1,
           "sh:minInclusive": 0
         },
         {
-          "sh:path": "etzhayyim:perSecondRateJpy",
+          "sh:path": "itonami:perSecondRateJpy",
           "sh:datatype": "xsd:decimal",
           "sh:minCount": 1,
           "sh:minInclusive": 0
         },
         {
-          "sh:path": "etzhayyim:durationSeconds",
+          "sh:path": "itonami:durationSeconds",
           "sh:datatype": "xsd:decimal",
           "sh:minCount": 1,
           "sh:minInclusive": 0
         },
         {
-          "sh:path": "etzhayyim:activityType",
+          "sh:path": "itonami:activityType",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:brandingValue",
+          "sh:path": "itonami:brandingValue",
           "sh:datatype": "xsd:decimal",
           "sh:minCount": 1,
           "sh:minInclusive": 0

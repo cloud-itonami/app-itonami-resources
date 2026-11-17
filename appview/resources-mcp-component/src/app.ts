@@ -1,4 +1,4 @@
-// resources.etzhayyim.com — Resource Management Platform
+// resources.itonami.cloud — Resource Management Platform
 // Thin-edge dispatcher: business logic in AgentGateway MCP + pod-side LangServer.
 // 8 methods: createResource / getResource / updateResource / deleteResource /
 //            listResources / allocateResource / releaseResource / resourceUsage
@@ -11,8 +11,8 @@ interface Env {
 }
 interface ExportedHandler<E> { fetch(req: Request, env: E): Promise<Response>; }
 
-const NSID_PREFIX = "ai.etzhayyim.apps.resources.";
-const ACTOR_DID = "did:web:resources.etzhayyim.com";
+const NSID_PREFIX = "cloud.itonami.apps.resources.";
+const ACTOR_DID = "did:web:resources.itonami.cloud";
 
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {
@@ -23,7 +23,7 @@ export default {
         actor: ACTOR_DID,
         nanoid: env.APP_NANOID ?? "r3s0urc3",
         execution: "edge-proxy+agentgateway-mcp+langserver",
-        bpmn: "60-apps/etzhayyim-project-resources/bpmn",
+        bpmn: "60-apps/itonami-project-resources/bpmn",
         methods: [
           "createResource", "getResource", "updateResource", "deleteResource",
           "listResources", "allocateResource", "releaseResource", "resourceUsage",
@@ -56,7 +56,7 @@ async function bodyWithQuery(req: Request, url: URL): Promise<Record<string, unk
 }
 
 async function proxyToDispatcher(env: Env, nsid: string, body: Record<string, unknown>): Promise<Response> {
-  const dispatcherUrl = env.DISPATCHER_URL ?? "https://dispatcher.etzhayyim.com";
+  const dispatcherUrl = env.DISPATCHER_URL ?? "https://dispatcher.itonami.cloud";
   const secret = typeof env.DISPATCHER_INTERNAL_SECRET === "object"
     ? await env.DISPATCHER_INTERNAL_SECRET.get()
     : (env.DISPATCHER_INTERNAL_SECRET ?? "");

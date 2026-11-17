@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20251117-8c6f59a546ae",
   "headline": "Varonis Systems (Nasdaq: VRNS) finalist in 2025 Microsoft Marketplace Partner awards - Stock Titan",
   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQM1BleXJDYjhXR0stTGFwR3c4SjNoUnZaQUh2N3V3c2w1b0N0WFF4elY2bFhGWjluRldVSW16R2FWMFBVM1ZacHRpNno4d2YyaV9FU3NfRGpBX3NXcERrX3c2OHhwVUZ4RFpjR2I5VGxvRFhXWDFWMEp1M1AyQXFKUUlGR0NQaFdhS2R3d3dUR3p5UjVnU1VFX25ibGtGTXdBcnRaaVVaaEMwQXI5QXFHVFJ4UnNPVi1EbVI2b3JB?oc=5",

@@ -1,20 +1,20 @@
 {
   "@context": [
-    "https://resources.etzhayyim.com/ontology/supply-chain/context.jsonld",
+    "https://resources.itonami.cloud/ontology/supply-chain/context.jsonld",
     {
       "sameAs": "schema:sameAs",
       "keywords": "schema:keywords",
-      "componentType": "etzhayyim:componentType",
-      "supplierCompanyIds": "etzhayyim:supplierCompanyIds",
-      "dependsOnIds": "etzhayyim:dependsOnIds",
-      "variantCoverage": "etzhayyim:variantCoverage",
-      "sourceUrls": "etzhayyim:sourceUrls",
-      "manufacturedAtPlantIds": "etzhayyim:manufacturedAtPlantIds"
+      "componentType": "itonami:componentType",
+      "supplierCompanyIds": "itonami:supplierCompanyIds",
+      "dependsOnIds": "itonami:dependsOnIds",
+      "variantCoverage": "itonami:variantCoverage",
+      "sourceUrls": "itonami:sourceUrls",
+      "manufacturedAtPlantIds": "itonami:manufacturedAtPlantIds"
     }
   ],
   "@graph": [
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/components",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/components",
       "@type": "Dataset",
       "identifier": "cleaning-robot-components",
       "name": "Cleaning Robot Component Entities",
@@ -30,7 +30,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/main-control-pcb",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/main-control-pcb",
       "@type": "Thing",
       "identifier": "main-control-pcb",
       "name": "Main control PCB",
@@ -56,7 +56,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/lidar-navigation-module",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/lidar-navigation-module",
       "@type": "Thing",
       "identifier": "lidar-navigation-module",
       "name": "LiDAR navigation module",
@@ -80,7 +80,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/3d-lidar-module",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/3d-lidar-module",
       "@type": "Thing",
       "identifier": "3d-lidar-module",
       "name": "3D lidar module",
@@ -104,7 +104,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/imu-and-safety-sensor-set",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/imu-and-safety-sensor-set",
       "@type": "Thing",
       "identifier": "imu-and-safety-sensor-set",
       "name": "IMU and safety sensor set",
@@ -127,7 +127,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/suction-motor",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/suction-motor",
       "@type": "Thing",
       "identifier": "suction-motor",
       "name": "Suction motor",
@@ -151,7 +151,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/drive-motor-set",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/drive-motor-set",
       "@type": "Thing",
       "identifier": "drive-motor-set",
       "name": "Drive motor set",
@@ -176,7 +176,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/lithium-battery-pack",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/lithium-battery-pack",
       "@type": "Thing",
       "identifier": "lithium-battery-pack",
       "name": "Lithium battery pack",
@@ -200,7 +200,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/dock-charging-assembly",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/dock-charging-assembly",
       "@type": "Thing",
       "identifier": "dock-charging-assembly",
       "name": "Dock charging assembly",
@@ -228,7 +228,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/injection-molded-housing",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/injection-molded-housing",
       "@type": "Thing",
       "identifier": "injection-molded-housing",
       "name": "Injection-molded housing set",
@@ -251,7 +251,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/industrial-chassis-frame",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/industrial-chassis-frame",
       "@type": "Thing",
       "identifier": "industrial-chassis-frame",
       "name": "Industrial chassis frame",
@@ -276,7 +276,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/brush-and-roller-module",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/brush-and-roller-module",
       "@type": "Thing",
       "identifier": "brush-and-roller-module",
       "name": "Brush and roller cleaning module",
@@ -301,7 +301,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/component/commercial-scrub-module",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/component/commercial-scrub-module",
       "@type": "Thing",
       "identifier": "commercial-scrub-module",
       "name": "Commercial scrub and waste-handling module",

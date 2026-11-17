@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260306-2e27c2eee9bd",
   "headline": "S - SentinelOne Announces Second Quarter Fiscal Year 2022 Financial Results - Revista ADVFN",
   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTG5aSTllRVQyV2M2VTZQTHB5TC0zNndDSmtnd1ItRHZfMFNRbHZHTm5lZjhmWXJXU3N4SXBoRk5xNDktVkZoWTdUcGZZd0xwdnZ5VU83emJCTUFJQVBxZFI5WXFnY0VlbU5Dejl5M0lwM3E4NEUza2poTkJseXVLM2RTZkpPdl9FUmlyR0FRYVlTbnlOUzNtUDd3WF9jNkdrbmpDSGFIUUVqZFNnbXJFVVRwQmNIMEQ4VVEyX0JoUENGNG5STml5X0dQTjhMYjA?oc=5",

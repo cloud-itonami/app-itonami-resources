@@ -1,748 +1,748 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+    "itonami": "https://resources.itonami.cloud/ontology#",
     "dct": "http://purl.org/dc/terms/"
   },
   "@type": "Dataset",
-  "@id": "https://resources.etzhayyim.com/content/legal/global-legal-data-sources",
+  "@id": "https://resources.itonami.cloud/content/legal/global-legal-data-sources",
   "identifier": "global-legal-data-sources",
   "name": "Global Legal Data Sources Registry",
-  "description": "Registry of public legal data APIs worldwide. Managed by etzhayyim:legal-collector provider for automated collection of legislation, court cases, judges, and bar associations across jurisdictions.",
+  "description": "Registry of public legal data APIs worldwide. Managed by itonami:legal-collector provider for automated collection of legislation, court cases, judges, and bar associations across jurisdictions.",
   "dateModified": "2026-02-28T00:00:00Z",
-  "etzhayyim:collectorProvider": "etzhayyim:legal-collector@0.1.0",
-  "etzhayyim:jurisdictions": [
+  "itonami:collectorProvider": "itonami:legal-collector@0.1.0",
+  "itonami:jurisdictions": [
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "jpn",
       "name": "Japan (日本)",
       "inLanguage": "ja",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "jpn-egov-legislation",
           "name": "e-Gov法令API",
           "description": "日本の公開法令一覧。e-Gov法令APIの/api/1/lawlists/1エンドポイントから取得。",
           "url": "https://laws.e-gov.go.jp/api/1/lawlists/1",
-          "etzhayyim:apiType": "REST (XML)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (XML)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 0",
-          "etzhayyim:outputPath": "content/legal/jp/laws.jsonld"
+          "itonami:cronSchedule": "0 3 * * 0",
+          "itonami:outputPath": "content/legal/jp/laws.jsonld"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "jpn-courts-cases",
           "name": "裁判所判例検索 (courts.go.jp)",
           "description": "最高裁判所が運営する判例検索システム。",
           "url": "https://www.courts.go.jp/app/hanrei_jp/search1",
-          "etzhayyim:apiType": "HTML scraping",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "HTML scraping",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 4 * * 1",
-          "etzhayyim:outputPath": "content/legal/jp/case/"
+          "itonami:cronSchedule": "0 4 * * 1",
+          "itonami:outputPath": "content/legal/jp/case/"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "jpn-jfba-lawyers",
           "name": "日弁連 弁護士検索",
           "description": "日本弁護士連合会の公開登録情報。",
           "url": "https://www.nichibenren.or.jp/member_search/",
-          "etzhayyim:apiType": "HTML scraping",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "HTML scraping",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "bar-association"
           ],
-          "etzhayyim:cronSchedule": "0 5 1 * *",
-          "etzhayyim:outputPath": "content/legal/jp/bar-association/"
+          "itonami:cronSchedule": "0 5 1 * *",
+          "itonami:outputPath": "content/legal/jp/bar-association/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "usa",
       "name": "United States",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "usa-congress-legislation",
           "name": "Congress.gov API",
           "description": "US federal legislation via Library of Congress API (v3). Bills, amendments, laws, members.",
           "url": "https://api.congress.gov/v3/bill",
-          "etzhayyim:apiType": "REST (JSON)",
-          "etzhayyim:authRequired": true,
-          "etzhayyim:authMethod": "API key (free registration)",
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (JSON)",
+          "itonami:authRequired": true,
+          "itonami:authMethod": "API key (free registration)",
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 6 * * 0",
-          "etzhayyim:outputPath": "content/legal/us/legislation/"
+          "itonami:cronSchedule": "0 6 * * 0",
+          "itonami:outputPath": "content/legal/us/legislation/"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "usa-courtlistener-cases",
           "name": "CourtListener API (Free Law Project)",
           "description": "US federal and state court opinions, PACER/RECAP archive. REST API v4.",
           "url": "https://www.courtlistener.com/api/rest/v4/opinions/",
-          "etzhayyim:apiType": "REST (JSON)",
-          "etzhayyim:authRequired": true,
-          "etzhayyim:authMethod": "Free account token",
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (JSON)",
+          "itonami:authRequired": true,
+          "itonami:authMethod": "Free account token",
+          "itonami:sourceTypes": [
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 7 * * 1",
-          "etzhayyim:outputPath": "content/legal/us/case/"
+          "itonami:cronSchedule": "0 7 * * 1",
+          "itonami:outputPath": "content/legal/us/case/"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "usa-uscode",
           "name": "US Code (OLRC)",
           "description": "Office of the Law Revision Counsel — full US Code in USLM XML.",
           "url": "https://uscode.house.gov/download/download.shtml",
-          "etzhayyim:apiType": "Bulk XML download",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Bulk XML download",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 8 1 * *",
-          "etzhayyim:outputPath": "content/legal/us/uscode/"
+          "itonami:cronSchedule": "0 8 1 * *",
+          "itonami:outputPath": "content/legal/us/uscode/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "eu",
       "name": "European Union",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "eu-eurlex-legislation",
           "name": "EUR-Lex / CELLAR SPARQL",
           "description": "EU legislation and CJEU case law via CELLAR SPARQL endpoint. RDF/XML, Akoma Ntoso.",
           "url": "https://publications.europa.eu/webapi/rdf/sparql",
-          "etzhayyim:apiType": "SPARQL",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "SPARQL",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation",
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/eu/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/eu/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "gbr",
       "name": "United Kingdom",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "gbr-legislation-api",
           "name": "legislation.gov.uk API",
           "description": "UK legislation in CLML XML, RDF/XML, Atom. RESTful + SPARQL. No auth.",
           "url": "https://www.legislation.gov.uk/",
-          "etzhayyim:apiType": "REST (XML/RDF) + SPARQL",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (XML/RDF) + SPARQL",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 0",
-          "etzhayyim:outputPath": "content/legal/gb/legislation/"
+          "itonami:cronSchedule": "0 3 * * 0",
+          "itonami:outputPath": "content/legal/gb/legislation/"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "gbr-caselaw-api",
           "name": "Find Case Law API (National Archives)",
           "description": "UK court judgments in LegalDocML XML. Public API, no auth.",
           "url": "https://caselaw.nationalarchives.gov.uk/",
-          "etzhayyim:apiType": "REST (XML/Atom)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (XML/Atom)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 4 * * 1",
-          "etzhayyim:outputPath": "content/legal/gb/case/"
+          "itonami:cronSchedule": "0 4 * * 1",
+          "itonami:outputPath": "content/legal/gb/case/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "deu",
       "name": "Germany (Deutschland)",
       "inLanguage": "de",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "deu-gesetze-im-internet",
           "name": "Gesetze im Internet",
           "description": "German federal laws in XML via gesetze-im-internet.de. TOC at gii-toc.xml.",
           "url": "https://www.gesetze-im-internet.de/gii-toc.xml",
-          "etzhayyim:apiType": "Bulk XML download",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Bulk XML download",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/de/legislation/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/de/legislation/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "fra",
       "name": "France",
       "inLanguage": "fr",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "fra-legifrance-api",
           "name": "Légifrance API (DILA/PISTE)",
           "description": "French legislation and case law via PISTE portal. OAuth 2.0 (free registration).",
           "url": "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app/",
-          "etzhayyim:apiType": "REST (JSON)",
-          "etzhayyim:authRequired": true,
-          "etzhayyim:authMethod": "OAuth 2.0 Client Credentials",
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (JSON)",
+          "itonami:authRequired": true,
+          "itonami:authMethod": "OAuth 2.0 Client Credentials",
+          "itonami:sourceTypes": [
             "legislation",
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 0",
-          "etzhayyim:outputPath": "content/legal/fr/"
+          "itonami:cronSchedule": "0 3 * * 0",
+          "itonami:outputPath": "content/legal/fr/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "kor",
       "name": "South Korea (대한민국)",
       "inLanguage": "ko",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "kor-law-go-kr",
           "name": "국가법령정보센터 (law.go.kr)",
           "description": "Korean Law Information Center. REST API (XML). API key required (free).",
           "url": "https://www.law.go.kr/DRF/lawSearch.do",
-          "etzhayyim:apiType": "REST (XML)",
-          "etzhayyim:authRequired": true,
-          "etzhayyim:authMethod": "API key (free registration)",
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (XML)",
+          "itonami:authRequired": true,
+          "itonami:authMethod": "API key (free registration)",
+          "itonami:sourceTypes": [
             "legislation",
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 4 * * 0",
-          "etzhayyim:outputPath": "content/legal/kr/"
+          "itonami:cronSchedule": "0 4 * * 0",
+          "itonami:outputPath": "content/legal/kr/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "ind",
       "name": "India",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "ind-indiankanoon",
           "name": "Indian Kanoon API",
           "description": "Case law search (Supreme Court, High Courts, Tribunals). REST API.",
           "url": "https://api.indiankanoon.org/",
-          "etzhayyim:apiType": "REST (JSON/XML)",
-          "etzhayyim:authRequired": true,
-          "etzhayyim:authMethod": "API token",
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (JSON/XML)",
+          "itonami:authRequired": true,
+          "itonami:authMethod": "API token",
+          "itonami:sourceTypes": [
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 5 * * 0",
-          "etzhayyim:outputPath": "content/legal/in/case/"
+          "itonami:cronSchedule": "0 5 * * 0",
+          "itonami:outputPath": "content/legal/in/case/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "aus",
       "name": "Australia",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "aus-federal-register",
           "name": "Federal Register of Legislation",
           "description": "Australian federal legislation.",
           "url": "https://www.legislation.gov.au/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 6 * * 0",
-          "etzhayyim:outputPath": "content/legal/au/legislation/"
+          "itonami:cronSchedule": "0 6 * * 0",
+          "itonami:outputPath": "content/legal/au/legislation/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "can",
       "name": "Canada",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "can-justice-laws",
           "name": "Justice Laws Website",
           "description": "Canadian federal Acts and Regulations in XML.",
           "url": "https://laws-lois.justice.gc.ca/",
-          "etzhayyim:apiType": "Web portal (XML)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal (XML)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 7 * * 0",
-          "etzhayyim:outputPath": "content/legal/ca/legislation/"
+          "itonami:cronSchedule": "0 7 * * 0",
+          "itonami:outputPath": "content/legal/ca/legislation/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "bra",
       "name": "Brazil (Brasil)",
       "inLanguage": "pt",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "bra-planalto",
           "name": "Planalto Legislação",
           "description": "Brazilian federal legislation portal.",
           "url": "https://www.planalto.gov.br/ccivil_03/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 8 * * 0",
-          "etzhayyim:outputPath": "content/legal/br/legislation/"
+          "itonami:cronSchedule": "0 8 * * 0",
+          "itonami:outputPath": "content/legal/br/legislation/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:JurisdictionGroupHeader",
+      "@type": "itonami:JurisdictionGroupHeader",
       "name": "Eastern Bloc / 東側諸国"
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "chn",
       "name": "China (中国)",
       "inLanguage": "zh",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "chn-npc-legislation",
           "name": "国家法律法规数据库 (flk.npc.gov.cn)",
           "description": "National Laws and Regulations Database maintained by the NPC Standing Committee. Covers constitutional law, laws, administrative regulations, local regulations.",
           "url": "https://flk.npc.gov.cn/api/",
-          "etzhayyim:apiType": "REST (JSON)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (JSON)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/cn/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/cn/"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "chn-wenshu-cases",
           "name": "中国裁判文书网 (wenshu.court.gov.cn)",
           "description": "China Judgements Online — operated by the Supreme People's Court. Over 130 million court decisions published.",
           "url": "https://wenshu.court.gov.cn/",
-          "etzhayyim:apiType": "Web portal (requires CAPTCHA)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal (requires CAPTCHA)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 1",
-          "etzhayyim:outputPath": "content/legal/cn/case/"
+          "itonami:cronSchedule": "0 3 * * 1",
+          "itonami:outputPath": "content/legal/cn/case/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "rus",
       "name": "Russia (Россия)",
       "inLanguage": "ru",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "rus-pravo-legislation",
           "name": "pravo.gov.ru",
           "description": "Official Internet Portal of Legal Information (Официальный интернет-портал правовой информации). Federal legislation, presidential decrees.",
           "url": "http://pravo.gov.ru/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 1 * * 0",
-          "etzhayyim:outputPath": "content/legal/ru/"
+          "itonami:cronSchedule": "0 1 * * 0",
+          "itonami:outputPath": "content/legal/ru/"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "rus-sudrf-cases",
           "name": "ГАС Правосудие (sudrf.ru)",
           "description": "State Automated System 'Justice' — Russian court decisions database.",
           "url": "https://sudrf.ru/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 1",
-          "etzhayyim:outputPath": "content/legal/ru/case/"
+          "itonami:cronSchedule": "0 2 * * 1",
+          "itonami:outputPath": "content/legal/ru/case/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "prk",
       "name": "North Korea (조선민주주의인민공화국)",
       "inLanguage": "ko",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "prk-unilaw-legislation",
           "name": "통일법제 데이터베이스 (unilaw.go.kr)",
           "description": "South Korean Unification Legislation Database. Best publicly accessible source for DPRK legislation. Maintained by Ministry of Reunification, Ministry of Justice, and Ministry of Government Legislation. Updated weekly.",
           "url": "https://unilaw.go.kr/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 0 * * 0",
-          "etzhayyim:outputPath": "content/legal/kp/"
+          "itonami:cronSchedule": "0 0 * * 0",
+          "itonami:outputPath": "content/legal/kp/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "irn",
       "name": "Iran (ایران)",
       "inLanguage": "fa",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "irn-rc-legislation",
           "name": "Islamic Parliament Research Center (rc.majlis.ir)",
           "description": "مرکز پژوهش‌های مجلس شورای اسلامی — Iranian legislation database.",
           "url": "https://rc.majlis.ir/fa/law",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 1 * * 0",
-          "etzhayyim:outputPath": "content/legal/ir/"
+          "itonami:cronSchedule": "0 1 * * 0",
+          "itonami:outputPath": "content/legal/ir/"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "irn-dotic-cases",
           "name": "Judiciary Portal (eadl.ir)",
           "description": "Iran Judiciary electronic case portal.",
           "url": "https://eadl.ir/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 1",
-          "etzhayyim:outputPath": "content/legal/ir/case/"
+          "itonami:cronSchedule": "0 2 * * 1",
+          "itonami:outputPath": "content/legal/ir/case/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "cub",
       "name": "Cuba",
       "inLanguage": "es",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "cub-gaceta-legislation",
           "name": "Gaceta Oficial de Cuba",
           "description": "Cuban official gazette — legislation.",
           "url": "https://www.gacetaoficial.gob.cu/",
-          "etzhayyim:apiType": "Web portal (PDF)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal (PDF)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 0",
-          "etzhayyim:outputPath": "content/legal/cu/"
+          "itonami:cronSchedule": "0 3 * * 0",
+          "itonami:outputPath": "content/legal/cu/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "ven",
       "name": "Venezuela",
       "inLanguage": "es",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "ven-tsj-legislation",
           "name": "Tribunal Supremo de Justicia",
           "description": "Venezuelan Supreme Court — legislation and court decisions.",
           "url": "https://www.tsj.gob.ve/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation",
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 4 * * 0",
-          "etzhayyim:outputPath": "content/legal/ve/"
+          "itonami:cronSchedule": "0 4 * * 0",
+          "itonami:outputPath": "content/legal/ve/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "blr",
       "name": "Belarus (Беларусь)",
       "inLanguage": "ru",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "blr-pravo-legislation",
           "name": "pravo.by",
           "description": "National Legal Internet Portal of the Republic of Belarus.",
           "url": "https://pravo.by/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 1 * * 0",
-          "etzhayyim:outputPath": "content/legal/by/"
+          "itonami:cronSchedule": "0 1 * * 0",
+          "itonami:outputPath": "content/legal/by/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "syr",
       "name": "Syria (سوريا)",
       "inLanguage": "ar",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "syr-parliament-legislation",
           "name": "Syrian People's Assembly",
           "description": "Syrian parliament legislation portal. Limited availability.",
           "url": "http://www.parliament.gov.sy/",
-          "etzhayyim:apiType": "Web portal (limited)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal (limited)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/sy/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/sy/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "vnm",
       "name": "Vietnam (Việt Nam)",
       "inLanguage": "vi",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "vnm-vbpl-legislation",
           "name": "VBPL (vbpl.vn)",
           "description": "Vietnam Legal Document Database (Cơ sở dữ liệu quốc gia về văn bản pháp luật).",
           "url": "https://vbpl.vn/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 0",
-          "etzhayyim:outputPath": "content/legal/vn/"
+          "itonami:cronSchedule": "0 3 * * 0",
+          "itonami:outputPath": "content/legal/vn/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "mmr",
       "name": "Myanmar",
       "inLanguage": "my",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "mmr-mlis-legislation",
           "name": "Myanmar Law Information System",
           "description": "Myanmar legislation portal. Limited availability.",
           "url": "https://www.mlis.gov.mm/",
-          "etzhayyim:apiType": "Web portal (limited)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal (limited)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 4 * * 0",
-          "etzhayyim:outputPath": "content/legal/mm/"
+          "itonami:cronSchedule": "0 4 * * 0",
+          "itonami:outputPath": "content/legal/mm/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "lao",
       "name": "Laos",
       "inLanguage": "lo",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "lao-na-legislation",
           "name": "National Assembly of Laos",
           "description": "Lao PDR legislation portal. Limited availability.",
           "url": "https://na.gov.la/",
-          "etzhayyim:apiType": "Web portal (limited)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal (limited)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 5 * * 0",
-          "etzhayyim:outputPath": "content/legal/la/"
+          "itonami:cronSchedule": "0 5 * * 0",
+          "itonami:outputPath": "content/legal/la/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "irq",
       "name": "Iraq (العراق)",
       "inLanguage": "ar",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "irq-iraqld-legislation",
           "name": "Iraqi Legal Database",
           "description": "قاعدة التشريعات العراقية — Iraqi legislation database.",
           "url": "https://www.iraqld.iq/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 1 * * 0",
-          "etzhayyim:outputPath": "content/legal/iq/"
+          "itonami:cronSchedule": "0 1 * * 0",
+          "itonami:outputPath": "content/legal/iq/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:JurisdictionGroupHeader",
+      "@type": "itonami:JurisdictionGroupHeader",
       "name": "Western Bloc / 西側諸国 (additional)"
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "ita",
       "name": "Italy (Italia)",
       "inLanguage": "it",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "ita-normattiva-legislation",
           "name": "Normattiva",
           "description": "Italian legislation database (Presidenza del Consiglio dei Ministri).",
           "url": "https://www.normattiva.it/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/it/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/it/"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "ita-corte-costituzionale",
           "name": "Corte Costituzionale",
           "description": "Italian Constitutional Court decisions.",
           "url": "https://www.cortecostituzionale.it/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 1",
-          "etzhayyim:outputPath": "content/legal/it/case/"
+          "itonami:cronSchedule": "0 3 * * 1",
+          "itonami:outputPath": "content/legal/it/case/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "esp",
       "name": "Spain (España)",
       "inLanguage": "es",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "esp-boe-legislation",
           "name": "BOE (Boletín Oficial del Estado)",
           "description": "Spanish official gazette — legislation available as open data XML/JSON.",
           "url": "https://www.boe.es/datosabiertos/",
-          "etzhayyim:apiType": "REST (XML/JSON)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (XML/JSON)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/es/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/es/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "nld",
       "name": "Netherlands",
       "inLanguage": "nl",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "nld-overheid-legislation",
           "name": "wetten.overheid.nl",
           "description": "Dutch legislation portal (Overheid.nl) — Linked Data / XML available.",
           "url": "https://wetten.overheid.nl/",
-          "etzhayyim:apiType": "Linked Data / XML",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Linked Data / XML",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/nl/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/nl/"
         },
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "nld-rechtspraak-cases",
           "name": "Rechtspraak.nl Open Data",
           "description": "Dutch court decisions in open XML format.",
           "url": "https://data.rechtspraak.nl/uitspraken/zoeken",
-          "etzhayyim:apiType": "REST (XML)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (XML)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 1",
-          "etzhayyim:outputPath": "content/legal/nl/case/"
+          "itonami:cronSchedule": "0 3 * * 1",
+          "itonami:outputPath": "content/legal/nl/case/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "che",
       "name": "Switzerland (Schweiz)",
       "inLanguage": [
@@ -750,114 +750,114 @@
         "fr",
         "it"
       ],
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "che-fedlex-legislation",
           "name": "Fedlex (fedlex.admin.ch)",
           "description": "Swiss federal legislation — Linked Data / ELI / SPARQL.",
           "url": "https://www.fedlex.admin.ch/eli/cc/de",
-          "etzhayyim:apiType": "Linked Data / SPARQL",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Linked Data / SPARQL",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/ch/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/ch/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "swe",
       "name": "Sweden (Sverige)",
       "inLanguage": "sv",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "swe-riksdagen-legislation",
           "name": "Riksdagen Open Data",
           "description": "Swedish parliament legislation open data API.",
           "url": "https://data.riksdagen.se/",
-          "etzhayyim:apiType": "REST (XML/JSON)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (XML/JSON)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/se/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/se/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "nor",
       "name": "Norway (Norge)",
       "inLanguage": "no",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "nor-lovdata-legislation",
           "name": "Lovdata",
           "description": "Norwegian legislation database. Free access to current acts.",
           "url": "https://lovdata.no/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 0",
-          "etzhayyim:outputPath": "content/legal/no/"
+          "itonami:cronSchedule": "0 3 * * 0",
+          "itonami:outputPath": "content/legal/no/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "dnk",
       "name": "Denmark (Danmark)",
       "inLanguage": "da",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "dnk-retsinformation-legislation",
           "name": "Retsinformation.dk",
           "description": "Danish official legal information system.",
           "url": "https://www.retsinformation.dk/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/dk/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/dk/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "fin",
       "name": "Finland (Suomi)",
       "inLanguage": "fi",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "fin-finlex-legislation",
           "name": "Finlex",
           "description": "Finnish legislation and case law database.",
           "url": "https://www.finlex.fi/fi/laki/",
-          "etzhayyim:apiType": "Web portal / REST",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal / REST",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation",
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/fi/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/fi/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "bel",
       "name": "Belgium (België)",
       "inLanguage": [
@@ -865,264 +865,264 @@
         "fr",
         "de"
       ],
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "bel-ejustice-legislation",
           "name": "Belgisch Staatsblad / Moniteur Belge",
           "description": "Belgian official gazette — legislation.",
           "url": "https://www.ejustice.just.fgov.be/cgi/welcome.pl",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/be/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/be/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "aut",
       "name": "Austria (Österreich)",
       "inLanguage": "de",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "aut-ris-legislation",
           "name": "RIS (Rechtsinformationssystem)",
           "description": "Austrian legal information system — legislation and case law.",
           "url": "https://www.ris.bka.gv.at/",
-          "etzhayyim:apiType": "Web portal / REST",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal / REST",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation",
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/at/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/at/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "nzl",
       "name": "New Zealand",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "nzl-legislation-govt",
           "name": "New Zealand Legislation",
           "description": "NZ Parliamentary Counsel Office legislation portal.",
           "url": "https://www.legislation.govt.nz/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 6 * * 0",
-          "etzhayyim:outputPath": "content/legal/nz/"
+          "itonami:cronSchedule": "0 6 * * 0",
+          "itonami:outputPath": "content/legal/nz/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "isr",
       "name": "Israel (ישראל)",
       "inLanguage": "he",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "isr-nevo-legislation",
           "name": "Nevo Legal Database",
           "description": "Israeli legislation and court decisions.",
           "url": "https://www.nevo.co.il/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation",
             "court-case"
           ],
-          "etzhayyim:cronSchedule": "0 1 * * 0",
-          "etzhayyim:outputPath": "content/legal/il/"
+          "itonami:cronSchedule": "0 1 * * 0",
+          "itonami:outputPath": "content/legal/il/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "sgp",
       "name": "Singapore",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "sgp-sso-legislation",
           "name": "Singapore Statutes Online (SSO)",
           "description": "Attorney-General's Chambers legislation database.",
           "url": "https://sso.agc.gov.sg/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 4 * * 0",
-          "etzhayyim:outputPath": "content/legal/sg/"
+          "itonami:cronSchedule": "0 4 * * 0",
+          "itonami:outputPath": "content/legal/sg/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "twn",
       "name": "Taiwan (中華民國)",
       "inLanguage": "zh",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "twn-law-moj-legislation",
           "name": "全國法規資料庫 (law.moj.gov.tw)",
           "description": "Laws & Regulations Database of the Republic of China (Taiwan).",
           "url": "https://law.moj.gov.tw/",
-          "etzhayyim:apiType": "Web portal / REST (XML)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal / REST (XML)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 0",
-          "etzhayyim:outputPath": "content/legal/tw/"
+          "itonami:cronSchedule": "0 3 * * 0",
+          "itonami:outputPath": "content/legal/tw/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "mex",
       "name": "Mexico (México)",
       "inLanguage": "es",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "mex-dof-legislation",
           "name": "Diario Oficial de la Federación (DOF)",
           "description": "Mexican official gazette — federal legislation.",
           "url": "https://www.dof.gob.mx/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 7 * * 0",
-          "etzhayyim:outputPath": "content/legal/mx/"
+          "itonami:cronSchedule": "0 7 * * 0",
+          "itonami:outputPath": "content/legal/mx/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "zaf",
       "name": "South Africa",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "zaf-gov-legislation",
           "name": "South African Government Legislation",
           "description": "Acts and regulations portal.",
           "url": "https://www.gov.za/documents/acts",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 1 * * 0",
-          "etzhayyim:outputPath": "content/legal/za/"
+          "itonami:cronSchedule": "0 1 * * 0",
+          "itonami:outputPath": "content/legal/za/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "pol",
       "name": "Poland (Polska)",
       "inLanguage": "pl",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "pol-isap-legislation",
           "name": "ISAP (isap.sejm.gov.pl)",
           "description": "Polish Internet System of Legal Acts (Sejm).",
           "url": "https://isap.sejm.gov.pl/isap.nsf/",
-          "etzhayyim:apiType": "REST (XML)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (XML)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/pl/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/pl/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "irl",
       "name": "Ireland",
       "inLanguage": "en",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "irl-irishstatutebook",
           "name": "Irish Statute Book (irishstatutebook.ie)",
           "description": "Irish legislation database.",
           "url": "https://www.irishstatutebook.ie/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 3 * * 0",
-          "etzhayyim:outputPath": "content/legal/ie/"
+          "itonami:cronSchedule": "0 3 * * 0",
+          "itonami:outputPath": "content/legal/ie/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "prt",
       "name": "Portugal",
       "inLanguage": "pt",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "prt-dre-legislation",
           "name": "DRE (Diário da República Eletrónico)",
           "description": "Portuguese official gazette — legislation.",
           "url": "https://dre.pt/",
-          "etzhayyim:apiType": "REST (JSON/XML)",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "REST (JSON/XML)",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 2 * * 0",
-          "etzhayyim:outputPath": "content/legal/pt/"
+          "itonami:cronSchedule": "0 2 * * 0",
+          "itonami:outputPath": "content/legal/pt/"
         }
       ]
     },
     {
-      "@type": "etzhayyim:Jurisdiction",
+      "@type": "itonami:Jurisdiction",
       "identifier": "sau",
       "name": "Saudi Arabia (المملكة العربية السعودية)",
       "inLanguage": "ar",
-      "etzhayyim:dataSources": [
+      "itonami:dataSources": [
         {
-          "@type": "etzhayyim:LegalDataSource",
+          "@type": "itonami:LegalDataSource",
           "identifier": "sau-boe-legislation",
           "name": "Bureau of Experts (laws.boe.gov.sa)",
           "description": "Saudi Arabian legislation database (هيئة الخبراء بمجلس الوزراء).",
           "url": "https://laws.boe.gov.sa/",
-          "etzhayyim:apiType": "Web portal",
-          "etzhayyim:authRequired": false,
-          "etzhayyim:sourceTypes": [
+          "itonami:apiType": "Web portal",
+          "itonami:authRequired": false,
+          "itonami:sourceTypes": [
             "legislation"
           ],
-          "etzhayyim:cronSchedule": "0 1 * * 0",
-          "etzhayyim:outputPath": "content/legal/sa/"
+          "itonami:cronSchedule": "0 1 * * 0",
+          "itonami:outputPath": "content/legal/sa/"
         }
       ]
     }

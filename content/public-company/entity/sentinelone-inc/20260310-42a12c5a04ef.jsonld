@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-42a12c5a04ef",
   "headline": "SentinelOne to Report Q4 Earnings: What's in Store for the Stock? - Yahoo Finance",
   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcXAyLVBWY2l4em4zNGZoenFhQ0VidjdsSUxMc0laaXBKUURBelBCeGpUSFVCMWJzVnhYWTM4dVktb2tSUHZsaGhWbktfUTFONzdKdUpBVHQxZDlYMTZ3blN3ckNGd0xTajNFRFc0a3NFcl84SGRhUThFblFfS19YX1dsTDRFakQ2cEE?oc=5",

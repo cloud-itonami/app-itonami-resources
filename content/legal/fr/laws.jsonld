@@ -1,16 +1,16 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "etzhayyim": "https://resources.etzhayyim.com/ontology#"
+    "itonami": "https://resources.itonami.cloud/ontology#"
   },
   "@type": "Dataset",
   "name": "France — lois d'application action anti-mines / REG",
-  "description": "Lois françaises d'application de la Convention d'Ottawa (APMBC) et de la Convention d'Oslo (CCM). Scaffold — préparé pour le crawl de vérification site.etzhayyim.com contre legifrance.gouv.fr.",
+  "description": "Lois françaises d'application de la Convention d'Ottawa (APMBC) et de la Convention d'Oslo (CCM). Scaffold — préparé pour le crawl de vérification site.itonami.cloud contre legifrance.gouv.fr.",
   "inLanguage": "fr-FR",
   "isBasedOn": "https://www.legifrance.gouv.fr/",
   "dateModified": "2026-04-17",
-  "etzhayyim:lawCount": 2,
-  "etzhayyim:verificationStatus": "pending — legifrance.gouv.fr returned 403 to WebFetch 2026-04-17 (bot-block). Re-run via authenticated site.etzhayyim.com crawler.",
+  "itonami:lawCount": 2,
+  "itonami:verificationStatus": "pending — legifrance.gouv.fr returned 403 to WebFetch 2026-04-17 (bot-block). Re-run via authenticated site.itonami.cloud crawler.",
   "@graph": [
     {
       "@type": "Legislation",
@@ -19,9 +19,9 @@
       "legislationIdentifier": "Loi n° 98-564",
       "datePublished": "1998-07-08",
       "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000005626127/",
-      "etzhayyim:treaty": "APMBC",
-      "etzhayyim:scope": ["Interdiction fabrication/stockage/transfert/emploi", "Commission nationale pour l'élimination des mines antipersonnel (CNEMA)"],
-      "etzhayyim:verifyCitation": true
+      "itonami:treaty": "APMBC",
+      "itonami:scope": ["Interdiction fabrication/stockage/transfert/emploi", "Commission nationale pour l'élimination des mines antipersonnel (CNEMA)"],
+      "itonami:verifyCitation": true
     },
     {
       "@type": "Legislation",
@@ -30,8 +30,8 @@
       "legislationIdentifier": "Loi n° 2010-819",
       "datePublished": "2010-07-20",
       "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000022500365/",
-      "etzhayyim:treaty": "CCM",
-      "etzhayyim:verifyCitation": true
+      "itonami:treaty": "CCM",
+      "itonami:verifyCitation": true
     }
   ]
 }

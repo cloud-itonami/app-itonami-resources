@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://resources.etzhayyim.com/ontology/supply-chain/context.jsonld",
+    "https://resources.itonami.cloud/ontology/supply-chain/context.jsonld",
     {
       "sh": "http://www.w3.org/ns/shacl#",
       "xsd": "http://www.w3.org/2001/XMLSchema#"
@@ -8,9 +8,9 @@
   ],
   "@graph": [
     {
-      "@id": "etzhayyim:MaterialSourceShape",
+      "@id": "itonami:MaterialSourceShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:MaterialSource",
+      "sh:targetClass": "itonami:MaterialSource",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -24,7 +24,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:materialCategory",
+          "sh:path": "itonami:materialCategory",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:in": [
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "sh:path": "etzhayyim:materialType",
+          "sh:path": "itonami:materialType",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1
         },
@@ -50,23 +50,23 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:countryCode",
+          "sh:path": "itonami:countryCode",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:pattern": "^[A-Z]{2}$"
         },
         {
-          "sh:path": "etzhayyim:estimatedReserves",
+          "sh:path": "itonami:estimatedReserves",
           "sh:datatype": "xsd:decimal",
           "sh:minCount": 0
         },
         {
-          "sh:path": "etzhayyim:dailyOutput",
+          "sh:path": "itonami:dailyOutput",
           "sh:datatype": "xsd:decimal",
           "sh:minCount": 0
         },
         {
-          "sh:path": "etzhayyim:unitOfMeasure",
+          "sh:path": "itonami:unitOfMeasure",
           "sh:datatype": "xsd:string"
         },
         {
@@ -77,9 +77,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:SupplyCompanyShape",
+      "@id": "itonami:SupplyCompanyShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:SupplyCompany",
+      "sh:targetClass": "itonami:SupplyCompany",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -93,12 +93,12 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:countryCode",
+          "sh:path": "itonami:countryCode",
           "sh:datatype": "xsd:string",
           "sh:pattern": "^[A-Z]{2}$"
         },
         {
-          "sh:path": "etzhayyim:isicSection",
+          "sh:path": "itonami:isicSection",
           "sh:datatype": "xsd:string"
         },
         {
@@ -109,9 +109,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:SupplyPersonShape",
+      "@id": "itonami:SupplyPersonShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:SupplyPerson",
+      "sh:targetClass": "itonami:SupplyPerson",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -125,7 +125,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:affiliatedCompanyIds",
+          "sh:path": "itonami:affiliatedCompanyIds",
           "sh:datatype": "xsd:string"
         },
         {
@@ -136,9 +136,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:SupplyFamilyShape",
+      "@id": "itonami:SupplyFamilyShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:SupplyFamily",
+      "sh:targetClass": "itonami:SupplyFamily",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -152,7 +152,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:countryCode",
+          "sh:path": "itonami:countryCode",
           "sh:datatype": "xsd:string"
         },
         {
@@ -163,9 +163,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:ManufacturingPlantShape",
+      "@id": "itonami:ManufacturingPlantShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:ManufacturingPlant",
+      "sh:targetClass": "itonami:ManufacturingPlant",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -179,7 +179,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:plantType",
+          "sh:path": "itonami:plantType",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:in": [
@@ -189,7 +189,7 @@
           ]
         },
         {
-          "sh:path": "etzhayyim:isicDivision",
+          "sh:path": "itonami:isicDivision",
           "sh:datatype": "xsd:string"
         },
         {
@@ -203,11 +203,11 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:inputMaterials",
+          "sh:path": "itonami:inputMaterials",
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:outputProducts",
+          "sh:path": "itonami:outputProducts",
           "sh:datatype": "xsd:string"
         },
         {
@@ -218,9 +218,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:ProcessingPlantShape",
+      "@id": "itonami:ProcessingPlantShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:ProcessingPlant",
+      "sh:targetClass": "itonami:ProcessingPlant",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -234,7 +234,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:processType",
+          "sh:path": "itonami:processType",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:in": [
@@ -255,11 +255,11 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:inputMaterials",
+          "sh:path": "itonami:inputMaterials",
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:outputMaterials",
+          "sh:path": "itonami:outputMaterials",
           "sh:datatype": "xsd:string"
         },
         {
@@ -270,9 +270,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:LogisticsHubShape",
+      "@id": "itonami:LogisticsHubShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:LogisticsHub",
+      "sh:targetClass": "itonami:LogisticsHub",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -286,7 +286,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:hubType",
+          "sh:path": "itonami:hubType",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:in": [
@@ -308,11 +308,11 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:capacityTonnes",
+          "sh:path": "itonami:capacityTonnes",
           "sh:datatype": "xsd:decimal"
         },
         {
-          "sh:path": "etzhayyim:unLocode",
+          "sh:path": "itonami:unLocode",
           "sh:datatype": "xsd:string",
           "sh:pattern": "^[A-Z]{2}[A-Z0-9]{3}$"
         },
@@ -324,9 +324,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:LogisticsVehicleShape",
+      "@id": "itonami:LogisticsVehicleShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:LogisticsVehicle",
+      "sh:targetClass": "itonami:LogisticsVehicle",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -340,7 +340,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:vehicleType",
+          "sh:path": "itonami:vehicleType",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:in": [
@@ -352,11 +352,11 @@
           ]
         },
         {
-          "sh:path": "etzhayyim:registrationNumber",
+          "sh:path": "itonami:registrationNumber",
           "sh:datatype": "xsd:string"
         },
         {
-          "sh:path": "etzhayyim:capacityTonnes",
+          "sh:path": "itonami:capacityTonnes",
           "sh:datatype": "xsd:decimal"
         },
         {
@@ -367,9 +367,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:LogisticsVesselShape",
+      "@id": "itonami:LogisticsVesselShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:LogisticsVessel",
+      "sh:targetClass": "itonami:LogisticsVessel",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -383,7 +383,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:vesselType",
+          "sh:path": "itonami:vesselType",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:in": [
@@ -395,16 +395,16 @@
           ]
         },
         {
-          "sh:path": "etzhayyim:imoNumber",
+          "sh:path": "itonami:imoNumber",
           "sh:datatype": "xsd:string",
           "sh:pattern": "^[0-9]{7}$"
         },
         {
-          "sh:path": "etzhayyim:deadweightTonnes",
+          "sh:path": "itonami:deadweightTonnes",
           "sh:datatype": "xsd:decimal"
         },
         {
-          "sh:path": "etzhayyim:flagState",
+          "sh:path": "itonami:flagState",
           "sh:datatype": "xsd:string",
           "sh:pattern": "^[A-Z]{2}$"
         },
@@ -416,9 +416,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:LogisticsRailwayShape",
+      "@id": "itonami:LogisticsRailwayShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:LogisticsRailway",
+      "sh:targetClass": "itonami:LogisticsRailway",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -432,7 +432,7 @@
           "sh:minCount": 1
         },
         {
-          "sh:path": "etzhayyim:serviceType",
+          "sh:path": "itonami:serviceType",
           "sh:datatype": "xsd:string",
           "sh:in": [
             "freight",
@@ -441,7 +441,7 @@
           ]
         },
         {
-          "sh:path": "etzhayyim:capacityTonnes",
+          "sh:path": "itonami:capacityTonnes",
           "sh:datatype": "xsd:decimal"
         },
         {
@@ -452,9 +452,9 @@
       ]
     },
     {
-      "@id": "etzhayyim:LogisticsContainerShape",
+      "@id": "itonami:LogisticsContainerShape",
       "@type": "sh:NodeShape",
-      "sh:targetClass": "etzhayyim:LogisticsContainer",
+      "sh:targetClass": "itonami:LogisticsContainer",
       "sh:property": [
         {
           "sh:path": "schema:identifier",
@@ -463,13 +463,13 @@
           "sh:maxCount": 1
         },
         {
-          "sh:path": "etzhayyim:containerNumber",
+          "sh:path": "itonami:containerNumber",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:pattern": "^[A-Z]{4}[0-9]{7}$"
         },
         {
-          "sh:path": "etzhayyim:containerType",
+          "sh:path": "itonami:containerType",
           "sh:datatype": "xsd:string",
           "sh:minCount": 1,
           "sh:in": [
@@ -481,7 +481,7 @@
           ]
         },
         {
-          "sh:path": "etzhayyim:sizeTeu",
+          "sh:path": "itonami:sizeTeu",
           "sh:datatype": "xsd:decimal",
           "sh:minCount": 1,
           "sh:in": [
@@ -490,11 +490,11 @@
           ]
         },
         {
-          "sh:path": "etzhayyim:maxPayloadKg",
+          "sh:path": "itonami:maxPayloadKg",
           "sh:datatype": "xsd:decimal"
         },
         {
-          "sh:path": "etzhayyim:transportMode",
+          "sh:path": "itonami:transportMode",
           "sh:datatype": "xsd:string",
           "sh:in": [
             "sea",

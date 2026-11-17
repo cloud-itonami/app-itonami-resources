@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-98e3808ce4b4",
   "headline": "Jefferies Financial Group Inc. Invests $4.41 Million in SentinelOne, Inc. $S - MarketBeat",
   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS1pObWRPWG5NXzExUDlVNm1neVFYU3NmYVl0SlpLQzZWX1BCcFpIdmpBc3NMbnVoLVppZ2YzeGVTclRVSjl3NTBwTHU1VnNaeFRsdVlrbzVMMkpfZEdJNDBHWUdIX1BDS05rZkFKUVZ2VVVXNnNabjVvQ1FZMmsyWExTRlo5c2lBMkRqbEZSc1JKdnVFdUFvbGdwR1BRRjJCdTN1RnpGcmw1Y0VxSGZNbmgwRUxDUUprajcxOWxBVUVKS3pPUVZXV1JkMA?oc=5",

@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260307-f89e2f19d7c6",
   "headline": "Insider Sell: Bruce Posey Sells Shares of Qualys Inc (QLYS) - GuruFocus",
   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLUFMVlNOY2ZXbC14ZHdBNVJEaUx0d1lEU0liUFQydDU4cHJNNnRSTXVaSXhxWDhaQUF3dmRvTlNnM3VTQ3RsNDRLRkVWZnFobDIzcHZ6R3VoMzZKRV9CRzcwZXQ0c2xacUpub2Q0ZDNQSW81Q0hZRTY1WnFZOV9YVE8ySHhEbFVqZ2VtdE9MZ1NjREw1YndISG1XNA?oc=5",

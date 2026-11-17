@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260310-da8f27c8ccd8",
   "headline": "Cloudflare CEO Prince slams Vail Resorts earnings as he eyes Park City acquisition - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzRxZl9fSHladWh1eGdQcGdmcUxJV2toanJmemJ6cE1xX3poVVNaMFdWUXdUZEQ2bnkzTV9tMkl5cUhuejBQUFhGQnlBY2FldHRaZkZEVWpXUktrdVdsRksyLXlkdW0temRLSGd3Tms5QnUxOHA5UEZicUstaXZZYXFhRVNrdlBFckc5dFBtNWRta0RDckkxLV9qaUFUSnJqVmZ4VmgxQU9obmtWWVVSNEQ5MXRJTkVCNnA3WEE5UUJzOEkxMUVaNzFRR0Y2eFlhOHBvWGpB?oc=5",

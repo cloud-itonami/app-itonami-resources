@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260116-f49d234eacaf",
   "headline": "Rapid7 to Report Fourth Quarter and Full Year 2025 Financial Results on February 10 - The Manila Times",
   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUTBNOHQ5bG1iUmdqSW9FOUh3WGFHZ0ZwM3FjUl9zMTdhTGRxWDdzMXJ4aDRfWVpyLWhFa3pNM21rZjVfNUlXV1ZDbWlRSEVuMkYxNjFEMmZ6bnBaSHc4SklldzZqaXhZQ1lVVHRXWURRZHNOMTlkNlFNOEJQbktfSnhMT1lMZzZOejdNWjBtMmVfMzdnTnpnZTRsenUwb19YSFl2dWNxcGV3aUhLZDVVdDFUdHFXLXdocEhfcEhHMFBnSWhrTjFJTzJfNDhjdmxHNmRXbVkzTWgtc0ZoOVI3YTBtNFBwVWZHR1JndkVB0gHzAUFVX3lxTE51T05GanNQQWNLc0VBQnNPWGpZTTZMVmYxUU5hZDAzaTgwaGNyZ1pNdEVkQ1JoX3hrQS14R0NvZ0cybFV3VnhrWVoyQ19uNXdhSExMdHVjNTJOcE1GaXRVMFQzYW40TmJLS2NVTmFLVnVkUi1FbEZ1bUI3SExJVG5pVGZPdGU4ek54ZVFvOEpTN29XcFZ6V0JqUEtxcm1tRkd2cVlXWHk3SjBXSG94MG1ZbGJOWVNvR2xOUGFaNlEwY2pzWkliYmc0VVFFTTVXekU0QmNVeTVTSjh3cHkycU80dVNlNGZQSTVLaTQ4UUZkVDhSWQ?oc=5",

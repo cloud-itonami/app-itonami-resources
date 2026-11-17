@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260114-ab59419f251a",
   "headline": "Rapid7 Partners with ARMO to Enhance Cloud Runtime Security on the Rapid7 Command Platform - Quiver Quantitative",
   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT2dhVnp5YzVodENJQkdFNC1ncU1CV2xhUDRDVkhuZDNaMVJmRFpWZmFLOWF2aHFRS1RLWlBYX0FEZU1vTEdVdEg5bFFJSmRVMk5mTk40QldUVVlWODlnQlZlVlFnTGNqbzNCRXRMTGR3T1N2QUhmak02YzcyaGk0TWlzM202eVpNcnhxcmM2c205SXEwbTNReFN6N2xEX3JITXRJOFlPQnpqa0laM1BiMXg0VlVkQlYtdnFJeEhITEU?oc=5",

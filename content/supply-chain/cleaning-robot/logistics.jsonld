@@ -1,16 +1,16 @@
 {
   "@context": [
-    "https://resources.etzhayyim.com/ontology/supply-chain/context.jsonld",
+    "https://resources.itonami.cloud/ontology/supply-chain/context.jsonld",
     {
       "sameAs": "schema:sameAs",
-      "sourceUrls": "etzhayyim:sourceUrls",
-      "dependsOnIds": "etzhayyim:dependsOnIds",
-      "lane": "etzhayyim:lane"
+      "sourceUrls": "itonami:sourceUrls",
+      "dependsOnIds": "itonami:dependsOnIds",
+      "lane": "itonami:lane"
     }
   ],
   "@graph": [
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/logistics",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/logistics",
       "@type": "Dataset",
       "identifier": "cleaning-robot-logistics",
       "name": "Cleaning Robot Logistics and Distribution Nodes",
@@ -18,7 +18,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/logistics/ocean-export-maersk",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/logistics/ocean-export-maersk",
       "@type": "Thing",
       "identifier": "ocean-export-maersk",
       "name": "Maersk East Asia export lane",
@@ -37,7 +37,7 @@
       "prov:generatedAtTime": "2026-03-10T00:00:00Z"
     },
     {
-      "@id": "https://resources.etzhayyim.com/content/supply-chain/cleaning-robot/logistics/regional-distribution-dhl",
+      "@id": "https://resources.itonami.cloud/content/supply-chain/cleaning-robot/logistics/regional-distribution-dhl",
       "@type": "Thing",
       "identifier": "regional-distribution-dhl",
       "name": "DHL regional warehousing and fulfillment",

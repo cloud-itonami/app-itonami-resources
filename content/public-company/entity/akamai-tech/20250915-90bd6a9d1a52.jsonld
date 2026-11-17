@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20250915-90bd6a9d1a52",
   "headline": "Smarter Security: Akamai and Seraphic Team Up to Simplify SSE with Secure Enterprise Browsing - PR Newswire",
   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYjhKYmJuZ2hES05OY3dvcWhhZW5fLVJmX2NKeVZiSG9ULVB3bjg0NmJwRnZDbEdMaGM3NnJnaWswQ1NHZVNNRDdUMVphWG9fMmxCWE5mektJZTVRODhTcU1ESWgxREdCeUdNeE8wQUYyc083Z3N2dW00Mjk4UW16WWJqSy1TbXlFdXJaZC1MOUpFTHV1Q2tIQWtBXzJYYjlDNFoxdHlSQVl2ejVEMndJN3VTOUR0MFNvYmwxWDNaajZsV3lFNDdjUDZzdHk4b0FueldoRl9lcngxbkVkQUhkOFdR?oc=5",

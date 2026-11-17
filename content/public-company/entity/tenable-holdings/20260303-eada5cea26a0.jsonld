@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260303-eada5cea26a0",
   "headline": "Wells Fargo initiates Tenable stock coverage with $13 target By Investing.com - Investing.com India",
   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaVEyenlwTU10WkxDeTNab0VvdFV0aVRoamZFaG8wRHhWaEliS0g0VWNQT3otMHF4ck9jQU82dm1mcU5GLS1HRnpMM0dNZnN4QUpLb2I2dzBHcWVmUlZwVDVnOS1PSmZHbms4X01weWd6MkdDZDNLTUMwb0gyb0lROExyMExVMzJWRjJOeHJ2QkNDTTB0Ti1DRE84d0NTZ3JBUU8wT2IzRkxTd1RuQ2plYWZndm1ZUzBVNEE?oc=5",

@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260303-3370038d16b3",
   "headline": "Rapid7 to Attend the Stifel 2026 NYC Technology One-on-One Conference - The Manila Times",
   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcUZTTzZ2QXJlMlRBc0YzUlBKVDRHcDR5eXFBVnB0bHotbE1ZeEhJWTA4cDJkZGVIN0dOdHZTd2xoZVJzdEdvQmlHS0cxSU9hYU9YUDkwb05HRUU3bXRMYnAzTFBKdXp0dkxRcFBOTk40bzRIT0EzWk5BMmhnbS0ySUhMc0FmdUNXZy1jUnJLanRMY0RjUXJYZlloWXhITE9BZU5jSGdKS3Ntcjc3eWJMakdLSXUyLXdoT2kwWDU3Zm40cDF4NUNPb1F5S2ZiRDJBcEFvUFB2ZUhDaFHSAeABQVVfeXFMTkZxMmJiS2FhcFIxSFJPRjh5NXEyVTlxUUJEX2VSNHFsZHRRaVZKc3c2Z1UtS1V3WXotOXBLZkVTTG52VF80ZHdXbDlGMjlJcWlwdkJjWFpYQU4zUnl5STBDRkxNRENkR0RSTTdON3RaVHBFTEMxeUY4REdxeWZJWmhMdjNiTVY0dDVuS241RlBhUnJ2NnlKM19zakZGdkFRWlBlbVNqTlBCWVRVNDRZeXFUQUhxQ21yRFFZaUZiQnFKbndwN2dYYXVzUjZwZmVfY3dJeF8wbHQtTTF4NGNaVjk?oc=5",

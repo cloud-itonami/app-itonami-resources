@@ -2,12 +2,12 @@
   "@context": [
     "https://schema.org/",
     {
-      "etzhayyim": "https://resources.etzhayyim.com/ontology#",
+      "itonami": "https://resources.itonami.cloud/ontology#",
       "prov": "http://www.w3.org/ns/prov#"
     }
   ],
   "@type": "NewsArticle",
-  "additionalType": "etzhayyim:PublicCompanySignal",
+  "additionalType": "itonami:PublicCompanySignal",
   "identifier": "20260223-e7eb7cb54c5c",
   "headline": "Qualys stock hits 52-week low at $91.63 - Investing.com",
   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZVowdWRQei1pcUR5bkxqenhtVEFaTHZHeVJ4X0dnSmxmLTdSSDgyTG9SRGRnbEJWUTNmd1NGMFJPb3VTQzlCaHhsVTVkVlcyUERzUmxmcThEY1o5czRKOGQ5MWRTY1R1bUZrbG9mN3YyMVctbVRUdzMyRlNvUTl0MnFjQi1NSDRKWFNuWnJNeXVLckJrWnN2Zw?oc=5",
